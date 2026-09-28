@@ -5,9 +5,9 @@ T03;Augšējā rāmja šķērssija;RHS 6×4×0,3;4;40,5;6;4;06CV06004003000;"Tai
 L01;Galda kāja;SHS 6×6×0,3;4;63,4;6;6;06CV06006003000;"Taisni gali; garuma pielaide ±0,1 cm; noņemt atskabargas";13,617
 S01;"Plaukta garensija; 8 vertikāli";RHS 8×4×0,3;2;206;8;4;06CV08004003000;"Taisni gali; garuma pielaide ±0,1 cm; noņemt atskabargas";22,122
 S02;"Plaukta gala šķērssija; 8 vertikāli";RHS 8×4×0,3;2;75,8;8;4;06CV08004003000;"Taisni gali; garuma pielaide ±0,1 cm; noņemt atskabargas";8,14
-S03;"Plaukta šķērslīste; 4 vertikāli";RHS 6×4×0,3;4;27;6;4;06CV06004003000;"Taisni gali; garuma pielaide ±0,1 cm; noņemt atskabargas";4,782
+S03;"Plaukta šķērslīste; 4 vertikāli";RHS 6×4×0,3;13;27;6;4;06CV06004003000;"Taisni gali; garuma pielaide ±0,1 cm; noņemt atskabargas";15,54
 P01;"Kājas augšējā plāksne; 4 fiksētas + 4 noņemamas";Plakandzelzs 20×0,8;8;20;20;0,8;05PL08020001;"Taisni gali; garuma pielaide ±0,1 cm; noņemt atskabargas";20,096
 P02;Kājas apakšējā plāksne;Plakandzelzs 6×0,8;4;6;6;0,8;05PL08006000;"Taisni gali; garuma pielaide ±0,1 cm; noņemt atskabargas";0,904
 P03;"Plaukta savienojuma plāksne; 4 pie kājām + 4 pie S02";Plakandzelzs 6×0,8;8;16;6;0,8;05PL08006000;"Taisni gali; garuma pielaide ±0,1 cm; noņemt atskabargas";4,823
-P04;"Klāju stiprinājuma plāksnīte; 12 virsmai + 6 plauktam";Plakandzelzs 4×0,4;18;4;4;0,4;05PL04004000;"Taisni gali; garuma pielaide ±0,1 cm; noņemt atskabargas";0,904
+P04;Galda virsmas stiprinājuma plāksnīte;Plakandzelzs 4×0,4;12;4;4;0,4;05PL04004000;"Taisni gali; garuma pielaide ±0,1 cm; noņemt atskabargas";0,603
 P05;"Kājas trīsstūrveida riba; katetes 6 un 6";Plāksne 0,6;16;6;6;0,6;;"Gatavs taisnleņķa trīsstūris; katetes 6 un 6 cm";1,356

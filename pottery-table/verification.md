@@ -1,17 +1,17 @@
 # Ģeometrijas un aprēķinu pārbaude
-Redakcija D · 2026-09-28 · Visi lineārie izmēri cm.
+Redakcija C · 2026-09-28 · Visi lineārie izmēri cm.
 
 ## Automātiskās pārbaudes
 
-Izpildītas 50 pārbaudes; visas sekmīgas.
+Izpildītas 56 pārbaudes; visas sekmīgas.
 - IZPILDĪTS: Katra griešanas saraksta detaļa precīzi atbilst vienam modeļa elementam.
 - IZPILDĪTS: Neatkarīga augstumu summa: 78 cm.
-- IZPILDĪTS: Plaukts: tērauds līdz 23 cm + EPDM 0,2 cm + klājs 3 cm = 26,2 cm.
+- IZPILDĪTS: Plaukta metāla balsta virsma nomināli 23 cm; saplākšņa klāja nav.
 - IZPILDĪTS: Augšējā rāmja garensijas un šķērssijas precīzi aizpilda ailes.
 - IZPILDĪTS: Plaukta gala šķērssija 75,8 cm + četras plāksnes 0,8 cm aizpilda 79 cm starp kāju iekšējām plaknēm.
 - IZPILDĪTS: Plaukta garensijas 206 cm un šķērslīstes 27 cm precīzi aizpilda ailes.
-- IZPILDĪTS: Četras šķērslīstes ar 48 cm soli un 42 cm brīvām spraugām; ārmalas X=50 un 200 cm.
-- IZPILDĪTS: 59 cauruļu un plākšņu apvalkiem nav savstarpēju tilpuma pārklāšanos: pārbaudīts.
+- IZPILDĪTS: Trīspadsmit šķērslīstes ar 12 cm soli un 6 cm spraugām; ārmalas X=50 un 200 cm.
+- IZPILDĪTS: 62 cauruļu un plākšņu apvalkiem nav savstarpēju tilpuma pārklāšanos: pārbaudīts.
 - IZPILDĪTS: Plaukta transporta gabarīts ar P03: 216 × 77,4 × 16 cm; plāksnes iekļautas.
 - IZPILDĪTS: Visi apaļie urbumi ietilpst atbilstošajās detaļu plaknēs.
 - IZPILDĪTS: M12 augšējā uzgriežņa atvere: 12 atveres vienā caurules sienā.
@@ -27,28 +27,25 @@ Izpildītas 50 pārbaudes; visas sekmīgas.
 - IZPILDĪTS: SHS 6×6×0,3, sagatave 1: griezumi ietilpst 600 cm, ieskaitot zāģējumu un gala rezervi.
 - IZPILDĪTS: Cauruļu sadalījumā katra sagatave uzskaitīta tieši vienu reizi.
 - IZPILDĪTS: M12 skrūvei aiz fiksētās plāksnes paliek 1,65 cm; jāpārbauda īstais uzgrieznis.
-- IZPILDĪTS: M6 skrūves saķere abos saplākšņa klājos: 1,24 cm.
-- IZPILDĪTS: Abu klāju stiprinājumi: 12 augšējās un 6 plaukta plāksnītes.
-- IZPILDĪTS: Plaukta stiprinājuma plāksnītes nekrustojas ar šķērslīstēm.
-- IZPILDĪTS: Klājam 154 × 39 cm ir 2 cm pārkare pār 150 × 35 cm centrālo balsta zonu.
-- IZPILDĪTS: Plaukta klāja modeļa augša atbilst norādītajam augstumam 26,2 cm.
+- IZPILDĪTS: M6 skrūves saķere galda virsmā: 1,24 cm.
+- IZPILDĪTS: Plauktam nav saplākšņa stiprinājumu; 12 P04 ir tikai galda virsmai.
 - IZPILDĪTS: Virsmas biezuma pielaidei balsta regulējums nepieciešams 2,85–3,19 cm.
-- IZPILDĪTS: katrai no 21 caurules atsevišķi pārbaudīts modeļa garums, šķērsgriezums un atbilstība griešanas sarakstam.
+- IZPILDĪTS: katrai no 30 caurulēm atsevišķi pārbaudīts modeļa garums, šķērsgriezums un atbilstība griešanas sarakstam.
 
 ## Daudzumi un masa
 
-- Tērauda detaļu teorētiskā masa 129,664 kg; augšējais rāmis 63,571 kg; kājas ar fiksētajām P03 28,337 kg; noņemamais plaukta tērauda mezgls 37,756 kg.
+- Tērauda detaļu teorētiskā masa 140,121 kg; augšējais rāmis 63,571 kg; kājas ar fiksētajām P03 28,337 kg; noņemamais plaukta tērauda mezgls 48,214 kg.
 - Tērauda masa aprēķināta ar blīvumu 0,00785 kg/cm³ un taisnstūrveida profila stūriem, pirms urbumu atskaitīšanas; neietver šuves un stiprinājumus.
-- W01 tilpums 156250 cm³; aptuvenā masa 104,7–118,8 kg. W05 tilpums 18018 cm³; aptuvenā masa 12,1–13,7 kg pēc ražotāja bērza saplākšņa blīvuma diapazona.
-- Samontētā tukšā galda masa ar stiprinājumiem un pēdām aptuveni 255–280 kg, bez noņemamajiem darba dēļiem. Plaukta mezgls ar klāju un skrūvēm ap 51–53 kg.
+- W01 tilpums 156250 cm³; aptuvenā masa 104,7–118,8 kg pēc ražotāja bērza saplākšņa blīvuma diapazona.
+- Samontētā tukšā galda masa ar stiprinājumiem un pēdām aptuveni 255–280 kg, bez noņemamajiem darba dēļiem. Plaukta tērauda mezgls ar skrūvēm ap 49 kg.
 - Caurulēm 3 × 600 profilam RHS 8×4×0,3; pa 1 × 600 profiliem RHS 6×4×0,3 un SHS 6×6×0,3. Plakandzelzs iepirkuma minimumus precizē piegādātājs.
 
 ## Plaukta siju ierobežots lieces novērtējums
 
-Izvēlētas divas RHS 8×4×0,3 garensijas ar 8 vertikāli. Konservatīvā garensijas shēmā uz katru siju attiecina pusi no 260 kg kopējās slodzes (200 kg māls un noapaļota rezerve paša plaukta masai) vienā punktā laiduma vidū. Balstu centru laidums L=210, E=21000000 N/cm². Reālajam mērķim slodze jāizvieto vienmērīgi pa saplākšņa klāju un starp abām garensijām.
+Izvēlētas divas RHS 8×4×0,3 garensijas ar 8 vertikāli. Konservatīvā garensijas shēmā uz katru siju attiecina pusi no 260 kg kopējās slodzes (200 kg māls un noapaļota rezerve paša plaukta masai) vienā punktā laiduma vidū. Balstu centru laidums L=210, E=21000000 N/cm². Reālajam mērķim slodze jāizvieto vienmērīgi pa metāla režģi un starp abām garensijām.
 - Ideālā profila inerces moments I=(4×8³ − 3,4×7,4³)/12 = 55,853 cm⁴.
 - F=1275,3 N uz vienu siju. M=FL/4; spriegums M/(I/4) ≈47,949 MPa; izliece FL³/(48EI) ≈0,21 cm.
-- Šī novērtējuma koncentrētais spēks aizvieto vienmērīgi izvietotos maisus tikai sijas lieces aprēķinā; tas nepiešķir klājam pieļaujamu 200 kg punktveida slodzi.
+- Šī novērtējuma koncentrētais spēks aizvieto vienmērīgi izvietotos maisus tikai sijas lieces aprēķinā; tas nepiešķir vienai šķērslīstei pieļaujamu 200 kg punktveida slodzi.
 - Vienai gala šķērssijai tās 130 kg reakciju konservatīvi koncentrējot vidū starp kāju centriem L=85: spriegums ≈19,408 MPa, izliece ≈0,014 cm.
 - Vienmērīga sadalījuma gadījumā no šīs shēmas katram plaukta savienojumam vertikālā reakcija ap 0,638 kN jeb ap 0,319 kN uz vienu no divām M12 skrūvēm. Tā ir slodzes aplēse, nevis skrūvju vai metinājumu nestspējas pārbaude.
 - Nav ieskaitīts galda virsmas svars plaukta sijās: virsmai un plauktam ir atsevišķi slodzes ceļi līdz kājām.
@@ -63,7 +60,7 @@ Trīs augšējās RHS 8×4×0,3 sijas ar 4 vertikāli vienkāršoti uzskatītas 
 - Formulas ir elementāras elastīgas, vienkārši balstītas sijas formulas ar ideāliem profila stūriem. Aprēķins nav pilns konstrukcijas vai dinamiskas māla mīcīšanas novērtējums.
 - Nav pabeigta kāju sienu lokālā, plākšņu lieces, uzgriežņu šuvju, citu metinājumu, skrūvju grupu, horizontālās stingrības un apgāšanās analīze. Šie mezgli jānovērtē kompetentam izgatavotājam pirms grupu lietošanas.
 - Automātiskā sadursmju pārbaude pārbauda cauruļu/plākšņu ārējos apvalkus; neimitē metinājumu valnīšus, instrumentus, īstās pēdas, pārklājumu biezumus vai faktisko koka ieliktņu ģeometriju.
-- Virsmai, plauktam ar klāju un 200 kg pieņemšanas mērķiem nepieciešama pakāpeniska praktiskā pārbaude pēc konstrukcijas apskates; nav sertificētas nestspējas.
+- Virsmai, metāla plauktam un 200 kg pieņemšanas mērķiem nepieciešama pakāpeniska praktiskā pārbaude pēc konstrukcijas apskates; nav sertificētas nestspējas.
 - OpenSCAD teksts ģenerēts no tiem pašiem cm datiem. Faktiska CAD kompilācija šajā vidē nav veikta; rasējumi un pārlūka modelis pārbaudīti atsevišķi.
 
 ## Avoti

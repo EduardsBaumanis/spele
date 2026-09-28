@@ -1,8 +1,8 @@
-# Keramikas darba galds — redakcija D
+# Keramikas darba galds — redakcija C
 
 Atjaunots 2026. gada 28. septembrī. Dokumentācija latviešu valodā; visi izgatavošanas izmēri centimetros.
 
-Plaukts ar četriem skrūvētiem mezgliem pievienots galda kājām. Projektēšanas mērķis ir 200 kg vienmērīgi izvietotu māla maisu. Klājs 154 × 39 × 3 cm, nomināli 26,2 cm virs grīdas. Četras šķērslīstes ar 48 cm centru soli un divas garensijas balsta saplāksni. Pārkare 2 cm pār centrālo 150 × 35 cm balsta zonu; siju pagarinājumi līdz kājām turpinās ārpus tās. Klājs nostiprināts ar sešām M6 skrūvēm no apakšas. Nesošās sijas ir divas RHS 8 × 4 × 0,3 cm garensijas un divas gala šķērssijas ar 8 cm vertikāli. Nav piekaru pie augšējā rāmja.
+Plaukts ar četriem skrūvētiem mezgliem pievienots galda kājām. Projektēšanas mērķis ir 200 kg vienmērīgi izvietotu māla maisu. Metāla režģa zona 150 × 35 cm, nomināli 23 cm virs grīdas; 13 šķērslīstes ar 6 cm brīvām spraugām. Saplākšņa klāja nav. Režģi nes divas RHS 8 × 4 × 0,3 cm garensijas un divas gala šķērssijas ar 8 cm vertikāli. Nav piekaru pie augšējā rāmja.
 
 - [Pilnā izgatavošanas dokumentācija PDF](workshop-package.pdf) — apraksts, saraksti, aprēķini un septiņas A3 rasējumu lapas.
 - [Rasējumi PDF](drawings.pdf) — S01 kopskats; S02 augšējais rāmis; S03 sānskati; S04 kāju augšējie mezgli; S05 plaukts; S06 saplāksnis; S07 plaukta savienojumi ar kājām.
@@ -28,4 +28,4 @@ Python 3 ar reportlab, cairosvg un pypdf; sistēmā pieejams Cairo, DejaVu Sans 
 python3 pottery-table/source/build.py
 ```
 
-Ģenerēšana pārbauda ģeometriju, izveido PDF, modeļus, CSV, skatītāju un pottery-table-workshop-package.zip. OpenSCAD modelis nav šajā vidē kompilēts; precīzie urbumi modelēti tekstā, pārlūka vizualizācijā stiprinājumi un cauruļu stūri ir vienkāršoti. Iepriekšējo redakciju A–C sarakstus izmantot nedrīkst.
+Ģenerēšana pārbauda ģeometriju, izveido PDF, modeļus, CSV, skatītāju un pottery-table-workshop-package.zip. OpenSCAD modelis nav šajā vidē kompilēts; precīzie urbumi modelēti tekstā, pārlūka vizualizācijā stiprinājumi un cauruļu stūri ir vienkāršoti. Iepriekšējo redakciju A un B sarakstus izmantot nedrīkst.

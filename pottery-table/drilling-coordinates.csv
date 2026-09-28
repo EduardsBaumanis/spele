@@ -83,9 +83,18 @@ S01-2;ventilācija;125;78;15;z;0,6;0,3;"Tikai viena caurules siena; virziens pa 
 S02-1;ventilācija;20;62,5;15;z;0,6;0,3;"Tikai viena caurules siena; virziens pa pozitīvo asi"
 S02-2;ventilācija;230;62,5;15;z;0,6;0,3;"Tikai viena caurules siena; virziens pa pozitīvo asi"
 S03-1;ventilācija;53;62,5;19;z;0,6;0,3;"Tikai viena caurules siena; virziens pa pozitīvo asi"
-S03-2;ventilācija;101;62,5;19;z;0,6;0,3;"Tikai viena caurules siena; virziens pa pozitīvo asi"
-S03-3;ventilācija;149;62,5;19;z;0,6;0,3;"Tikai viena caurules siena; virziens pa pozitīvo asi"
-S03-4;ventilācija;197;62,5;19;z;0,6;0,3;"Tikai viena caurules siena; virziens pa pozitīvo asi"
+S03-2;ventilācija;65;62,5;19;z;0,6;0,3;"Tikai viena caurules siena; virziens pa pozitīvo asi"
+S03-3;ventilācija;77;62,5;19;z;0,6;0,3;"Tikai viena caurules siena; virziens pa pozitīvo asi"
+S03-4;ventilācija;89;62,5;19;z;0,6;0,3;"Tikai viena caurules siena; virziens pa pozitīvo asi"
+S03-5;ventilācija;101;62,5;19;z;0,6;0,3;"Tikai viena caurules siena; virziens pa pozitīvo asi"
+S03-6;ventilācija;113;62,5;19;z;0,6;0,3;"Tikai viena caurules siena; virziens pa pozitīvo asi"
+S03-7;ventilācija;125;62,5;19;z;0,6;0,3;"Tikai viena caurules siena; virziens pa pozitīvo asi"
+S03-8;ventilācija;137;62,5;19;z;0,6;0,3;"Tikai viena caurules siena; virziens pa pozitīvo asi"
+S03-9;ventilācija;149;62,5;19;z;0,6;0,3;"Tikai viena caurules siena; virziens pa pozitīvo asi"
+S03-10;ventilācija;161;62,5;19;z;0,6;0,3;"Tikai viena caurules siena; virziens pa pozitīvo asi"
+S03-11;ventilācija;173;62,5;19;z;0,6;0,3;"Tikai viena caurules siena; virziens pa pozitīvo asi"
+S03-12;ventilācija;185;62,5;19;z;0,6;0,3;"Tikai viena caurules siena; virziens pa pozitīvo asi"
+S03-13;ventilācija;197;62,5;19;z;0,6;0,3;"Tikai viena caurules siena; virziens pa pozitīvo asi"
 P04-W01-1;"Ovāls 0,8 × 1,6 cm; garenass X";40;20;72,4;z;0,8;0,4;Galu loku centru attālums 0,8 cm
 W01;M6 ieliktņa urbums;40;20;73;z;Pēc ieliktņa ražotāja;Līdz 2;"Urbums no apakšas; caur virsmu neurbt"
 P04-W01-2;"Ovāls 0,8 × 1,6 cm; garenass X";74;20;72,4;z;0,8;0,4;Galu loku centru attālums 0,8 cm
@@ -110,15 +119,3 @@ P04-W01-11;"Ovāls 0,8 × 1,6 cm; garenass X";176;105;72,4;z;0,8;0,4;Galu loku c
 W01;M6 ieliktņa urbums;176;105;73;z;Pēc ieliktņa ražotāja;Līdz 2;"Urbums no apakšas; caur virsmu neurbt"
 P04-W01-12;"Ovāls 0,8 × 1,6 cm; garenass X";210;105;72,4;z;0,8;0,4;Galu loku centru attālums 0,8 cm
 W01;M6 ieliktņa urbums;210;105;73;z;Pēc ieliktņa ražotāja;Līdz 2;"Urbums no apakšas; caur virsmu neurbt"
-P04-W05-1;"Ovāls 0,8 × 1,6 cm; garenass X";77;51;22,6;z;0,8;0,4;Galu loku centru attālums 0,8 cm
-W05;M6 ieliktņa urbums;77;51;23,2;z;Pēc ieliktņa ražotāja;Līdz 2;"Urbums no apakšas; caur virsmu neurbt"
-P04-W05-2;"Ovāls 0,8 × 1,6 cm; garenass X";125;51;22,6;z;0,8;0,4;Galu loku centru attālums 0,8 cm
-W05;M6 ieliktņa urbums;125;51;23,2;z;Pēc ieliktņa ražotāja;Līdz 2;"Urbums no apakšas; caur virsmu neurbt"
-P04-W05-3;"Ovāls 0,8 × 1,6 cm; garenass X";173;51;22,6;z;0,8;0,4;Galu loku centru attālums 0,8 cm
-W05;M6 ieliktņa urbums;173;51;23,2;z;Pēc ieliktņa ražotāja;Līdz 2;"Urbums no apakšas; caur virsmu neurbt"
-P04-W05-4;"Ovāls 0,8 × 1,6 cm; garenass X";77;74;22,6;z;0,8;0,4;Galu loku centru attālums 0,8 cm
-W05;M6 ieliktņa urbums;77;74;23,2;z;Pēc ieliktņa ražotāja;Līdz 2;"Urbums no apakšas; caur virsmu neurbt"
-P04-W05-5;"Ovāls 0,8 × 1,6 cm; garenass X";125;74;22,6;z;0,8;0,4;Galu loku centru attālums 0,8 cm
-W05;M6 ieliktņa urbums;125;74;23,2;z;Pēc ieliktņa ražotāja;Līdz 2;"Urbums no apakšas; caur virsmu neurbt"
-P04-W05-6;"Ovāls 0,8 × 1,6 cm; garenass X";173;74;22,6;z;0,8;0,4;Galu loku centru attālums 0,8 cm
-W05;M6 ieliktņa urbums;173;74;23,2;z;Pēc ieliktņa ražotāja;Līdz 2;"Urbums no apakšas; caur virsmu neurbt"

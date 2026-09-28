@@ -1,10 +1,10 @@
 # Keramikas darba galds — vietne GitHub Pages
 
-Latviska izgatavošanas dokumentācija galdam 250 × 125 cm. Redakcija D: plaukts stiprinās pie četrām kājām; četras šķērslīstes un divas garensijas balsta pieskrūvētu 154 × 39 × 3 cm bērza saplākšņa klāju ar 2 cm pārkari pār centrālo 150 × 35 cm balsta zonu. Klāja augša nomināli 26,2 cm virs grīdas. Visi lineārie izmēri centimetros.
+Latviska izgatavošanas dokumentācija galdam 250 × 125 cm. Redakcija C: plaukts stiprinās pie četrām kājām, bez saplākšņa klāja; maisus balsta 13 metāla šķērslīstes. Visi lineārie izmēri centimetros.
 
 Atveriet **[index.html](index.html)**. Vietnē ir 3D modelis, visi trīs PDF un septiņi SVG rasējumi ar lapu izvēli un tuvināšanu, detaļu tabula un lasāms apraksts. PDF priekšskatījumi ir lokāli attēli; vietnei nav vajadzīgs servera kods, ārējas bibliotēkas vai pārlūka PDF spraudnis. Oriģinālie PDF un SVG ir pieejami lejupielādei.
 
-3D skatā poga **Sadalīt detaļās** atdala visas 75 tērauda detaļas, abus saplākšņa klājus un četras pēdas; skats automātiski ietilpina visu konstrukciju. Detaļu izmēri saglabājas, atdalījuma attālumi ir ilustratīvi. Poga **Samontēts** atjauno salikto galdu. Atsevišķais slīdnis joprojām paredzēts lielo montāžas mezglu atdalīšanai.
+3D skatā poga **Sadalīt detaļās** atdala visas 78 tērauda detaļas, galda saplākšņa virsmu un četras pēdas; skats automātiski ietilpina visu konstrukciju. Detaļu izmēri saglabājas, atdalījuma attālumi ir ilustratīvi. Poga **Samontēts** atjauno salikto galdu. Atsevišķais slīdnis paredzēts lielo montāžas mezglu atdalīšanai.
 
 ## Publicēšana GitHub Pages
 

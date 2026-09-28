@@ -1,6 +1,6 @@
 {
   "units": "cm",
-  "revision": "D",
+  "revision": "C",
   "date": "2026-09-28",
   "parameters": {
     "units": "cm",
@@ -14,10 +14,8 @@
     "frame_depth": 4,
     "shelf_length": 150,
     "shelf_width": 35,
-    "shelf_top": 26.2,
-    "shelf_plywood": 3,
-    "shelf_deck_length": 154,
-    "shelf_deck_width": 39,
+    "shelf_top": 23,
+    "shelf_plywood": 0,
     "shelf_load_kg": 200,
     "shelf_module_length": 216,
     "shelf_module_width": 77.4,
@@ -25,20 +23,6 @@
     "foot_allowance": 3,
     "saw_kerf": 0.3,
     "stock_end_trim": 1
-  },
-  "shelf_deck": {
-    "origin": [
-      48,
-      43,
-      23.2
-    ],
-    "size": [
-      154,
-      39,
-      3
-    ],
-    "overhang": 2,
-    "corner_radius": 1
   },
   "parts": [
     {
@@ -1823,6 +1807,96 @@
       "mark": "S03",
       "instance": "S03-2",
       "origin": [
+        62,
+        49,
+        19
+      ],
+      "size": [
+        6,
+        27,
+        4
+      ],
+      "group": "shelf",
+      "kind": "tube",
+      "axis": "y",
+      "wall": 0.3,
+      "holes": [
+        {
+          "x": 65,
+          "y": 62.5,
+          "z": 19,
+          "d": 0.6,
+          "depth": 0.3,
+          "axis": "z",
+          "purpose": "ventil\u0101cija"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "S03",
+      "instance": "S03-3",
+      "origin": [
+        74,
+        49,
+        19
+      ],
+      "size": [
+        6,
+        27,
+        4
+      ],
+      "group": "shelf",
+      "kind": "tube",
+      "axis": "y",
+      "wall": 0.3,
+      "holes": [
+        {
+          "x": 77,
+          "y": 62.5,
+          "z": 19,
+          "d": 0.6,
+          "depth": 0.3,
+          "axis": "z",
+          "purpose": "ventil\u0101cija"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "S03",
+      "instance": "S03-4",
+      "origin": [
+        86,
+        49,
+        19
+      ],
+      "size": [
+        6,
+        27,
+        4
+      ],
+      "group": "shelf",
+      "kind": "tube",
+      "axis": "y",
+      "wall": 0.3,
+      "holes": [
+        {
+          "x": 89,
+          "y": 62.5,
+          "z": 19,
+          "d": 0.6,
+          "depth": 0.3,
+          "axis": "z",
+          "purpose": "ventil\u0101cija"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "S03",
+      "instance": "S03-5",
+      "origin": [
         98,
         49,
         19
@@ -1851,7 +1925,97 @@
     },
     {
       "mark": "S03",
-      "instance": "S03-3",
+      "instance": "S03-6",
+      "origin": [
+        110,
+        49,
+        19
+      ],
+      "size": [
+        6,
+        27,
+        4
+      ],
+      "group": "shelf",
+      "kind": "tube",
+      "axis": "y",
+      "wall": 0.3,
+      "holes": [
+        {
+          "x": 113,
+          "y": 62.5,
+          "z": 19,
+          "d": 0.6,
+          "depth": 0.3,
+          "axis": "z",
+          "purpose": "ventil\u0101cija"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "S03",
+      "instance": "S03-7",
+      "origin": [
+        122,
+        49,
+        19
+      ],
+      "size": [
+        6,
+        27,
+        4
+      ],
+      "group": "shelf",
+      "kind": "tube",
+      "axis": "y",
+      "wall": 0.3,
+      "holes": [
+        {
+          "x": 125,
+          "y": 62.5,
+          "z": 19,
+          "d": 0.6,
+          "depth": 0.3,
+          "axis": "z",
+          "purpose": "ventil\u0101cija"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "S03",
+      "instance": "S03-8",
+      "origin": [
+        134,
+        49,
+        19
+      ],
+      "size": [
+        6,
+        27,
+        4
+      ],
+      "group": "shelf",
+      "kind": "tube",
+      "axis": "y",
+      "wall": 0.3,
+      "holes": [
+        {
+          "x": 137,
+          "y": 62.5,
+          "z": 19,
+          "d": 0.6,
+          "depth": 0.3,
+          "axis": "z",
+          "purpose": "ventil\u0101cija"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "S03",
+      "instance": "S03-9",
       "origin": [
         146,
         49,
@@ -1881,7 +2045,97 @@
     },
     {
       "mark": "S03",
-      "instance": "S03-4",
+      "instance": "S03-10",
+      "origin": [
+        158,
+        49,
+        19
+      ],
+      "size": [
+        6,
+        27,
+        4
+      ],
+      "group": "shelf",
+      "kind": "tube",
+      "axis": "y",
+      "wall": 0.3,
+      "holes": [
+        {
+          "x": 161,
+          "y": 62.5,
+          "z": 19,
+          "d": 0.6,
+          "depth": 0.3,
+          "axis": "z",
+          "purpose": "ventil\u0101cija"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "S03",
+      "instance": "S03-11",
+      "origin": [
+        170,
+        49,
+        19
+      ],
+      "size": [
+        6,
+        27,
+        4
+      ],
+      "group": "shelf",
+      "kind": "tube",
+      "axis": "y",
+      "wall": 0.3,
+      "holes": [
+        {
+          "x": 173,
+          "y": 62.5,
+          "z": 19,
+          "d": 0.6,
+          "depth": 0.3,
+          "axis": "z",
+          "purpose": "ventil\u0101cija"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "S03",
+      "instance": "S03-12",
+      "origin": [
+        182,
+        49,
+        19
+      ],
+      "size": [
+        6,
+        27,
+        4
+      ],
+      "group": "shelf",
+      "kind": "tube",
+      "axis": "y",
+      "wall": 0.3,
+      "holes": [
+        {
+          "x": 185,
+          "y": 62.5,
+          "z": 19,
+          "d": 0.6,
+          "depth": 0.3,
+          "axis": "z",
+          "purpose": "ventil\u0101cija"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "S03",
+      "instance": "S03-13",
       "origin": [
         194,
         49,
@@ -2266,186 +2520,6 @@
           "length": 1.6,
           "depth": 0.4,
           "wood": "W01"
-        }
-      ]
-    },
-    {
-      "mark": "P04",
-      "instance": "P04-W05-1",
-      "origin": [
-        75,
-        49,
-        22.6
-      ],
-      "size": [
-        4,
-        4,
-        0.4
-      ],
-      "group": "shelf",
-      "kind": "plate",
-      "axis": null,
-      "wall": 0,
-      "holes": [],
-      "slots": [
-        {
-          "x": 77,
-          "y": 51,
-          "z": 22.6,
-          "width": 0.8,
-          "length": 1.6,
-          "depth": 0.4,
-          "wood": "W05"
-        }
-      ]
-    },
-    {
-      "mark": "P04",
-      "instance": "P04-W05-2",
-      "origin": [
-        123,
-        49,
-        22.6
-      ],
-      "size": [
-        4,
-        4,
-        0.4
-      ],
-      "group": "shelf",
-      "kind": "plate",
-      "axis": null,
-      "wall": 0,
-      "holes": [],
-      "slots": [
-        {
-          "x": 125,
-          "y": 51,
-          "z": 22.6,
-          "width": 0.8,
-          "length": 1.6,
-          "depth": 0.4,
-          "wood": "W05"
-        }
-      ]
-    },
-    {
-      "mark": "P04",
-      "instance": "P04-W05-3",
-      "origin": [
-        171,
-        49,
-        22.6
-      ],
-      "size": [
-        4,
-        4,
-        0.4
-      ],
-      "group": "shelf",
-      "kind": "plate",
-      "axis": null,
-      "wall": 0,
-      "holes": [],
-      "slots": [
-        {
-          "x": 173,
-          "y": 51,
-          "z": 22.6,
-          "width": 0.8,
-          "length": 1.6,
-          "depth": 0.4,
-          "wood": "W05"
-        }
-      ]
-    },
-    {
-      "mark": "P04",
-      "instance": "P04-W05-4",
-      "origin": [
-        75,
-        72,
-        22.6
-      ],
-      "size": [
-        4,
-        4,
-        0.4
-      ],
-      "group": "shelf",
-      "kind": "plate",
-      "axis": null,
-      "wall": 0,
-      "holes": [],
-      "slots": [
-        {
-          "x": 77,
-          "y": 74,
-          "z": 22.6,
-          "width": 0.8,
-          "length": 1.6,
-          "depth": 0.4,
-          "wood": "W05"
-        }
-      ]
-    },
-    {
-      "mark": "P04",
-      "instance": "P04-W05-5",
-      "origin": [
-        123,
-        72,
-        22.6
-      ],
-      "size": [
-        4,
-        4,
-        0.4
-      ],
-      "group": "shelf",
-      "kind": "plate",
-      "axis": null,
-      "wall": 0,
-      "holes": [],
-      "slots": [
-        {
-          "x": 125,
-          "y": 74,
-          "z": 22.6,
-          "width": 0.8,
-          "length": 1.6,
-          "depth": 0.4,
-          "wood": "W05"
-        }
-      ]
-    },
-    {
-      "mark": "P04",
-      "instance": "P04-W05-6",
-      "origin": [
-        171,
-        72,
-        22.6
-      ],
-      "size": [
-        4,
-        4,
-        0.4
-      ],
-      "group": "shelf",
-      "kind": "plate",
-      "axis": null,
-      "wall": 0,
-      "holes": [],
-      "slots": [
-        {
-          "x": 173,
-          "y": 74,
-          "z": 22.6,
-          "width": 0.8,
-          "length": 1.6,
-          "depth": 0.4,
-          "wood": "W05"
         }
       ]
     }

@@ -2,24 +2,23 @@
 from pathlib import Path
 import io, json, math, re, zipfile, shutil
 from html import escape
-from design import ROOT, DATE, REV, CUTS, HARDWARE, PARTS, PARAMS, CORNERS, SHELF_DECK, fmt, export_data, gusset_vertices, stock_nesting
+from design import ROOT, DATE, REV, CUTS, HARDWARE, PARTS, PARAMS, CORNERS, fmt, export_data, gusset_vertices, stock_nesting
 from drawings import build_drawings
 
 def cad():
-    out=['// PT-250 / Redakcija D / visas koordinātas cm; 1 vienība = 1 cm.',
+    out=['// PT-250 / Redakcija C / visas koordinātas cm; 1 vienība = 1 cm.',
          '// Izveidots no source/design.py. Cauruļu stūri un stiprinājumi vienkāršoti.',
          '// Šuves un koka ieliktņu urbumi nav modelēti; rasējumos dotās prasības ir spēkā.',
          '$fn=36;', 'show_top=true;', 'show_shelf=true;', 'show_hardware=true;',
          'exploded=0; // Tikai ilustrācijai; samontētā stāvoklī 0.',
          'top_thickness=5; // Faktiski 4.81..5.15; galda augša paliek Z=78.',
-         'dz=5-top_thickness;', 'shelf_thickness=3; // Faktisko biezumu izmērīt.',
+         'dz=5-top_thickness;',
          'module steel(group) { translate([0,0,dz+(group=="legs"?-exploded*.45:group=="shelf"?-exploded*.7:0)]) color([.73,.12,.08]) children(); }',
          'module washer(x,y,z,od,id,h) {translate([x,y,z]) difference(){cylinder(d=od,h=h);translate([0,0,-.01])cylinder(d=id,h=h+.02);}}',
          'module hexnut(x,y,z,af,h,bore) {translate([x,y,z]) difference(){cylinder(d=af/cos(30),h=h,$fn=6);translate([0,0,-.01])cylinder(d=bore,h=h+.02);}}',
          'module bolt(x,y,z,diam,length,af,head) {translate([x,y,z]) {cylinder(d=diam,h=length);translate([0,0,-head])cylinder(d=af/cos(30),h=head,$fn=6);}}',
          'module deck(x,y,z,l,w,t,r) {color([.89,.77,.55]) translate([x,y,z]) linear_extrude(t) hull() for(a=[r,l-r],b=[r,w-r]) translate([a,b]) circle(r=r);}',
-         'if(show_top) deck(0,0,78-top_thickness+exploded,250,125,top_thickness,2.5);',
-         'if(show_shelf) deck(48,43,23.2+dz-exploded*.7,154,39,shelf_thickness,1);']
+         'if(show_top) deck(0,0,78-top_thickness+exploded,250,125,top_thickness,2.5);']
     def vec(v):return '['+','.join(f'{x:.6f}'.rstrip('0').rstrip('.') if isinstance(x,float) else str(x) for x in v)+']'
     for p in PARTS:
         prefix='if(show_shelf) ' if p['group']=='shelf' else ''
@@ -56,9 +55,9 @@ def cad():
 
 def quote():
     lines=['NESŪTĪTS MELNRAKSTS — cenu piedāvājuma pieprasījums',
-           'Kam: biz@metalucentrs.lv','Temats: S235 materiāli un sagarināšana keramikas galdam PT-250, redakcija D',
+           'Kam: biz@metalucentrs.lv','Temats: S235 materiāli un sagarināšana keramikas galdam PT-250, redakcija C',
            '', 'Labdien!', '',
-           'Lūdzu cenu piedāvājumu necinkota S235 materiāliem un sagarināšanai pēc zemāk norādītā saraksta. VISI IZMĒRI CENTIMETROS, arī profilu sienu un plākšņu biezumi. Preču kodi paliek piegādātāja oriģinālie. Šī ir redakcija D: plaukts ar četrām šķērslīstēm un atsevišķi iegādājamu 3 cm biezu saplākšņa klāju.',
+           'Lūdzu cenu piedāvājumu necinkota S235 materiāliem un sagarināšanai pēc zemāk norādītā saraksta. VISI IZMĒRI CENTIMETROS, arī profilu sienu un plākšņu biezumi. Preču kodi paliek piegādātāja oriģinālie. Šī ir redakcija C: metāla plaukts ar 13 šķērslīstēm, bez saplākšņa klāja.',
            '', 'GATAVĀS DETAĻAS — cm']
     for p in CUTS:
         size=f'gatavais garums {fmt(p["length"])} cm' if p['wall'] else f'{fmt(p["length"])} × {fmt(p["a"])} × {fmt(p["b"])} cm'
@@ -92,18 +91,18 @@ def verification(checks):
            '', '## Automātiskās pārbaudes', '',f'Izpildītas {len(checks)} pārbaudes; visas sekmīgas.']
     # Condense repetitive per-tube assertions while preserving detailed data in source.
     lines += ['- IZPILDĪTS: '+c for c in checks if ': modeļa garums' not in c]
-    lines += ['- IZPILDĪTS: katrai no 21 caurules atsevišķi pārbaudīts modeļa garums, šķērsgriezums un atbilstība griešanas sarakstam.',
+    lines += ['- IZPILDĪTS: katrai no 30 caurulēm atsevišķi pārbaudīts modeļa garums, šķērsgriezums un atbilstība griešanas sarakstam.',
               '', '## Daudzumi un masa', '',
               f'- Tērauda detaļu teorētiskā masa {fmt(steel)} kg; augšējais rāmis {fmt(groupmass("frame"))} kg; kājas ar fiksētajām P03 {fmt(groupmass("legs"))} kg; noņemamais plaukta tērauda mezgls {fmt(groupmass("shelf"))} kg.',
               '- Tērauda masa aprēķināta ar blīvumu 0,00785 kg/cm³ un taisnstūrveida profila stūriem, pirms urbumu atskaitīšanas; neietver šuves un stiprinājumus.',
-              '- W01 tilpums 156250 cm³; aptuvenā masa 104,7–118,8 kg. W05 tilpums 18018 cm³; aptuvenā masa 12,1–13,7 kg pēc ražotāja bērza saplākšņa blīvuma diapazona.',
-              '- Samontētā tukšā galda masa ar stiprinājumiem un pēdām aptuveni 255–280 kg, bez noņemamajiem darba dēļiem. Plaukta mezgls ar klāju un skrūvēm ap 51–53 kg.',
+              '- W01 tilpums 156250 cm³; aptuvenā masa 104,7–118,8 kg pēc ražotāja bērza saplākšņa blīvuma diapazona.',
+              '- Samontētā tukšā galda masa ar stiprinājumiem un pēdām aptuveni 255–280 kg, bez noņemamajiem darba dēļiem. Plaukta tērauda mezgls ar skrūvēm ap 49 kg.',
               '- Caurulēm 3 × 600 profilam RHS 8×4×0,3; pa 1 × 600 profiliem RHS 6×4×0,3 un SHS 6×6×0,3. Plakandzelzs iepirkuma minimumus precizē piegādātājs.',
               '', '## Plaukta siju ierobežots lieces novērtējums', '',
-              'Izvēlētas divas RHS 8×4×0,3 garensijas ar 8 vertikāli. Konservatīvā garensijas shēmā uz katru siju attiecina pusi no 260 kg kopējās slodzes (200 kg māls un noapaļota rezerve paša plaukta masai) vienā punktā laiduma vidū. Balstu centru laidums L=210, E=21000000 N/cm². Reālajam mērķim slodze jāizvieto vienmērīgi pa saplākšņa klāju un starp abām garensijām.',
+              'Izvēlētas divas RHS 8×4×0,3 garensijas ar 8 vertikāli. Konservatīvā garensijas shēmā uz katru siju attiecina pusi no 260 kg kopējās slodzes (200 kg māls un noapaļota rezerve paša plaukta masai) vienā punktā laiduma vidū. Balstu centru laidums L=210, E=21000000 N/cm². Reālajam mērķim slodze jāizvieto vienmērīgi pa metāla režģi un starp abām garensijām.',
               f'- Ideālā profila inerces moments I=(4×8⁴/8 − 3,4×7,4³)/12 = {fmt(I)} cm⁴. Ekvivalenta parastā forma: I=(4×8³ − 3,4×7,4³)/12.',
               f'- F={fmt(P)} N uz vienu siju. M=FL/4; spriegums M/(I/4) ≈{fmt(stress)} MPa; izliece FL³/(48EI) ≈{fmt(deflection)} cm.',
-              '- Šī novērtējuma koncentrētais spēks aizvieto vienmērīgi izvietotos maisus tikai sijas lieces aprēķinā; tas nepiešķir klājam pieļaujamu 200 kg punktveida slodzi.',
+              '- Šī novērtējuma koncentrētais spēks aizvieto vienmērīgi izvietotos maisus tikai sijas lieces aprēķinā; tas nepiešķir vienai šķērslīstei pieļaujamu 200 kg punktveida slodzi.',
               f'- Vienai gala šķērssijai tās 130 kg reakciju konservatīvi koncentrējot vidū starp kāju centriem L=85: spriegums ≈{fmt(cross_stress)} MPa, izliece ≈{fmt(cross_defl)} cm.',
               '- Vienmērīga sadalījuma gadījumā no šīs shēmas katram plaukta savienojumam vertikālā reakcija ap 0,638 kN jeb ap 0,319 kN uz vienu no divām M12 skrūvēm. Tā ir slodzes aplēse, nevis skrūvju vai metinājumu nestspējas pārbaude.',
               '- Nav ieskaitīts galda virsmas svars plaukta sijās: virsmai un plauktam ir atsevišķi slodzes ceļi līdz kājām.',
@@ -114,7 +113,7 @@ def verification(checks):
               '- Formulas ir elementāras elastīgas, vienkārši balstītas sijas formulas ar ideāliem profila stūriem. Aprēķins nav pilns konstrukcijas vai dinamiskas māla mīcīšanas novērtējums.',
               '- Nav pabeigta kāju sienu lokālā, plākšņu lieces, uzgriežņu šuvju, citu metinājumu, skrūvju grupu, horizontālās stingrības un apgāšanās analīze. Šie mezgli jānovērtē kompetentam izgatavotājam pirms grupu lietošanas.',
               '- Automātiskā sadursmju pārbaude pārbauda cauruļu/plākšņu ārējos apvalkus; neimitē metinājumu valnīšus, instrumentus, īstās pēdas, pārklājumu biezumus vai faktisko koka ieliktņu ģeometriju.',
-              '- Virsmai, plauktam ar klāju un 200 kg pieņemšanas mērķiem nepieciešama pakāpeniska praktiskā pārbaude pēc konstrukcijas apskates; nav sertificētas nestspējas.',
+              '- Virsmai, metāla plauktam un 200 kg pieņemšanas mērķiem nepieciešama pakāpeniska praktiskā pārbaude pēc konstrukcijas apskates; nav sertificētas nestspējas.',
               '- OpenSCAD teksts ģenerēts no tiem pašiem cm datiem. Faktiska CAD kompilācija šajā vidē nav veikta; rasējumi un pārlūka modelis pārbaudīti atsevišķi.',
               '', '## Avoti', '',
               '- Saplākšņa blīvums: https://www.finieris.com/wp-content/uploads/2025/10/RigaWood_PlywoodHandbook.pdf',
@@ -205,7 +204,7 @@ def assemble_pdfs(svg_paths):
     for path in svg_paths:
         b=cairosvg.svg2pdf(url=str(path))
         drawings.append(PdfReader(io.BytesIO(b)))
-    drawings.add_metadata({'/Title':'PT-250 keramikas galds — A3 rasējumi','/Author':'Izgatavošanas dokumentācija','/Subject':'Redakcija D / visi izmēri cm'})
+    drawings.add_metadata({'/Title':'PT-250 keramikas galds — A3 rasējumi','/Author':'Izgatavošanas dokumentācija','/Subject':'Redakcija C / visi izmēri cm'})
     drawings.write(str(ROOT/'drawings.pdf'))
     guide=guide_pdf()
     combined=PdfWriter();combined.append(str(guide));combined.append(str(ROOT/'drawings.pdf'))
@@ -219,7 +218,7 @@ def build():
         (ROOT/'reference').mkdir(exist_ok=True)
         shutil.copy2(reference,ROOT/'reference'/'Table.jpeg')
     template=(ROOT/'source'/'viewer.html').read_text()
-    (ROOT/'index.html').write_text(template.replace('__MODEL__',json.dumps(PARTS,separators=(',',':'))).replace('__SHELF_DECK__',json.dumps(SHELF_DECK,separators=(',',':'))),encoding='utf-8')
+    (ROOT/'index.html').write_text(template.replace('__MODEL__',json.dumps(PARTS,separators=(',',':'))),encoding='utf-8')
     svgs=build_drawings();assemble_pdfs(svgs)
     from website import build_website
     document_count,preview_count=build_website()

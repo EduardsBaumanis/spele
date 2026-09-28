@@ -3,15 +3,13 @@ from pathlib import Path
 from collections import Counter
 import csv, json, math
 ROOT=Path(__file__).resolve().parents[1]
-DATE='2026-09-28'; REV='D'
+DATE='2026-09-28'; REV='C'
 PARAMS=dict(units='cm',length=250,width=125,height=78,plywood=5,isolation=.2,
  frame_length=230,frame_width=105,frame_depth=4,shelf_length=150,shelf_width=35,
- shelf_top=26.2,shelf_plywood=3,shelf_deck_length=154,shelf_deck_width=39,shelf_load_kg=200,shelf_module_length=216,
+ shelf_top=23,shelf_plywood=0,shelf_load_kg=200,shelf_module_length=216,
  shelf_module_width=77.4,shelf_module_height=16,foot_allowance=3,saw_kerf=.3,stock_end_trim=1)
 CORNERS=[(20,20),(230,20),(20,105),(230,105)]
-SLATS=[53,101,149,197]
-SHELF_X=[77,125,173]
-SHELF_DECK=dict(origin=[48,43,23.2],size=[154,39,3],overhang=2,corner_radius=1)
+SLATS=list(range(53,198,12))
 TOP_X=[40,74,108,142,176,210]
 def fmt(v):
     return f'{v:.3f}'.rstrip('0').rstrip('.').replace('.',',') if isinstance(v,(int,float)) else str(v)
@@ -22,11 +20,11 @@ CUTS=[
  dict(mark='L01',name='Galda kāja',section='SHS 6×6×0,3',qty=4,length=63.4,a=6,b=6,wall=.3,code='06CV06006003000'),
  dict(mark='S01',name='Plaukta garensija; 8 vertikāli',section='RHS 8×4×0,3',qty=2,length=206,a=8,b=4,wall=.3,code='06CV08004003000'),
  dict(mark='S02',name='Plaukta gala šķērssija; 8 vertikāli',section='RHS 8×4×0,3',qty=2,length=75.8,a=8,b=4,wall=.3,code='06CV08004003000'),
- dict(mark='S03',name='Plaukta šķērslīste; 4 vertikāli',section='RHS 6×4×0,3',qty=4,length=27,a=6,b=4,wall=.3,code='06CV06004003000'),
+ dict(mark='S03',name='Plaukta šķērslīste; 4 vertikāli',section='RHS 6×4×0,3',qty=13,length=27,a=6,b=4,wall=.3,code='06CV06004003000'),
  dict(mark='P01',name='Kājas augšējā plāksne; 4 fiksētas + 4 noņemamas',section='Plakandzelzs 20×0,8',qty=8,length=20,a=20,b=.8,wall=0,code='05PL08020001'),
  dict(mark='P02',name='Kājas apakšējā plāksne',section='Plakandzelzs 6×0,8',qty=4,length=6,a=6,b=.8,wall=0,code='05PL08006000'),
  dict(mark='P03',name='Plaukta savienojuma plāksne; 4 pie kājām + 4 pie S02',section='Plakandzelzs 6×0,8',qty=8,length=16,a=6,b=.8,wall=0,code='05PL08006000'),
- dict(mark='P04',name='Klāju stiprinājuma plāksnīte; 12 virsmai + 6 plauktam',section='Plakandzelzs 4×0,4',qty=18,length=4,a=4,b=.4,wall=0,code='05PL04004000'),
+ dict(mark='P04',name='Galda virsmas stiprinājuma plāksnīte',section='Plakandzelzs 4×0,4',qty=12,length=4,a=4,b=.4,wall=0,code='05PL04004000'),
  dict(mark='P05',name='Kājas trīsstūrveida riba; katetes 6 un 6',section='Plāksne 0,6',qty=16,length=6,a=6,b=.6,wall=0,code='',triangle=True),
 ]
 for p in CUTS:
@@ -39,15 +37,14 @@ HARDWARE=[
  ('H07',4,'M16 metināms uzgrieznis','Kājas iekšpusē virs P02; izvēlēties pirms metināšanas.'),
  ('H08',4,'M16 regulējams balsts; paliktnis ap Ø8 cm; vismaz 300 kg katram','Paliktnis ne augstāks par 2 cm; kāts vismaz 6 cm; regulējums 2,85–3,19 cm no grīdas līdz P02 apakšai.'),
  ('H09',4,'M16 plāns kontruzgrieznis; nomināli 0,8 cm','Ietilpst starp balsta paliktni un P02; pārbaudīt vītnes saķeri.'),
- ('H10',18,'M6 koka vītņieliktnis, garums 1,8 cm','12 galda virsmai un 6 plaukta klājam; urbuma Ø pēc ražotāja, dziļums līdz 2 cm.'),
- ('H11',18,'M6 skrūve, garums 2 cm','W01 un W05; nomināla saķere 1,24 cm, pārbaudīt faktiskajā ieliktnī.'),
- ('H12',18,'M6 plata paplāksne; ārējais Ø ap 1,8 cm, biezums 0,16 cm','12 galda virsmai un 6 plauktam; pārsedz 0,8 × 1,6 cm spraugu.'),
+ ('H10',12,'M6 koka vītņieliktnis, garums 1,8 cm','W01; urbuma diametrs pēc ražotāja, dziļums līdz 2 cm.'),
+ ('H11',12,'M6 skrūve, garums 2 cm','W01; nomināla saķere 1,24 cm, pārbaudīt faktiskajā ieliktnī.'),
+ ('H12',12,'M6 plata paplāksne; ārējais Ø ap 1,8 cm, biezums 0,16 cm','Galda virsmai; pārsedz 0,8 × 1,6 cm spraugu.'),
  ('H13',4,'Plastmasas noslēgs profilam 8×4×0,3 cm','T02 atvērtajiem galiem; uzstādīt pēc krāsošanas.'),
- ('H15',1600,'Blīva EPDM lente; platums 2 cm, biezums 0,2 cm','Daudzums centimetros; abiem klājiem, arī plāksnītēm.'),
+ ('H15',1200,'Blīva EPDM lente; platums 2 cm, biezums 0,2 cm','Daudzums centimetros; galda virsmai, arī plāksnītēm.'),
  ('W01',1,'Bērza saplāksnis 250×125×5 cm, RIGA PLY BB/WG EXT LN','Kods 0015001250250000061L. Cenu un pieejamību apstiprināt pirms pasūtīšanas.'),
  ('W02',2,'Bērza saplākšņa darba dēlis 60×45×2,1 cm','Atsevišķs materiāls; noapaļot malas, pārklāt ar noņemamu audeklu.'),
  ('W03',2,'Mazgājams, nostiepts audekla pārvalks','Dēlim W02; regulāri izžāvēt un pēc vajadzības nomainīt.'),
- ('W05',1,'Bērza saplākšņa plaukta klājs 154×39×3 cm','2 cm pārkare pār centrālo 150×35 cm balsta zonu; seši M6 stiprinājumi no apakšas.'),
  ('W04',4,'Skavas ar mīkstiem paliktņiem','Atvērums atbilstošs galda virsmai un darba dēlim.'),
 ]
 def hole(x,y,z,d,depth,axis='z',purpose='skrūves caurums'):
@@ -86,7 +83,7 @@ def model():
         box('S02',f'S02-{n}',x,24.6,15,4,75.8,8,group='shelf',axis='y',wall=.3,holes=[hole(x+2,62.5,15,.6,.3,purpose='ventilācija')])
     for n,x in enumerate(SLATS,1):
         box('S03',f'S03-{n}',x-3,49,19,6,27,4,group='shelf',axis='y',wall=.3,holes=[hole(x,62.5,19,.6,.3,purpose='ventilācija')])
-    for group,xs,ys,z,wood in [('frame',TOP_X,[20,105],72.4,'W01'),('shelf',SHELF_X,[51,74],22.6,'W05')]:
+    for group,xs,ys,z,wood in [('frame',TOP_X,[20,105],72.4,'W01')]:
         for n,(x,y) in enumerate([(x,y) for y in ys for x in xs],1):
             box('P04',f'P04-{wood}-{n}',x-2,y-2,z,4,4,.4,group=group,
                 slots=[dict(x=x,y=y,z=z,width=.8,length=1.6,depth=.4,wood=wood)])
@@ -128,11 +125,11 @@ def validate():
         elif p['kind']=='plate':
             if not all(near(a,b) for a,b in zip(sorted(p['size']),sorted([cut['length'],cut['a'],cut['b']]))):raise AssertionError(p['instance']+' plāksnes izmēri')
     ok(near(3+.8+63.4+.8+.8+4+.2+5,78),'Neatkarīga augstumu summa: 78 cm.')
-    ok(near(15+8+.2+3,26.2),'Plaukts: tērauds līdz 23 cm + EPDM 0,2 cm + klājs 3 cm = 26,2 cm.')
+    ok(near(15+8,23) and PARAMS['shelf_plywood']==0,'Plaukta metāla balsta virsma nomināli 23 cm; saplākšņa klāja nav.')
     ok(near(105-3*8,2*40.5) and near(230-2*8,214),'Augšējā rāmja garensijas un šķērssijas precīzi aizpilda ailes.')
     ok(near(102-23-4*.8,75.8),'Plaukta gala šķērssija 75,8 cm + četras plāksnes 0,8 cm aizpilda 79 cm starp kāju iekšējām plaknēm.')
     ok(near(228-22,206) and near(80-45-2*4,27),'Plaukta garensijas 206 cm un šķērslīstes 27 cm precīzi aizpilda ailes.')
-    ok(SLATS[0]-3==50 and SLATS[-1]+3==200 and len(SLATS)==4 and all(b-a==48 for a,b in zip(SLATS,SLATS[1:])),'Četras šķērslīstes ar 48 cm soli un 42 cm brīvām spraugām; ārmalas X=50 un 200 cm.')
+    ok(SLATS[0]-3==50 and SLATS[-1]+3==200 and len(SLATS)==13 and all(b-a==12 for a,b in zip(SLATS,SLATS[1:])),'Trīspadsmit šķērslīstes ar 12 cm soli un 6 cm spraugām; ārmalas X=50 un 200 cm.')
     boxes=[p for p in PARTS if p['kind']!='gusset'];clashes=[]
     for i,a in enumerate(boxes):
         for b in boxes[i+1:]:
@@ -159,12 +156,8 @@ def validate():
     for b in stock_nesting():ok(b['used']<=600,f"{b['section']}, sagatave {b['bar']}: griezumi ietilpst 600 cm, ieskaitot zāģējumu un gala rezervi.")
     ok(Counter(m for b in stock_nesting() for m,L in b['pieces'])==Counter({p['mark']:p['qty'] for p in CUTS if p['wall']}),'Cauruļu sadalījumā katra sagatave uzskaitīta tieši vienu reizi.')
     ok(near(3.5-(.8+.8+.25),1.65),'M12 skrūvei aiz fiksētās plāksnes paliek 1,65 cm; jāpārbauda īstais uzgrieznis.')
-    ok(near(2-(.4+.2+.16),1.24),'M6 skrūves saķere abos saplākšņa klājos: 1,24 cm.')
-    ok(counts['P04']==18 and sum(p['mark']=='P04' and p['group']=='shelf' for p in PARTS)==6,'Abu klāju stiprinājumi: 12 augšējās un 6 plaukta plāksnītes.')
-    ok(all(min(abs(x-c) for c in SLATS)>5 for x in SHELF_X),'Plaukta stiprinājuma plāksnītes nekrustojas ar šķērslīstēm.')
-    ox,oy,oz=SHELF_DECK['origin'];sx,sy,sz=SHELF_DECK['size']
-    ok(near(50-ox,2) and near(ox+sx-200,2) and near(45-oy,2) and near(oy+sy-80,2),'Klājam 154 × 39 cm ir 2 cm pārkare pār 150 × 35 cm centrālo balsta zonu.')
-    ok(near(oz+sz,PARAMS['shelf_top']),'Plaukta klāja modeļa augša atbilst norādītajam augstumam 26,2 cm.')
+    ok(near(2-(.4+.2+.16),1.24),'M6 skrūves saķere galda virsmā: 1,24 cm.')
+    ok(all(p['group']=='frame' for p in PARTS if p['mark']=='P04') and counts['P04']==12,'Plauktam nav saplākšņa stiprinājumu; 12 P04 ir tikai galda virsmai.')
     ok(near(8-5.15,2.85) and near(8-4.81,3.19),'Virsmas biezuma pielaidei balsta regulējums nepieciešams 2,85–3,19 cm.')
     return checks
 
@@ -187,8 +180,8 @@ def export_data():
         for h in p.get('holes',[]):rows.append(dict(zip(fields,[p['instance'],h['purpose'],h['x'],h['y'],h['z'],h['axis'],h['d'],h['depth'],'Tikai viena caurules siena; virziens pa pozitīvo asi' if p['kind']=='tube' else 'Cauri plāksnei; virziens pa pozitīvo asi'])))
         for h in p.get('slots',[]):
             rows.append(dict(zip(fields,[p['instance'],'Ovāls 0,8 × 1,6 cm; garenass X',h['x'],h['y'],h['z'],'z',.8,.4,'Galu loku centru attālums 0,8 cm'])))
-            rows.append(dict(zip(fields,[h['wood'],'M6 ieliktņa urbums',h['x'],h['y'],73 if h['wood']=='W01' else 23.2,'z','Pēc ieliktņa ražotāja','Līdz 2','Urbums no apakšas; caur virsmu neurbt'])))
+            rows.append(dict(zip(fields,[h['wood'],'M6 ieliktņa urbums',h['x'],h['y'],73,'z','Pēc ieliktņa ražotāja','Līdz 2','Urbums no apakšas; caur virsmu neurbt'])))
     write_csv(ROOT/'drilling-coordinates.csv',fields,rows)
-    (ROOT/'model'/'design.json').write_text(json.dumps(dict(units='cm',revision=REV,date=DATE,parameters=PARAMS,shelf_deck=SHELF_DECK,parts=PARTS),indent=2),encoding='utf-8')
+    (ROOT/'model'/'design.json').write_text(json.dumps(dict(units='cm',revision=REV,date=DATE,parameters=PARAMS,parts=PARTS),indent=2),encoding='utf-8')
     return validate()
 if __name__=='__main__':print('\n'.join(export_data()))

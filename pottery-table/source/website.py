@@ -8,10 +8,10 @@ from design import ROOT, REV, DATE, CUTS, fmt
 SHEETS=[
  ('S01','Kopskats un galvenie izmēri','Galda izskats, izmēri un pārvadāšanas mezgli.'),
  ('S02','Augšējais rāmis','Siju izvietojums, garumi un atskaites koordinātas.'),
- ('S03','Sānskati un augstumi','Galda un plaukta ar saplākšņa klāju augstumu ķēde.'),
+ ('S03','Sānskati un augstumi','Galda un metāla plaukta augstumu ķēde.'),
  ('S04','Kāju mezgli un pēdas','Augšējās plāksnes, stiprinājuma ribas un regulējamie balsti.'),
- ('S05','Plaukta rāmis un klājs','Četras šķērslīstes un klājs 154 × 39 × 3 cm ar 2 cm pārkari pār centrālo balsta zonu.'),
- ('S06','Saplākšņa stiprinājumi','12 stiprinājumi galda virsmai un seši plaukta klājam; urbumu koordinātas.'),
+ ('S05','Plaukta metāla rāmis','13 šķērslīstes, 6 cm spraugas; maisi balstās uz metāla.'),
+ ('S06','Galda virsmas stiprinājumi','12 stiprinājuma plāksnītes un saplākšņa urbumi.'),
  ('S07','Plaukta savienojums ar kāju','P03 plāksnes un divas M12 skrūves katrā savienojumā.'),
 ]
 
