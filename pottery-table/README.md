@@ -1,8 +1,8 @@
-# Keramikas darba galds — redakcija B
+# Keramikas darba galds — redakcija C
 
 Atjaunots 2026. gada 28. septembrī. Dokumentācija latviešu valodā; visi izgatavošanas izmēri centimetros.
 
-Plaukts ar četriem skrūvētiem mezgliem pievienots galda kājām. Projektēšanas mērķis ir 200 kg vienmērīgi izvietotu māla maisu. Klājs 150 × 35 × 1,8 cm, nomināli 25 cm virs grīdas. To nes divas RHS 8 × 4 × 0,3 cm garensijas un divas gala šķērssijas ar 8 cm vertikāli. Nav piekaru pie augšējā rāmja.
+Plaukts ar četriem skrūvētiem mezgliem pievienots galda kājām. Projektēšanas mērķis ir 200 kg vienmērīgi izvietotu māla maisu. Metāla režģa zona 150 × 35 cm, nomināli 23 cm virs grīdas; 13 šķērslīstes ar 6 cm brīvām spraugām. Saplākšņa klāja nav. Režģi nes divas RHS 8 × 4 × 0,3 cm garensijas un divas gala šķērssijas ar 8 cm vertikāli. Nav piekaru pie augšējā rāmja.
 
 - [Pilnā izgatavošanas dokumentācija PDF](workshop-package.pdf) — apraksts, saraksti, aprēķini un septiņas A3 rasējumu lapas.
 - [Rasējumi PDF](drawings.pdf) — S01 kopskats; S02 augšējais rāmis; S03 sānskati; S04 kāju augšējie mezgli; S05 plaukts; S06 saplāksnis; S07 plaukta savienojumi ar kājām.
@@ -16,12 +16,16 @@ Visi PDF, CSV un modeļa izmēri ir cm. CSV atdalītājs ir semikols, decimālat
 
 Nesošie plaukta mezgli pie galda galiem samazina vietu pēdām. Ar īstajiem krēsliem jāpārbauda visas astoņas darba vietas. 200 kg plauktam un 200 kg virsmai ir projektēšanas un pieņemšanas mērķi, nevis sertificēta nestspēja. Pirms lietošanas jāpārbauda faktiskie metinājumi, savienojumi, stabilitāte un pakāpeniska slogošana. Aptuvenā tukša galda masa 255–280 kg.
 
+## Vietne
+
+Atveriet [dokumentu vietni](../index.html): visi PDF un SVG vienā skatītājā, lapu izvēle, tuvināšana un lasāms apraksts. [GitHub Pages publicēšanas norādes](../README.md).
+
 ## Atkārtota ģenerēšana
 
-Python 3 ar reportlab, cairosvg un pypdf; sistēmā pieejams Cairo un DejaVu Sans fonts. Izmēru avots ir source/design.py; rasējumu izkārtojums source/drawings.py; apraksts construction-guide.md. Komanda no projekta vecākmapes:
+Python 3 ar reportlab, cairosvg un pypdf; sistēmā pieejams Cairo, DejaVu Sans fonts un pdftoppm (poppler-utils) PDF priekšskatījumiem. Izmēru avots ir source/design.py; rasējumu izkārtojums source/drawings.py; apraksts construction-guide.md. Komanda no projekta vecākmapes:
 
 ```sh
 python3 pottery-table/source/build.py
 ```
 
-Ģenerēšana pārbauda ģeometriju, izveido PDF, modeļus, CSV, skatītāju un pottery-table-workshop-package.zip. OpenSCAD modelis nav šajā vidē kompilēts; precīzie urbumi modelēti tekstā, pārlūka vizualizācijā stiprinājumi un cauruļu stūri ir vienkāršoti. Sākotnējās redakcijas A sarakstus un piekaru izmērus izmantot nedrīkst.
+Ģenerēšana pārbauda ģeometriju, izveido PDF, modeļus, CSV, skatītāju un pottery-table-workshop-package.zip. OpenSCAD modelis nav šajā vidē kompilēts; precīzie urbumi modelēti tekstā, pārlūka vizualizācijā stiprinājumi un cauruļu stūri ir vienkāršoti. Iepriekšējo redakciju A un B sarakstus izmantot nedrīkst.

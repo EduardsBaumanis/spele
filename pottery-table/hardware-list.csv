@@ -7,13 +7,10 @@ H08;4;"M16 regulējams balsts; paliktnis ap Ø8 cm; vismaz 300 kg katram";"Palik
 H09;4;"M16 plāns kontruzgrieznis; nomināli 0,8 cm";"Ietilpst starp balsta paliktni un P02; pārbaudīt vītnes saķeri."
 H10;12;M6 koka vītņieliktnis, garums 1,8 cm;"W01; urbuma diametrs pēc ražotāja, dziļums līdz 2 cm."
 H11;12;M6 skrūve, garums 2 cm;"W01; nomināla saķere 1,24 cm, pārbaudīt faktiskajā ieliktnī."
-H12;18;"M6 plata paplāksne; ārējais Ø ap 1,8 cm, biezums 0,16 cm";"12 augšā + 6 plaukta klājam; pārsedz 0,8 × 1,6 cm spraugu."
+H12;12;"M6 plata paplāksne; ārējais Ø ap 1,8 cm, biezums 0,16 cm";"Galda virsmai; pārsedz 0,8 × 1,6 cm spraugu."
 H13;4;Plastmasas noslēgs profilam 8×4×0,3 cm;"T02 atvērtajiem galiem; uzstādīt pēc krāsošanas."
-H15;1800;"Blīva EPDM lente; platums 2 cm, biezums 0,2 cm";"Daudzums centimetros; abiem saplākšņa klājiem, arī plāksnītēm."
-H16;6;M6 koka vītņieliktnis, garums 1,2 cm;"W05; pārbaudīt faktisko klāja biezumu; urbuma dziļums līdz 1,3 cm."
-H17;6;M6 skrūve, garums 1,6 cm;"W05; nomināla saķere 0,84 cm. Garāka skrūve var izspiest klāja virsu."
+H15;1200;"Blīva EPDM lente; platums 2 cm, biezums 0,2 cm";"Daudzums centimetros; galda virsmai, arī plāksnītēm."
 W01;1;Bērza saplāksnis 250×125×5 cm, RIGA PLY BB/WG EXT LN;Kods 0015001250250000061L. Cenu un pieejamību apstiprināt pirms pasūtīšanas.
 W02;2;Bērza saplākšņa darba dēlis 60×45×2,1 cm;"Atsevišķs materiāls; noapaļot malas, pārklāt ar noņemamu audeklu."
 W03;2;Mazgājams, nostiepts audekla pārvalks;"Dēlim W02; regulāri izžāvēt un pēc vajadzības nomainīt."
 W04;4;Skavas ar mīkstiem paliktņiem;Atvērums atbilstošs galda virsmai un darba dēlim.
-W05;1;Bērza saplākšņa plaukta klājs 150×35×1,8 cm;"BB vai labāka augšpuse; abas puses un malas aizsargāt pret mitrumu."

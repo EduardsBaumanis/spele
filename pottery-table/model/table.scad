@@ -1,4 +1,4 @@
-// PT-250 / Redakcija B / visas koordinātas cm; 1 vienība = 1 cm.
+// PT-250 / Redakcija C / visas koordinātas cm; 1 vienība = 1 cm.
 // Izveidots no source/design.py. Cauruļu stūri un stiprinājumi vienkāršoti.
 // Šuves un koka ieliktņu urbumi nav modelēti; rasējumos dotās prasības ir spēkā.
 $fn=36;
@@ -7,7 +7,6 @@ show_shelf=true;
 show_hardware=true;
 exploded=0; // Tikai ilustrācijai; samontētā stāvoklī 0.
 top_thickness=5; // Faktiski 4.81..5.15; galda augša paliek Z=78.
-shelf_thickness=1.8;
 dz=5-top_thickness;
 module steel(group) { translate([0,0,dz+(group=="legs"?-exploded*.45:group=="shelf"?-exploded*.7:0)]) color([.73,.12,.08]) children(); }
 module washer(x,y,z,od,id,h) {translate([x,y,z]) difference(){cylinder(d=od,h=h);translate([0,0,-.01])cylinder(d=id,h=h+.02);}}
@@ -15,7 +14,6 @@ module hexnut(x,y,z,af,h,bore) {translate([x,y,z]) difference(){cylinder(d=af/co
 module bolt(x,y,z,diam,length,af,head) {translate([x,y,z]) {cylinder(d=diam,h=length);translate([0,0,-head])cylinder(d=af/cos(30),h=head,$fn=6);}}
 module deck(x,y,z,l,w,t,r) {color([.89,.77,.55]) translate([x,y,z]) linear_extrude(t) hull() for(a=[r,l-r],b=[r,w-r]) translate([a,b]) circle(r=r);}
 if(show_top) deck(0,0,78-top_thickness+exploded,250,125,top_thickness,2.5);
-if(show_shelf) deck(50,45,23.2+dz-exploded*.7,150,35,shelf_thickness,1);
 // T01-1
 steel("frame") {
 difference(){
@@ -413,12 +411,20 @@ translate([53,62.5,18.99]) cylinder(d=0.6,h=0.32);
 // S03-2
 if(show_shelf) steel("shelf") {
 difference(){
-translate([68,49,19]) cube([6,27,4]);
-translate([68.3,48.99,19.3]) cube([5.4,27.02,3.4]);
-translate([71,62.5,18.99]) cylinder(d=0.6,h=0.32);
+translate([62,49,19]) cube([6,27,4]);
+translate([62.3,48.99,19.3]) cube([5.4,27.02,3.4]);
+translate([65,62.5,18.99]) cylinder(d=0.6,h=0.32);
 }
 }
 // S03-3
+if(show_shelf) steel("shelf") {
+difference(){
+translate([74,49,19]) cube([6,27,4]);
+translate([74.3,48.99,19.3]) cube([5.4,27.02,3.4]);
+translate([77,62.5,18.99]) cylinder(d=0.6,h=0.32);
+}
+}
+// S03-4
 if(show_shelf) steel("shelf") {
 difference(){
 translate([86,49,19]) cube([6,27,4]);
@@ -426,15 +432,23 @@ translate([86.3,48.99,19.3]) cube([5.4,27.02,3.4]);
 translate([89,62.5,18.99]) cylinder(d=0.6,h=0.32);
 }
 }
-// S03-4
+// S03-5
 if(show_shelf) steel("shelf") {
 difference(){
-translate([104,49,19]) cube([6,27,4]);
-translate([104.3,48.99,19.3]) cube([5.4,27.02,3.4]);
-translate([107,62.5,18.99]) cylinder(d=0.6,h=0.32);
+translate([98,49,19]) cube([6,27,4]);
+translate([98.3,48.99,19.3]) cube([5.4,27.02,3.4]);
+translate([101,62.5,18.99]) cylinder(d=0.6,h=0.32);
 }
 }
-// S03-5
+// S03-6
+if(show_shelf) steel("shelf") {
+difference(){
+translate([110,49,19]) cube([6,27,4]);
+translate([110.3,48.99,19.3]) cube([5.4,27.02,3.4]);
+translate([113,62.5,18.99]) cylinder(d=0.6,h=0.32);
+}
+}
+// S03-7
 if(show_shelf) steel("shelf") {
 difference(){
 translate([122,49,19]) cube([6,27,4]);
@@ -442,15 +456,23 @@ translate([122.3,48.99,19.3]) cube([5.4,27.02,3.4]);
 translate([125,62.5,18.99]) cylinder(d=0.6,h=0.32);
 }
 }
-// S03-6
+// S03-8
 if(show_shelf) steel("shelf") {
 difference(){
-translate([140,49,19]) cube([6,27,4]);
-translate([140.3,48.99,19.3]) cube([5.4,27.02,3.4]);
-translate([143,62.5,18.99]) cylinder(d=0.6,h=0.32);
+translate([134,49,19]) cube([6,27,4]);
+translate([134.3,48.99,19.3]) cube([5.4,27.02,3.4]);
+translate([137,62.5,18.99]) cylinder(d=0.6,h=0.32);
 }
 }
-// S03-7
+// S03-9
+if(show_shelf) steel("shelf") {
+difference(){
+translate([146,49,19]) cube([6,27,4]);
+translate([146.3,48.99,19.3]) cube([5.4,27.02,3.4]);
+translate([149,62.5,18.99]) cylinder(d=0.6,h=0.32);
+}
+}
+// S03-10
 if(show_shelf) steel("shelf") {
 difference(){
 translate([158,49,19]) cube([6,27,4]);
@@ -458,15 +480,23 @@ translate([158.3,48.99,19.3]) cube([5.4,27.02,3.4]);
 translate([161,62.5,18.99]) cylinder(d=0.6,h=0.32);
 }
 }
-// S03-8
+// S03-11
 if(show_shelf) steel("shelf") {
 difference(){
-translate([176,49,19]) cube([6,27,4]);
-translate([176.3,48.99,19.3]) cube([5.4,27.02,3.4]);
-translate([179,62.5,18.99]) cylinder(d=0.6,h=0.32);
+translate([170,49,19]) cube([6,27,4]);
+translate([170.3,48.99,19.3]) cube([5.4,27.02,3.4]);
+translate([173,62.5,18.99]) cylinder(d=0.6,h=0.32);
 }
 }
-// S03-9
+// S03-12
+if(show_shelf) steel("shelf") {
+difference(){
+translate([182,49,19]) cube([6,27,4]);
+translate([182.3,48.99,19.3]) cube([5.4,27.02,3.4]);
+translate([185,62.5,18.99]) cylinder(d=0.6,h=0.32);
+}
+}
+// S03-13
 if(show_shelf) steel("shelf") {
 difference(){
 translate([194,49,19]) cube([6,27,4]);
@@ -556,48 +586,6 @@ steel("frame") {
 difference(){
 translate([208,103,72.4]) cube([4,4,0.4]);
 hull() for(dx=[-.4,.4]) translate([210+dx,105,72.4-.01]) cylinder(d=.8,h=.42);
-}
-}
-// P04-W05-1
-if(show_shelf) steel("shelf") {
-difference(){
-translate([60,49,22.6]) cube([4,4,0.4]);
-hull() for(dx=[-.4,.4]) translate([62+dx,51,22.6-.01]) cylinder(d=.8,h=.42);
-}
-}
-// P04-W05-2
-if(show_shelf) steel("shelf") {
-difference(){
-translate([114,49,22.6]) cube([4,4,0.4]);
-hull() for(dx=[-.4,.4]) translate([116+dx,51,22.6-.01]) cylinder(d=.8,h=.42);
-}
-}
-// P04-W05-3
-if(show_shelf) steel("shelf") {
-difference(){
-translate([186,49,22.6]) cube([4,4,0.4]);
-hull() for(dx=[-.4,.4]) translate([188+dx,51,22.6-.01]) cylinder(d=.8,h=.42);
-}
-}
-// P04-W05-4
-if(show_shelf) steel("shelf") {
-difference(){
-translate([60,72,22.6]) cube([4,4,0.4]);
-hull() for(dx=[-.4,.4]) translate([62+dx,74,22.6-.01]) cylinder(d=.8,h=.42);
-}
-}
-// P04-W05-5
-if(show_shelf) steel("shelf") {
-difference(){
-translate([114,72,22.6]) cube([4,4,0.4]);
-hull() for(dx=[-.4,.4]) translate([116+dx,74,22.6-.01]) cylinder(d=.8,h=.42);
-}
-}
-// P04-W05-6
-if(show_shelf) steel("shelf") {
-difference(){
-translate([186,72,22.6]) cube([4,4,0.4]);
-hull() for(dx=[-.4,.4]) translate([188+dx,74,22.6-.01]) cylinder(d=.8,h=.42);
 }
 }
 if(show_hardware) {

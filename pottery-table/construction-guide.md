@@ -1,6 +1,6 @@
 # Keramikas darba galds 250 × 125 cm
 
-Redakcija B · 2026. gada 28. septembris · Izgatavošanas dokumentācija latviešu valodā.
+Redakcija C · 2026. gada 28. septembris · Izgatavošanas dokumentācija latviešu valodā.
 
 **Visi lineārie izmēri šajā dokumentācijā ir centimetros.** Tas attiecas arī uz profiliem, sienu biezumiem, urbumiem, pielaidēm un skrūvju garumiem. M6, M12 un M16 ir standarta vītņu apzīmējumi; tos nepārrēķina. S235, skrūvju klase 8.8, RAL 3020 un preču kodi ir apzīmējumi. Masu un slodzi norāda kg. PDF rasējumu izdrukas mēroga pārbaudes līnija ir 5 cm gara.
 
@@ -8,13 +8,13 @@ Redakcija B · 2026. gada 28. septembris · Izgatavošanas dokumentācija latvie
 
 Galds paredzēts pieaugušo darbam sēdus, regulārai māla mīcīšanai un astoņām ikdienas darbavietām: trīs gar katru garo malu un viena katrā galā. Desmit cilvēki var strādāt reizēm, ar mazāku vietu katram. Gatavā virsma ir 250 × 125 × nomināli 5, augstums 78. Tērauds — necinkots S235, apdare satīna RAL 3020.
 
-**Plaukts tagad balstās uz visām četrām galda kājām. Tam nav piekaru pie augšējā rāmja.** Divas spēcīgas garensijas savieno divas gala šķērssijas. Katra šķērssija ar plākšņu pāri un divām M12 skrūvēm katrā galā pievienota kājām. Saplākšņa klāju balsta deviņas šķērslīstes un abas garensijas. Slodzes ceļš: maisi → klājs → plaukta sijas → četras kājas → regulējamie balsti → grīda.
+**Plaukts tagad balstās uz visām četrām galda kājām. Tam nav piekaru pie augšējā rāmja.** Divas spēcīgas garensijas savieno divas gala šķērssijas. Katra šķērssija ar plākšņu pāri un divām M12 skrūvēm katrā galā pievienota kājām. Maisi balstās tieši uz 13 metāla šķērslīstēm un abām garensijām; saplākšņa klāja nav. Slodzes ceļš: maisi → metāla režģis → plaukta sijas → četras kājas → regulējamie balsti → grīda.
 
-Pēc pasūtītāja atbildes plaukta projektēšanas mērķis ir **līdz 200 kg vienmērīgi izvietotu māla maisu**, piemēram, astoņi maisi pa 25 kg. Klāja izmērs saglabāts 150 × 35; nominālā augšējā plakne ir 25 virs grīdas. Pilnā, noņemamā klāja virsma balsta maisus arī starp šķērslīstēm. Maisus izvieto pa visu klāju, slodzi sadalot starp abām garensijām; tos uzliek bez trieciena. Šis plaukts nav pakāpiens vai sēdvieta.
+Pēc pasūtītāja atbildes plaukta projektēšanas mērķis ir **līdz 200 kg vienmērīgi izvietotu māla maisu**, piemēram, astoņi maisi pa 25 kg. Maisu balsta zona ir 150 × 35; nominālā metāla augšējā plakne ir 23 virs grīdas. Šķērslīstes izvietotas ar 12 centru soli un 6 brīvām spraugām. Maisus liek guļus pāri vairākām līstēm un sadala pa visu režģi un abām garensijām; tos uzliek bez trieciena. Visas saskares malas un šuves gludi apstrādā, lai nesabojātu iepakojumu. Šis plaukts nav pakāpiens vai sēdvieta.
 
-Klājs atkāpjas 45 no galda garajām malām un 50 no galiem. Garensijas turpinās līdz gala šķērssijām pie kājām. Gala šķērssijas atrodas no 15 līdz 23 virs grīdas, tāpēc vieta pēdām galda galos ir ierobežotāka nekā piekārtā plaukta variantā. Pirms griešanas ar faktiskajiem krēsliem jāpārbauda sēdēšanas poza, īpaši gala vietās.
+Režģa zona atkāpjas 45 no galda garajām malām un 50 no galiem. Garensijas turpinās līdz gala šķērssijām pie kājām. Gala šķērssijas atrodas no 15 līdz 23 virs grīdas, tāpēc vieta pēdām galda galos ir ierobežotāka nekā piekārtā plaukta variantā. Pirms griešanas ar faktiskajiem krēsliem jāpārbauda sēdēšanas poza, īpaši gala vietās.
 
-Noņemami ir saplākšņa klāji, pilnais plaukta tērauda mezgls un četras kājas. Augšējais rāmis paliek metināts. Dokumentācijas iepriekšējās redakcijas A piekares, plaukta M10 mezgli un sagatavju saraksti vairs nav izmantojami.
+Noņemama ir galda saplākšņa virsma, pilnais plaukta tērauda mezgls un četras kājas. Augšējais rāmis paliek metināts. Redakcijā C plaukta koka klājs, tā sešas stiprinājuma plāksnītes un stiprinājumi ir noņemti. Iepriekšējo redakciju A un B sagatavju sarakstus izmantot nedrīkst.
 
 ## Galvenie izmēri un atskaites punkts
 
@@ -25,7 +25,7 @@ Visas koordinātas dotas no galda virsmas viena stūra projekcijas uz grīdu: X 
 - Virsmas pārkare: 10 katrā pusē. EPDM starp tēraudu un saplāksni: 0,2.
 - Kāju centri: (20;20), (230;20), (20;105), (230;105). Kājas profils 6 × 6 × 0,3.
 - Zem augšējā rāmja brīvais augstums: 68,8; stūru plāksnes un ribas lokāli atrodas zemāk.
-- Plaukta klājs W05: 150 × 35 × 1,8; X=50–200; Y=45–80; Z=23,2–25.
+- Metāla plaukta maisu balsta zona: 150 × 35; X=50–200; Y=45–80; augša Z=23. Saplākšņa vai cita klāja nav.
 - Plaukta tērauda augša Z=23. Nesošo siju apakša Z=15; šķērslīstu apakša Z=19.
 - Plaukta noņemamā tērauda mezgla maksimālais gabarīts kopā ar P03: 216 × 77,4 × 16; X=17–233; Y=23,8–101,2; Z=11–27. Pašu gala cauruļu ārmalas ir X=18 un 232.
 
@@ -33,7 +33,7 @@ Visas koordinātas dotas no galda virsmas viena stūra projekcijas uz grīdu: X 
 
 2026. gada 28. septembrī Finieris e-veikala datos atrodams **RIGA PLY BB/WG, EXT LN**, izmērs 250 × 125 × 5, kods **0015001250250000061L**. Norādītā cena bija **281,51 EUR ar PVN**, atlikums — sešas loksnes Sarkandaugavā. Cena un atlikums ir pārbaudes brīža dati, nevis rezervācija. Produkta atlase: https://e-veikals.finieris.lv/lv/e-veikals/produktu-atlase?wh=mt&pr=ply&by=thickness&or=desc
 
-Virsmai izvēlēties BB pusi uz augšu. Tai var būt finiera ielāpi; pārbaudīt konkrētās loksnes līdzenumu, izskatu un malu stāvokli. Nominālā biezuma 5 faktiskā pielaide ir 4,81–5,15. Plaukta klājam atsevišķi vajadzīgs 1,8 biezs bērza saplāksnis; arī tā faktisko biezumu izmērīt. Abu klāju malas un apstrādātie urbumi jāaizsargā pret mitrumu. Ražotāja datu lapa: https://www.finieris.com/wp-content/uploads/2025/10/Riga-Ply-datasheet-EN.pdf
+Virsmai izvēlēties BB pusi uz augšu. Tai var būt finiera ielāpi; pārbaudīt konkrētās loksnes līdzenumu, izskatu un malu stāvokli. Nominālā biezuma 5 faktiskā pielaide ir 4,81–5,15. Galda virsmas malas un apstrādātie urbumi jāaizsargā pret mitrumu. Ražotāja datu lapa: https://www.finieris.com/wp-content/uploads/2025/10/Riga-Ply-datasheet-EN.pdf
 
 Metālu Centrs katalogā 2026. gada 28. septembrī kā pieejami norādīti šādi necinkota S235 profili:
 
@@ -67,7 +67,7 @@ M12 skrūvei pēc abu plākšņu un paplāksnes šķērsošanas paliek 1,65 garu
 
 Divas S02 gala šķērssijas izgatavo no 8 × 4 × 0,3 profila, **8 vertikāli**. Gatavais garums 75,8. Tās atrodas X=18–22 un 228–232, Y=24,6–100,4, Z=15–23. Abos galos piemetina P03 plāksni 16 augstu, 6 platu un 0,8 biezu; tā centrēta pret caurules galu. Plāksnes ir Z=11–27, tātad virs un zem sijas izvirzās pa 4.
 
-Divas S01 garensijas, tā paša profila un orientācijas, ir 206 garas. Tās metina starp gala šķērssiju iekšējām plaknēm: X=22–228; Y=45–49 un 76–80; Z=15–23. Deviņas S03 šķērslīstes no 6 × 4 × 0,3 profila, **4 vertikāli**, ir 27 garas, Y=49–76, Z=19–23. To centri X=53; 71; 89; 107; 125; 143; 161; 179; 197. Centru solis 18; atstarpe starp 6 platām līstēm 12. Pirmās un pēdējās līstes ārmalas sakrīt ar klāja galiem X=50 un 200.
+Divas S01 garensijas, tā paša profila un orientācijas, ir 206 garas. Tās metina starp gala šķērssiju iekšējām plaknēm: X=22–228; Y=45–49 un 76–80; Z=15–23. Trīspadsmit S03 šķērslīstes no 6 × 4 × 0,3 profila, **4 vertikāli**, ir 27 garas, Y=49–76, Z=19–23. To centri X=53; 65; 77; 89; 101; 113; 125; 137; 149; 161; 173; 185; 197. Centru solis 12; brīvā sprauga starp 6 platām līstēm 6. Pirmās un pēdējās līstes ārmalas nosaka režģa zonas galus X=50 un 200.
 
 Pie katras kājas uz iekšpusi vērstās plaknes piemetina otru P03. Fiksēto plākšņu koordinātas: X=17–23 vai 227–233; tuvākajam kāju pārim Y=23–23,8, tālākajam Y=101,2–102. Noņemamās plāksnes atrodas attiecīgi Y=23,8–24,6 un Y=100,4–101,2. Starp kāju iekšējām plaknēm ir 79: **0,8 + 0,8 + 75,8 + 0,8 + 0,8 = 79**.
 
@@ -79,13 +79,12 @@ Izmanto astoņas M12 skrūves, klase 8.8, garums 3,5, un astoņas paplāksnes 0,
 
 ## Saplākšņa stiprinājumi un malas
 
-Kopā 18 vienādas P04 plāksnītes 4 × 4 × 0,4 ar centrālu ovālu 0,8 × 1,6, garenass X. Loku centru attālums 0,8. Plāksnīšu augšas sakrīt ar attiecīgā tērauda rāmja augšu. Uz tērauda balsta virsmām un plāksnītēm uzklāj 0,2 biezu blīvu EPDM lenti.
+Kopā 12 vienādas P04 plāksnītes 4 × 4 × 0,4 ar centrālu ovālu 0,8 × 1,6, garenass X. Loku centru attālums 0,8. Visas plāksnītes ir augšējā rāmī, to augšas sakrīt ar rāmja augšu. Tikai zem galda saplākšņa virsmas uz tērauda balsta virsmām un plāksnītēm uzklāj 0,2 biezu blīvu EPDM lenti.
 
 Virsmai W01 paredzētas 12 plāksnītes; urbumu centri X=40; 74; 108; 142; 176; 210, pie Y=20 un 105. Lietot M6 koka vītņieliktņus nomināli 1,8 garus, M6 skrūves 2 garas un platas paplāksnes ar biezumu 0,16. Nominālā skrūves saķere 1,24. Urbumus atzīmēt pēc sausās montāžas un urbt no apakšas, dziļumā līdz 2; diametru nosaka izvēlētā ieliktņa ražotājs.
 
-Plaukta klājam W05 paredzētas sešas plāksnītes; urbumu centri X=62; 116; 188, pie Y=51 un 74. Paša klāja koordinātās no stūra (50;45): x=12; 66; 138 un y=6; 29. Lietot īsākus M6 ieliktņus 1,2, M6 skrūves 1,6 un tādas pašas paplāksnes. Nominālā saķere 0,84; urbuma dziļums līdz 1,3. Pārbaudīt īstā ieliktņa vītnes dziļumu un faktisko saplākšņa biezumu, lai nesabojātu virspusi.
 
-W01 stūrus noapaļot R2,5, augšējās un apakšējās malas R0,4. W05 stūri R1, malas viegli noapaļot R0,2. Starp tēraudu un abiem klājiem nav paredzēta līmēšana; klājus var noņemt tīrīšanai vai remontam.
+W01 stūrus noapaļot R2,5, augšējās un apakšējās malas R0,4. Virsma nav līmēta pie tērauda; to var noņemt remontam.
 
 ## Augstuma pielāgošana faktiskajam saplāksnim
 
@@ -93,7 +92,7 @@ Nominālā augstumu ķēde: **3 balsts + 0,8 P02 + 63,4 L01 + 0,8 noņemamā P01
 
 Ja faktiskās galda virsmas biezums ir t, grīdas attālumam līdz P02 apakšai jābūt 8 − t. Pie t=4,81–5,15 tas ir 3,19–2,85. Izvēlētajai M16 pēdai kopā ar plāno kontruzgriezni jānodrošina šis diapazons un pilna uzgriežņa vītnes saķere. Katra balsta dokumentētā nestspēja vismaz 300 kg izvēlētajā regulējumā, neslīdošs paliktnis ap Ø8.
 
-Regulējot pēdas līdz galda augstumam 78, visi tērauda Z izmēri nobīdās par 5 − t. Ja plaukta saplākšņa faktiskais biezums ir s, tā klāja augstums ir **25 + (5 − t) + (s − 1,8)**. Tātad 25 ir nomināls plaukta augstums, nevis atsevišķi regulējams precīzs augstums. No kājas apakšgala dotie P03 montāžas izmēri nemainās.
+Regulējot pēdas līdz galda augstumam 78, visi tērauda Z izmēri nobīdās par 5 − t. Metāla plaukta balsta virsmas augstums ir **23 + (5 − t)**. Tātad 23 ir nomināls plaukta augstums, nevis atsevišķi regulējams precīzs augstums. No kājas apakšgala dotie P03 montāžas izmēri nemainās.
 
 ## Darbu secība un apdare
 
@@ -102,12 +101,12 @@ Regulējot pēdas līdz galda augstumam 78, visi tērauda Z izmēri nobīdās pa
 - Izurbt plāksnes, izveidot ovālus un cauruļu uzgriežņu atveres. Piemetināt uzgriežņus, pārbaudīt ar faktiskajām skrūvēm. Izveidot ventilācijas atveres slēgtajām caurulēm; tās norādītas koordinātu sarakstā.
 - Pieķert augšējo rāmi līdzenā šablonā. Pārbaudīt diagonāles un plakni. Metināt pārmaiņus pretējās pusēs, ierobežojot deformāciju.
 - Izgatavot kājas ar augšējām un apakšējām plāksnēm un ribām. P03 pie kājām galīgi sametināt pēc sausās salāgošanas ar plaukta mezglu. Atzīmēt katras kājas un stūra pāri.
-- Izgatavot plaukta rāmi; sametināt garensijas, gala šķērssijas, deviņas šķērslīstes, noņemamās P03 un sešas P04. Pirms slēgšanas atstāt ventilācijas ceļu; prasības pulverkrāsošanai saskaņot ar krāsotāju.
+- Izgatavot plaukta rāmi; sametināt garensijas, gala šķērssijas, 13 šķērslīstes un noņemamās P03. Pirms slēgšanas atstāt ventilācijas ceļu; prasības pulverkrāsošanai saskaņot ar krāsotāju.
 - Cauruļu ar sienu 0,3 savienojumiem orientējoša stūra šuves katete 0,3. Izgatavotājam jāizvēlas metināšanas režīms un šuves atbilstoši faktiskajam savienojumam; nav paredzēts nestspēju iegūt tikai ar pieķeršanas punktiem. Nenoplacināt nesošās sānu šuves. Piemetināmo uzgriežņu šuves izpildīt atbilstoši uzgriežņu ražotāja norādēm.
 - Veikt pilnu sauso montāžu. Pārbaudīt ģeometriju, skrūvju un instrumentu piekļuvi, vītnes saķeri, krēslus, virsmas un plaukta augstumu. Slodzes pārbaudi veikt pirms nodošanas ekspluatācijā.
 - Tēraudu sagatavot atbilstoši pulverkrāsotāja prasībām un krāsot satīna RAL 3020. Vītnes un cieši pieguļošās savienojumu plaknes maskēt pēc saskaņojuma; pēc montāžas aizsargāt atklāto metālu pret koroziju, neveidojot biezu, saspiežamu slāni starp plāksnēm. T02 plastmasas noslēgus uzstādīt pēc krāsošanas.
 - Saplāksnim pārklāt abas puses, visas malas un apstrādātās atveres. Piemērots iepriekš izvēlētais lakas variants: Unica Super 90 gruntskārta, atšķaidīta pēc ražotāja norādījumiem, tad divas plānas Unica Super 20 kārtas. Pilna cietība ap četrām nedēļām; laku lietot un žāvēt pēc aktuālās datu lapas. Apdare nedaudz sasilda bērza toni. Avots: https://tikkurila.com/sites/default/files/pim/documents/Unica_Super_20_EN_PDS_Tikkurila_0.pdf
-- Galīgajā vietā samontēt rāmi, kājas un plauktu; pievilkt M12 savienojumus pēc izvēlēto stiprinājumu piegādātāja norādēm. Nolīmeņot pēdas, fiksēt kontruzgriežņus, tad uzstādīt abus klājus. Smagos mezglus pārvietot ar piemērotu celšanas aprīkojumu vai pietiekamu cilvēku skaitu.
+- Galīgajā vietā samontēt rāmi, kājas un plauktu; pievilkt M12 savienojumus pēc izvēlēto stiprinājumu piegādātāja norādēm. Nolīmeņot pēdas, fiksēt kontruzgriežņus, tad uzstādīt galda virsmu. Smagos mezglus pārvietot ar piemērotu celšanas aprīkojumu vai pietiekamu cilvēku skaitu.
 
 Māla mīcīšanai paredzēti divi noņemami 60 × 45 × 2,1 bērza saplākšņa dēļi ar nostieptu, nomaināmu audeklu un skavām ar mīkstiem paliktņiem. Pēc darba tos noņem un izžāvē; audeklu tīra mitri. Dēļi aizsargā lakoto virsmu, bet nenosaka visa galda nestspēju.
 
@@ -118,7 +117,7 @@ Aprēķinu pielikumā pārbaudīta izmēru savietojamība un veikts ierobežots 
 - Diagonāļu starpība ne vairāk par 0,2; augšējā balsta plaknes novirze ne vairāk par 0,15. Visi četri balsti pieskaras grīdai; galds nešūpojas.
 - P03 pāri cieši saskaras; M12 savienojumos nav klikšķu vai slīdēšanas, arī stingri mīcot mālu. Skrūves nedrīkst izmantot deformētu mezglu savilkšanai.
 - Faktiskie krēsli un kājas ietilpst visās astoņās darba vietās; gala šķērssijas pieņemamas lietotājiem.
-- Plauktu slogot pakāpeniski ar vienmērīgi izvietotiem svariem: 50, 100, 150 un 200 kg. Katrā posmā vērot siju izlieci, savienojumus, pēdas un klāju. Pie kustības, plaisāšanas vai pieaugošas deformācijas pārbaudi pārtraukt un mezglu labot.
+- Plauktu slogot pakāpeniski ar vienmērīgi izvietotiem svariem: 50, 100, 150 un 200 kg. Katrā posmā vērot siju izlieci, savienojumus, pēdas un šķērslīstes. Pie kustības, plaisāšanas vai pieaugošas deformācijas pārbaudi pārtraukt un mezglu labot.
 - Atsevišķi pakāpeniski pārbaudīt virsmu līdz 200 kg vienmērīgi sadalītas slodzes; pēc kompetenta izgatavotāja pārbaudes pārbaudīt arī vienlaicīgo paredzēto virsmas un plaukta slodzi. Pārbaude nav trieciena vai sertifikācijas pārbaude.
 - Plaukta garensiju vidus izlieces praktiskais pieņemšanas mērķis pie vienmērīgi sadalītiem 200 kg: ne vairāk par 0,3; pēc atslogošanas nedrīkst palikt izmērāma deformācija. Tas ir darbnīcas pieņemšanas kritērijs, nevis aprēķināts visas konstrukcijas drošības koeficients.
 - Pēc pirmās lietošanas nedēļas atkārtoti pārbaudīt skrūvju pievilkumu un periodiski atkārtot pārbaudi. Pirms galda izjaukšanas plauktu pilnīgi izkraut un noņemt.
@@ -127,8 +126,8 @@ Aprēķinu pielikumā pārbaudīta izmēru savietojamība un veikts ierobežots 
 
 Caurulēm vajadzīgas trīs 600 garas RHS 8 × 4 × 0,3 sagataves, viena 600 gara RHS 6 × 4 × 0,3 un viena 600 gara SHS 6 × 6 × 0,3 sagatave. Sadalījums paredz 0,3 zāģējumu katrai detaļai un 2 kopējo rezervi katras sagataves galiem. Plakandzelzs un trīsstūru izejmateriāls aprēķināms atsevišķi; piegādātājam jāapstiprina faktiskā sagarināšanas tehnoloģija un maksāšana par pilnām sagatavēm. Pieprasīt apmaksātos atlikumus.
 
-Gatavo tērauda detaļu teorētiskā masa ap 135,6 kg, galda virsmai ap 104,7–118,8 kg, plaukta klājam ap 6,3–7,2 kg. Samontēta tukša galda aptuvenā masa ar stiprinājumiem un pēdām 255–280 kg, neskaitot noņemamos darba dēļus. Tā jāprecizē pēc faktiskajiem materiāliem. Pilna paredzētā virsmas un plaukta slodze kopā pievieno 400 kg.
+Gatavo tērauda detaļu teorētiskā masa ap 140,1 kg, galda virsmai ap 104,7–118,8 kg. Samontēta tukša galda aptuvenā masa ar stiprinājumiem un pēdām 255–280 kg, neskaitot noņemamos darba dēļus. Tā jāprecizē pēc faktiskajiem materiāliem. Pilna paredzētā virsmas un plaukta slodze kopā pievieno 400 kg.
 
-Komplektā ir rasējumi S01–S07, detaļu un stiprinājumu CSV saraksti, sagatavju sadalījums, urbumu koordinātas, pārbaudes protokols, OpenSCAD modelis un bezsaistes 3D skatītājs. CSV lieto semikolu kolonnu atdalīšanai un decimālo komatu. CAD un JSON viena koordinātu vienība ir 1 cm; programmēšanas sintaksē decimālatdalītājs ir punkts. Eksportējot CAD citā programmā, skaidri iestatīt centimetru vienības.
+Komplektā ir rasējumi S01–S07, detaļu un stiprinājumu CSV saraksti, sagatavju sadalījums, urbumu koordinātas, pārbaudes protokols, OpenSCAD modelis un bezsaistes 3D skatītājs. Projekta sākumlapā index.html ir lasāms apraksts, PDF lapu un SVG rasējumu skatītājs ar tuvināšanu un visu failu lejupielādi. Vietne ir gatava GitHub Pages; publicēšanas norādes ir projekta README.md. CSV lieto semikolu kolonnu atdalīšanai un decimālo komatu. CAD un JSON viena koordinātu vienība ir 1 cm; programmēšanas sintaksē decimālatdalītājs ir punkts. Eksportējot CAD citā programmā, skaidri iestatīt centimetru vienības.
 
 Ražotāju atsaucēs un sākotnējā fotogrāfijā var būt citas mērvienības; visas šā projekta izgatavošanas dimensijas ir pārrēķinātas cm. Cenu pieprasījumu nosūtīšana un materiālu pirkšana nav veikta.
