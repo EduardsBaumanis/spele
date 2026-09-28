@@ -1,0 +1,39 @@
+NESŪTĪTS MELNRAKSTS — cenu piedāvājuma pieprasījums
+Kam: biz@metalucentrs.lv
+Temats: S235 materiāli un sagarināšana keramikas galdam PT-250, redakcija B
+
+Labdien!
+
+Lūdzu cenu piedāvājumu necinkota S235 materiāliem un sagarināšanai pēc zemāk norādītā saraksta. VISI IZMĒRI CENTIMETROS, arī profilu sienu un plākšņu biezumi. Preču kodi paliek piegādātāja oriģinālie. Šis saraksts aizstāj iepriekšējo plānu ar piekārtu plauktu.
+
+GATAVĀS DETAĻAS — cm
+T01: Augšējā rāmja garensija; RHS 8×4×0,3 cm; 3 gab.; gatavais garums 214 cm; kods 06CV08004003000.
+T02: Augšējā rāmja gala sija; RHS 8×4×0,3 cm; 2 gab.; gatavais garums 105 cm; kods 06CV08004003000.
+T03: Augšējā rāmja šķērssija; RHS 6×4×0,3 cm; 4 gab.; gatavais garums 40,5 cm; kods 06CV06004003000.
+L01: Galda kāja; SHS 6×6×0,3 cm; 4 gab.; gatavais garums 63,4 cm; kods 06CV06006003000.
+S01: Plaukta garensija; 8 vertikāli; RHS 8×4×0,3 cm; 2 gab.; gatavais garums 206 cm; kods 06CV08004003000.
+S02: Plaukta gala šķērssija; 8 vertikāli; RHS 8×4×0,3 cm; 2 gab.; gatavais garums 75,8 cm; kods 06CV08004003000.
+S03: Plaukta klāja šķērslīste; 4 vertikāli; RHS 6×4×0,3 cm; 9 gab.; gatavais garums 27 cm; kods 06CV06004003000.
+P01: Kājas augšējā plāksne; 4 fiksētas + 4 noņemamas; Plakandzelzs 20×0,8 cm; 8 gab.; 20 × 20 × 0,8 cm; kods 05PL08020001.
+P02: Kājas apakšējā plāksne; Plakandzelzs 6×0,8 cm; 4 gab.; 6 × 6 × 0,8 cm; kods 05PL08006000.
+P03: Plaukta savienojuma plāksne; 4 pie kājām + 4 pie S02; Plakandzelzs 6×0,8 cm; 8 gab.; 16 × 6 × 0,8 cm; kods 05PL08006000.
+P04: Saplākšņa stiprinājuma plāksnīte; 12 augšā + 6 plauktā; Plakandzelzs 4×0,4 cm; 18 gab.; 4 × 4 × 0,4 cm; kods 05PL04004000.
+P05: Kājas trīsstūrveida riba; katetes 6 un 6; Plāksne 0,6 cm; 16 gab.; taisnleņķa trīsstūris; katetes 6 un 6 cm; biezums 0,6 cm.
+
+LŪDZU PRECIZĒT:
+1. Materiālu pieejamību, sagatavošanas termiņu un piegādi.
+2. Materiālu, griešanas, atskabargu noņemšanas un piegādes izmaksas atsevišķi; norādīt PVN.
+3. Vai gatavā garuma pielaide ±0,1 cm un perpendikulāri gali ir nodrošināmi. Zāģējumu pieskaitīt sagataves patēriņam, saglabājot gatavo detaļu izmērus.
+4. Vai maksā par nogrieztajām detaļām vai pilnām sagatavēm; lūdzu atdot apmaksātos atlikumus.
+5. Atsevišķu cenu P05 trīsstūriem ar norādītajiem gatavajiem izmēriem.
+6. Ja iespējama urbšana un ovālu izgatavošana — atsevišķu cenu pēc rasējumiem. Standarta sagarināšanā urbšana nav pieņemta kā iekļauta.
+7. Ja izmantojat citus materiālu garumus vai zāģējuma platumu, lūdzu pārrēķināt patēriņu, nemainot gatavos izmērus.
+
+Pielikumi: cutting-list.csv; stock-cutting.csv; drawings.pdf; drilling-coordinates.csv.
+Plānotais cauruļu iepirkums: 3 × 600 cm profilam 8×4×0,3 cm; 1 × 600 cm profilam 6×4×0,3 cm; 1 × 600 cm profilam 6×6×0,3 cm.
+Sadalījumā pieņemts zāģējums 0,3 cm katrai detaļai un 2 cm kopēja gala rezerve katrai 600 cm sagatavei. Plakandzelzs un trīsstūru sagataves aprēķināt atsevišķi.
+
+Šis ir cenu piedāvājuma pieprasījums; pasūtījums tiks apstiprināts atsevišķi. Piegādes adresi norādīsim pirms pasūtīšanas.
+
+Ar cieņu,
+[Vārds, tālrunis]

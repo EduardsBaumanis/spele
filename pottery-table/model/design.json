@@ -1,0 +1,2587 @@
+{
+  "units": "cm",
+  "revision": "B",
+  "date": "2026-09-28",
+  "parameters": {
+    "units": "cm",
+    "length": 250,
+    "width": 125,
+    "height": 78,
+    "plywood": 5,
+    "isolation": 0.2,
+    "frame_length": 230,
+    "frame_width": 105,
+    "frame_depth": 4,
+    "shelf_length": 150,
+    "shelf_width": 35,
+    "shelf_top": 25,
+    "shelf_plywood": 1.8,
+    "shelf_load_kg": 200,
+    "shelf_module_length": 216,
+    "shelf_module_width": 77.4,
+    "shelf_module_height": 16,
+    "foot_allowance": 3,
+    "saw_kerf": 0.3,
+    "stock_end_trim": 1
+  },
+  "parts": [
+    {
+      "mark": "T01",
+      "instance": "T01-1",
+      "origin": [
+        18,
+        10,
+        68.8
+      ],
+      "size": [
+        214,
+        8,
+        4
+      ],
+      "group": "frame",
+      "kind": "tube",
+      "axis": "x",
+      "wall": 0.3,
+      "holes": [
+        {
+          "x": 125,
+          "y": 14,
+          "z": 68.8,
+          "d": 0.6,
+          "depth": 0.3,
+          "axis": "z",
+          "purpose": "ventil\u0101cija"
+        },
+        {
+          "x": 27,
+          "y": 13,
+          "z": 68.8,
+          "d": 3,
+          "depth": 0.3,
+          "axis": "z",
+          "purpose": "M12 aug\u0161\u0113j\u0101 uzgrie\u017e\u0146a atvere"
+        },
+        {
+          "x": 223,
+          "y": 13,
+          "z": 68.8,
+          "d": 3,
+          "depth": 0.3,
+          "axis": "z",
+          "purpose": "M12 aug\u0161\u0113j\u0101 uzgrie\u017e\u0146a atvere"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "T01",
+      "instance": "T01-2",
+      "origin": [
+        18,
+        58.5,
+        68.8
+      ],
+      "size": [
+        214,
+        8,
+        4
+      ],
+      "group": "frame",
+      "kind": "tube",
+      "axis": "x",
+      "wall": 0.3,
+      "holes": [
+        {
+          "x": 125,
+          "y": 62.5,
+          "z": 68.8,
+          "d": 0.6,
+          "depth": 0.3,
+          "axis": "z",
+          "purpose": "ventil\u0101cija"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "T01",
+      "instance": "T01-3",
+      "origin": [
+        18,
+        107,
+        68.8
+      ],
+      "size": [
+        214,
+        8,
+        4
+      ],
+      "group": "frame",
+      "kind": "tube",
+      "axis": "x",
+      "wall": 0.3,
+      "holes": [
+        {
+          "x": 125,
+          "y": 111,
+          "z": 68.8,
+          "d": 0.6,
+          "depth": 0.3,
+          "axis": "z",
+          "purpose": "ventil\u0101cija"
+        },
+        {
+          "x": 27,
+          "y": 112,
+          "z": 68.8,
+          "d": 3,
+          "depth": 0.3,
+          "axis": "z",
+          "purpose": "M12 aug\u0161\u0113j\u0101 uzgrie\u017e\u0146a atvere"
+        },
+        {
+          "x": 223,
+          "y": 112,
+          "z": 68.8,
+          "d": 3,
+          "depth": 0.3,
+          "axis": "z",
+          "purpose": "M12 aug\u0161\u0113j\u0101 uzgrie\u017e\u0146a atvere"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "T02",
+      "instance": "T02-1",
+      "origin": [
+        10,
+        10,
+        68.8
+      ],
+      "size": [
+        8,
+        105,
+        4
+      ],
+      "group": "frame",
+      "kind": "tube",
+      "axis": "y",
+      "wall": 0.3,
+      "holes": [
+        {
+          "x": 13,
+          "y": 13,
+          "z": 68.8,
+          "d": 3,
+          "depth": 0.3,
+          "axis": "z",
+          "purpose": "M12 aug\u0161\u0113j\u0101 uzgrie\u017e\u0146a atvere"
+        },
+        {
+          "x": 13,
+          "y": 27,
+          "z": 68.8,
+          "d": 3,
+          "depth": 0.3,
+          "axis": "z",
+          "purpose": "M12 aug\u0161\u0113j\u0101 uzgrie\u017e\u0146a atvere"
+        },
+        {
+          "x": 13,
+          "y": 98,
+          "z": 68.8,
+          "d": 3,
+          "depth": 0.3,
+          "axis": "z",
+          "purpose": "M12 aug\u0161\u0113j\u0101 uzgrie\u017e\u0146a atvere"
+        },
+        {
+          "x": 13,
+          "y": 112,
+          "z": 68.8,
+          "d": 3,
+          "depth": 0.3,
+          "axis": "z",
+          "purpose": "M12 aug\u0161\u0113j\u0101 uzgrie\u017e\u0146a atvere"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "T02",
+      "instance": "T02-2",
+      "origin": [
+        232,
+        10,
+        68.8
+      ],
+      "size": [
+        8,
+        105,
+        4
+      ],
+      "group": "frame",
+      "kind": "tube",
+      "axis": "y",
+      "wall": 0.3,
+      "holes": [
+        {
+          "x": 237,
+          "y": 13,
+          "z": 68.8,
+          "d": 3,
+          "depth": 0.3,
+          "axis": "z",
+          "purpose": "M12 aug\u0161\u0113j\u0101 uzgrie\u017e\u0146a atvere"
+        },
+        {
+          "x": 237,
+          "y": 27,
+          "z": 68.8,
+          "d": 3,
+          "depth": 0.3,
+          "axis": "z",
+          "purpose": "M12 aug\u0161\u0113j\u0101 uzgrie\u017e\u0146a atvere"
+        },
+        {
+          "x": 237,
+          "y": 98,
+          "z": 68.8,
+          "d": 3,
+          "depth": 0.3,
+          "axis": "z",
+          "purpose": "M12 aug\u0161\u0113j\u0101 uzgrie\u017e\u0146a atvere"
+        },
+        {
+          "x": 237,
+          "y": 112,
+          "z": 68.8,
+          "d": 3,
+          "depth": 0.3,
+          "axis": "z",
+          "purpose": "M12 aug\u0161\u0113j\u0101 uzgrie\u017e\u0146a atvere"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "T03",
+      "instance": "T03-1",
+      "origin": [
+        62,
+        18,
+        68.8
+      ],
+      "size": [
+        6,
+        40.5,
+        4
+      ],
+      "group": "frame",
+      "kind": "tube",
+      "axis": "y",
+      "wall": 0.3,
+      "holes": [
+        {
+          "x": 65,
+          "y": 38.25,
+          "z": 68.8,
+          "d": 0.6,
+          "depth": 0.3,
+          "axis": "z",
+          "purpose": "ventil\u0101cija"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "T03",
+      "instance": "T03-2",
+      "origin": [
+        62,
+        66.5,
+        68.8
+      ],
+      "size": [
+        6,
+        40.5,
+        4
+      ],
+      "group": "frame",
+      "kind": "tube",
+      "axis": "y",
+      "wall": 0.3,
+      "holes": [
+        {
+          "x": 65,
+          "y": 86.75,
+          "z": 68.8,
+          "d": 0.6,
+          "depth": 0.3,
+          "axis": "z",
+          "purpose": "ventil\u0101cija"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "T03",
+      "instance": "T03-3",
+      "origin": [
+        182,
+        18,
+        68.8
+      ],
+      "size": [
+        6,
+        40.5,
+        4
+      ],
+      "group": "frame",
+      "kind": "tube",
+      "axis": "y",
+      "wall": 0.3,
+      "holes": [
+        {
+          "x": 185,
+          "y": 38.25,
+          "z": 68.8,
+          "d": 0.6,
+          "depth": 0.3,
+          "axis": "z",
+          "purpose": "ventil\u0101cija"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "T03",
+      "instance": "T03-4",
+      "origin": [
+        182,
+        66.5,
+        68.8
+      ],
+      "size": [
+        6,
+        40.5,
+        4
+      ],
+      "group": "frame",
+      "kind": "tube",
+      "axis": "y",
+      "wall": 0.3,
+      "holes": [
+        {
+          "x": 185,
+          "y": 86.75,
+          "z": 68.8,
+          "d": 0.6,
+          "depth": 0.3,
+          "axis": "z",
+          "purpose": "ventil\u0101cija"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "P01",
+      "instance": "P01-F1",
+      "origin": [
+        10,
+        10,
+        68
+      ],
+      "size": [
+        20,
+        20,
+        0.8
+      ],
+      "group": "frame",
+      "kind": "plate",
+      "axis": null,
+      "wall": 0,
+      "holes": [
+        {
+          "x": 13,
+          "y": 13,
+          "z": 68,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "z",
+          "purpose": "skr\u016bves caurums"
+        },
+        {
+          "x": 13,
+          "y": 27,
+          "z": 68,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "z",
+          "purpose": "skr\u016bves caurums"
+        },
+        {
+          "x": 27,
+          "y": 13,
+          "z": 68,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "z",
+          "purpose": "skr\u016bves caurums"
+        },
+        {
+          "x": 27,
+          "y": 27,
+          "z": 68,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "z",
+          "purpose": "skr\u016bves caurums"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "P01",
+      "instance": "P01-L1",
+      "origin": [
+        10,
+        10,
+        67.2
+      ],
+      "size": [
+        20,
+        20,
+        0.8
+      ],
+      "group": "legs",
+      "kind": "plate",
+      "axis": null,
+      "wall": 0,
+      "holes": [
+        {
+          "x": 13,
+          "y": 13,
+          "z": 67.2,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "z",
+          "purpose": "skr\u016bves caurums"
+        },
+        {
+          "x": 13,
+          "y": 27,
+          "z": 67.2,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "z",
+          "purpose": "skr\u016bves caurums"
+        },
+        {
+          "x": 27,
+          "y": 13,
+          "z": 67.2,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "z",
+          "purpose": "skr\u016bves caurums"
+        },
+        {
+          "x": 27,
+          "y": 27,
+          "z": 67.2,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "z",
+          "purpose": "skr\u016bves caurums"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "L01",
+      "instance": "L01-1",
+      "origin": [
+        17,
+        17,
+        3.8
+      ],
+      "size": [
+        6,
+        6,
+        63.4
+      ],
+      "group": "legs",
+      "kind": "tube",
+      "axis": "z",
+      "wall": 0.3,
+      "holes": [
+        {
+          "x": 20,
+          "y": 22.7,
+          "z": 12.5,
+          "d": 3,
+          "depth": 0.3,
+          "axis": "y",
+          "purpose": "M12 plaukta uzgrie\u017e\u0146a atvere"
+        },
+        {
+          "x": 20,
+          "y": 22.7,
+          "z": 25.5,
+          "d": 3,
+          "depth": 0.3,
+          "axis": "y",
+          "purpose": "M12 plaukta uzgrie\u017e\u0146a atvere"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "P02",
+      "instance": "P02-1",
+      "origin": [
+        17,
+        17,
+        3
+      ],
+      "size": [
+        6,
+        6,
+        0.8
+      ],
+      "group": "legs",
+      "kind": "plate",
+      "axis": null,
+      "wall": 0,
+      "holes": [
+        {
+          "x": 20,
+          "y": 20,
+          "z": 3,
+          "d": 1.8,
+          "depth": 0.8,
+          "axis": "z",
+          "purpose": "skr\u016bves caurums"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "P05",
+      "instance": "P05-1-1",
+      "kind": "gusset",
+      "group": "legs",
+      "centre": [
+        20,
+        20
+      ],
+      "side": 0,
+      "top": 67.2,
+      "leg": 6,
+      "thickness": 0.6
+    },
+    {
+      "mark": "P05",
+      "instance": "P05-1-2",
+      "kind": "gusset",
+      "group": "legs",
+      "centre": [
+        20,
+        20
+      ],
+      "side": 1,
+      "top": 67.2,
+      "leg": 6,
+      "thickness": 0.6
+    },
+    {
+      "mark": "P05",
+      "instance": "P05-1-3",
+      "kind": "gusset",
+      "group": "legs",
+      "centre": [
+        20,
+        20
+      ],
+      "side": 2,
+      "top": 67.2,
+      "leg": 6,
+      "thickness": 0.6
+    },
+    {
+      "mark": "P05",
+      "instance": "P05-1-4",
+      "kind": "gusset",
+      "group": "legs",
+      "centre": [
+        20,
+        20
+      ],
+      "side": 3,
+      "top": 67.2,
+      "leg": 6,
+      "thickness": 0.6
+    },
+    {
+      "mark": "P03",
+      "instance": "P03-L1",
+      "origin": [
+        17,
+        23,
+        11
+      ],
+      "size": [
+        6,
+        0.8,
+        16
+      ],
+      "group": "legs",
+      "kind": "plate",
+      "axis": null,
+      "wall": 0,
+      "holes": [
+        {
+          "x": 20,
+          "y": 23,
+          "z": 12.5,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "y",
+          "purpose": "skr\u016bves caurums"
+        },
+        {
+          "x": 20,
+          "y": 23,
+          "z": 25.5,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "y",
+          "purpose": "skr\u016bves caurums"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "P03",
+      "instance": "P03-S1",
+      "origin": [
+        17,
+        23.8,
+        11
+      ],
+      "size": [
+        6,
+        0.8,
+        16
+      ],
+      "group": "shelf",
+      "kind": "plate",
+      "axis": null,
+      "wall": 0,
+      "holes": [
+        {
+          "x": 20,
+          "y": 23.8,
+          "z": 12.5,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "y",
+          "purpose": "skr\u016bves caurums"
+        },
+        {
+          "x": 20,
+          "y": 23.8,
+          "z": 25.5,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "y",
+          "purpose": "skr\u016bves caurums"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "P01",
+      "instance": "P01-F2",
+      "origin": [
+        220,
+        10,
+        68
+      ],
+      "size": [
+        20,
+        20,
+        0.8
+      ],
+      "group": "frame",
+      "kind": "plate",
+      "axis": null,
+      "wall": 0,
+      "holes": [
+        {
+          "x": 223,
+          "y": 13,
+          "z": 68,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "z",
+          "purpose": "skr\u016bves caurums"
+        },
+        {
+          "x": 223,
+          "y": 27,
+          "z": 68,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "z",
+          "purpose": "skr\u016bves caurums"
+        },
+        {
+          "x": 237,
+          "y": 13,
+          "z": 68,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "z",
+          "purpose": "skr\u016bves caurums"
+        },
+        {
+          "x": 237,
+          "y": 27,
+          "z": 68,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "z",
+          "purpose": "skr\u016bves caurums"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "P01",
+      "instance": "P01-L2",
+      "origin": [
+        220,
+        10,
+        67.2
+      ],
+      "size": [
+        20,
+        20,
+        0.8
+      ],
+      "group": "legs",
+      "kind": "plate",
+      "axis": null,
+      "wall": 0,
+      "holes": [
+        {
+          "x": 223,
+          "y": 13,
+          "z": 67.2,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "z",
+          "purpose": "skr\u016bves caurums"
+        },
+        {
+          "x": 223,
+          "y": 27,
+          "z": 67.2,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "z",
+          "purpose": "skr\u016bves caurums"
+        },
+        {
+          "x": 237,
+          "y": 13,
+          "z": 67.2,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "z",
+          "purpose": "skr\u016bves caurums"
+        },
+        {
+          "x": 237,
+          "y": 27,
+          "z": 67.2,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "z",
+          "purpose": "skr\u016bves caurums"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "L01",
+      "instance": "L01-2",
+      "origin": [
+        227,
+        17,
+        3.8
+      ],
+      "size": [
+        6,
+        6,
+        63.4
+      ],
+      "group": "legs",
+      "kind": "tube",
+      "axis": "z",
+      "wall": 0.3,
+      "holes": [
+        {
+          "x": 230,
+          "y": 22.7,
+          "z": 12.5,
+          "d": 3,
+          "depth": 0.3,
+          "axis": "y",
+          "purpose": "M12 plaukta uzgrie\u017e\u0146a atvere"
+        },
+        {
+          "x": 230,
+          "y": 22.7,
+          "z": 25.5,
+          "d": 3,
+          "depth": 0.3,
+          "axis": "y",
+          "purpose": "M12 plaukta uzgrie\u017e\u0146a atvere"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "P02",
+      "instance": "P02-2",
+      "origin": [
+        227,
+        17,
+        3
+      ],
+      "size": [
+        6,
+        6,
+        0.8
+      ],
+      "group": "legs",
+      "kind": "plate",
+      "axis": null,
+      "wall": 0,
+      "holes": [
+        {
+          "x": 230,
+          "y": 20,
+          "z": 3,
+          "d": 1.8,
+          "depth": 0.8,
+          "axis": "z",
+          "purpose": "skr\u016bves caurums"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "P05",
+      "instance": "P05-2-1",
+      "kind": "gusset",
+      "group": "legs",
+      "centre": [
+        230,
+        20
+      ],
+      "side": 0,
+      "top": 67.2,
+      "leg": 6,
+      "thickness": 0.6
+    },
+    {
+      "mark": "P05",
+      "instance": "P05-2-2",
+      "kind": "gusset",
+      "group": "legs",
+      "centre": [
+        230,
+        20
+      ],
+      "side": 1,
+      "top": 67.2,
+      "leg": 6,
+      "thickness": 0.6
+    },
+    {
+      "mark": "P05",
+      "instance": "P05-2-3",
+      "kind": "gusset",
+      "group": "legs",
+      "centre": [
+        230,
+        20
+      ],
+      "side": 2,
+      "top": 67.2,
+      "leg": 6,
+      "thickness": 0.6
+    },
+    {
+      "mark": "P05",
+      "instance": "P05-2-4",
+      "kind": "gusset",
+      "group": "legs",
+      "centre": [
+        230,
+        20
+      ],
+      "side": 3,
+      "top": 67.2,
+      "leg": 6,
+      "thickness": 0.6
+    },
+    {
+      "mark": "P03",
+      "instance": "P03-L2",
+      "origin": [
+        227,
+        23,
+        11
+      ],
+      "size": [
+        6,
+        0.8,
+        16
+      ],
+      "group": "legs",
+      "kind": "plate",
+      "axis": null,
+      "wall": 0,
+      "holes": [
+        {
+          "x": 230,
+          "y": 23,
+          "z": 12.5,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "y",
+          "purpose": "skr\u016bves caurums"
+        },
+        {
+          "x": 230,
+          "y": 23,
+          "z": 25.5,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "y",
+          "purpose": "skr\u016bves caurums"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "P03",
+      "instance": "P03-S2",
+      "origin": [
+        227,
+        23.8,
+        11
+      ],
+      "size": [
+        6,
+        0.8,
+        16
+      ],
+      "group": "shelf",
+      "kind": "plate",
+      "axis": null,
+      "wall": 0,
+      "holes": [
+        {
+          "x": 230,
+          "y": 23.8,
+          "z": 12.5,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "y",
+          "purpose": "skr\u016bves caurums"
+        },
+        {
+          "x": 230,
+          "y": 23.8,
+          "z": 25.5,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "y",
+          "purpose": "skr\u016bves caurums"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "P01",
+      "instance": "P01-F3",
+      "origin": [
+        10,
+        95,
+        68
+      ],
+      "size": [
+        20,
+        20,
+        0.8
+      ],
+      "group": "frame",
+      "kind": "plate",
+      "axis": null,
+      "wall": 0,
+      "holes": [
+        {
+          "x": 13,
+          "y": 98,
+          "z": 68,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "z",
+          "purpose": "skr\u016bves caurums"
+        },
+        {
+          "x": 13,
+          "y": 112,
+          "z": 68,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "z",
+          "purpose": "skr\u016bves caurums"
+        },
+        {
+          "x": 27,
+          "y": 98,
+          "z": 68,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "z",
+          "purpose": "skr\u016bves caurums"
+        },
+        {
+          "x": 27,
+          "y": 112,
+          "z": 68,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "z",
+          "purpose": "skr\u016bves caurums"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "P01",
+      "instance": "P01-L3",
+      "origin": [
+        10,
+        95,
+        67.2
+      ],
+      "size": [
+        20,
+        20,
+        0.8
+      ],
+      "group": "legs",
+      "kind": "plate",
+      "axis": null,
+      "wall": 0,
+      "holes": [
+        {
+          "x": 13,
+          "y": 98,
+          "z": 67.2,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "z",
+          "purpose": "skr\u016bves caurums"
+        },
+        {
+          "x": 13,
+          "y": 112,
+          "z": 67.2,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "z",
+          "purpose": "skr\u016bves caurums"
+        },
+        {
+          "x": 27,
+          "y": 98,
+          "z": 67.2,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "z",
+          "purpose": "skr\u016bves caurums"
+        },
+        {
+          "x": 27,
+          "y": 112,
+          "z": 67.2,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "z",
+          "purpose": "skr\u016bves caurums"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "L01",
+      "instance": "L01-3",
+      "origin": [
+        17,
+        102,
+        3.8
+      ],
+      "size": [
+        6,
+        6,
+        63.4
+      ],
+      "group": "legs",
+      "kind": "tube",
+      "axis": "z",
+      "wall": 0.3,
+      "holes": [
+        {
+          "x": 20,
+          "y": 102,
+          "z": 12.5,
+          "d": 3,
+          "depth": 0.3,
+          "axis": "y",
+          "purpose": "M12 plaukta uzgrie\u017e\u0146a atvere"
+        },
+        {
+          "x": 20,
+          "y": 102,
+          "z": 25.5,
+          "d": 3,
+          "depth": 0.3,
+          "axis": "y",
+          "purpose": "M12 plaukta uzgrie\u017e\u0146a atvere"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "P02",
+      "instance": "P02-3",
+      "origin": [
+        17,
+        102,
+        3
+      ],
+      "size": [
+        6,
+        6,
+        0.8
+      ],
+      "group": "legs",
+      "kind": "plate",
+      "axis": null,
+      "wall": 0,
+      "holes": [
+        {
+          "x": 20,
+          "y": 105,
+          "z": 3,
+          "d": 1.8,
+          "depth": 0.8,
+          "axis": "z",
+          "purpose": "skr\u016bves caurums"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "P05",
+      "instance": "P05-3-1",
+      "kind": "gusset",
+      "group": "legs",
+      "centre": [
+        20,
+        105
+      ],
+      "side": 0,
+      "top": 67.2,
+      "leg": 6,
+      "thickness": 0.6
+    },
+    {
+      "mark": "P05",
+      "instance": "P05-3-2",
+      "kind": "gusset",
+      "group": "legs",
+      "centre": [
+        20,
+        105
+      ],
+      "side": 1,
+      "top": 67.2,
+      "leg": 6,
+      "thickness": 0.6
+    },
+    {
+      "mark": "P05",
+      "instance": "P05-3-3",
+      "kind": "gusset",
+      "group": "legs",
+      "centre": [
+        20,
+        105
+      ],
+      "side": 2,
+      "top": 67.2,
+      "leg": 6,
+      "thickness": 0.6
+    },
+    {
+      "mark": "P05",
+      "instance": "P05-3-4",
+      "kind": "gusset",
+      "group": "legs",
+      "centre": [
+        20,
+        105
+      ],
+      "side": 3,
+      "top": 67.2,
+      "leg": 6,
+      "thickness": 0.6
+    },
+    {
+      "mark": "P03",
+      "instance": "P03-L3",
+      "origin": [
+        17,
+        101.2,
+        11
+      ],
+      "size": [
+        6,
+        0.8,
+        16
+      ],
+      "group": "legs",
+      "kind": "plate",
+      "axis": null,
+      "wall": 0,
+      "holes": [
+        {
+          "x": 20,
+          "y": 101.2,
+          "z": 12.5,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "y",
+          "purpose": "skr\u016bves caurums"
+        },
+        {
+          "x": 20,
+          "y": 101.2,
+          "z": 25.5,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "y",
+          "purpose": "skr\u016bves caurums"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "P03",
+      "instance": "P03-S3",
+      "origin": [
+        17,
+        100.4,
+        11
+      ],
+      "size": [
+        6,
+        0.8,
+        16
+      ],
+      "group": "shelf",
+      "kind": "plate",
+      "axis": null,
+      "wall": 0,
+      "holes": [
+        {
+          "x": 20,
+          "y": 100.4,
+          "z": 12.5,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "y",
+          "purpose": "skr\u016bves caurums"
+        },
+        {
+          "x": 20,
+          "y": 100.4,
+          "z": 25.5,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "y",
+          "purpose": "skr\u016bves caurums"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "P01",
+      "instance": "P01-F4",
+      "origin": [
+        220,
+        95,
+        68
+      ],
+      "size": [
+        20,
+        20,
+        0.8
+      ],
+      "group": "frame",
+      "kind": "plate",
+      "axis": null,
+      "wall": 0,
+      "holes": [
+        {
+          "x": 223,
+          "y": 98,
+          "z": 68,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "z",
+          "purpose": "skr\u016bves caurums"
+        },
+        {
+          "x": 223,
+          "y": 112,
+          "z": 68,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "z",
+          "purpose": "skr\u016bves caurums"
+        },
+        {
+          "x": 237,
+          "y": 98,
+          "z": 68,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "z",
+          "purpose": "skr\u016bves caurums"
+        },
+        {
+          "x": 237,
+          "y": 112,
+          "z": 68,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "z",
+          "purpose": "skr\u016bves caurums"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "P01",
+      "instance": "P01-L4",
+      "origin": [
+        220,
+        95,
+        67.2
+      ],
+      "size": [
+        20,
+        20,
+        0.8
+      ],
+      "group": "legs",
+      "kind": "plate",
+      "axis": null,
+      "wall": 0,
+      "holes": [
+        {
+          "x": 223,
+          "y": 98,
+          "z": 67.2,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "z",
+          "purpose": "skr\u016bves caurums"
+        },
+        {
+          "x": 223,
+          "y": 112,
+          "z": 67.2,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "z",
+          "purpose": "skr\u016bves caurums"
+        },
+        {
+          "x": 237,
+          "y": 98,
+          "z": 67.2,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "z",
+          "purpose": "skr\u016bves caurums"
+        },
+        {
+          "x": 237,
+          "y": 112,
+          "z": 67.2,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "z",
+          "purpose": "skr\u016bves caurums"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "L01",
+      "instance": "L01-4",
+      "origin": [
+        227,
+        102,
+        3.8
+      ],
+      "size": [
+        6,
+        6,
+        63.4
+      ],
+      "group": "legs",
+      "kind": "tube",
+      "axis": "z",
+      "wall": 0.3,
+      "holes": [
+        {
+          "x": 230,
+          "y": 102,
+          "z": 12.5,
+          "d": 3,
+          "depth": 0.3,
+          "axis": "y",
+          "purpose": "M12 plaukta uzgrie\u017e\u0146a atvere"
+        },
+        {
+          "x": 230,
+          "y": 102,
+          "z": 25.5,
+          "d": 3,
+          "depth": 0.3,
+          "axis": "y",
+          "purpose": "M12 plaukta uzgrie\u017e\u0146a atvere"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "P02",
+      "instance": "P02-4",
+      "origin": [
+        227,
+        102,
+        3
+      ],
+      "size": [
+        6,
+        6,
+        0.8
+      ],
+      "group": "legs",
+      "kind": "plate",
+      "axis": null,
+      "wall": 0,
+      "holes": [
+        {
+          "x": 230,
+          "y": 105,
+          "z": 3,
+          "d": 1.8,
+          "depth": 0.8,
+          "axis": "z",
+          "purpose": "skr\u016bves caurums"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "P05",
+      "instance": "P05-4-1",
+      "kind": "gusset",
+      "group": "legs",
+      "centre": [
+        230,
+        105
+      ],
+      "side": 0,
+      "top": 67.2,
+      "leg": 6,
+      "thickness": 0.6
+    },
+    {
+      "mark": "P05",
+      "instance": "P05-4-2",
+      "kind": "gusset",
+      "group": "legs",
+      "centre": [
+        230,
+        105
+      ],
+      "side": 1,
+      "top": 67.2,
+      "leg": 6,
+      "thickness": 0.6
+    },
+    {
+      "mark": "P05",
+      "instance": "P05-4-3",
+      "kind": "gusset",
+      "group": "legs",
+      "centre": [
+        230,
+        105
+      ],
+      "side": 2,
+      "top": 67.2,
+      "leg": 6,
+      "thickness": 0.6
+    },
+    {
+      "mark": "P05",
+      "instance": "P05-4-4",
+      "kind": "gusset",
+      "group": "legs",
+      "centre": [
+        230,
+        105
+      ],
+      "side": 3,
+      "top": 67.2,
+      "leg": 6,
+      "thickness": 0.6
+    },
+    {
+      "mark": "P03",
+      "instance": "P03-L4",
+      "origin": [
+        227,
+        101.2,
+        11
+      ],
+      "size": [
+        6,
+        0.8,
+        16
+      ],
+      "group": "legs",
+      "kind": "plate",
+      "axis": null,
+      "wall": 0,
+      "holes": [
+        {
+          "x": 230,
+          "y": 101.2,
+          "z": 12.5,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "y",
+          "purpose": "skr\u016bves caurums"
+        },
+        {
+          "x": 230,
+          "y": 101.2,
+          "z": 25.5,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "y",
+          "purpose": "skr\u016bves caurums"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "P03",
+      "instance": "P03-S4",
+      "origin": [
+        227,
+        100.4,
+        11
+      ],
+      "size": [
+        6,
+        0.8,
+        16
+      ],
+      "group": "shelf",
+      "kind": "plate",
+      "axis": null,
+      "wall": 0,
+      "holes": [
+        {
+          "x": 230,
+          "y": 100.4,
+          "z": 12.5,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "y",
+          "purpose": "skr\u016bves caurums"
+        },
+        {
+          "x": 230,
+          "y": 100.4,
+          "z": 25.5,
+          "d": 1.3,
+          "depth": 0.8,
+          "axis": "y",
+          "purpose": "skr\u016bves caurums"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "S01",
+      "instance": "S01-1",
+      "origin": [
+        22,
+        45,
+        15
+      ],
+      "size": [
+        206,
+        4,
+        8
+      ],
+      "group": "shelf",
+      "kind": "tube",
+      "axis": "x",
+      "wall": 0.3,
+      "holes": [
+        {
+          "x": 125,
+          "y": 47,
+          "z": 15,
+          "d": 0.6,
+          "depth": 0.3,
+          "axis": "z",
+          "purpose": "ventil\u0101cija"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "S01",
+      "instance": "S01-2",
+      "origin": [
+        22,
+        76,
+        15
+      ],
+      "size": [
+        206,
+        4,
+        8
+      ],
+      "group": "shelf",
+      "kind": "tube",
+      "axis": "x",
+      "wall": 0.3,
+      "holes": [
+        {
+          "x": 125,
+          "y": 78,
+          "z": 15,
+          "d": 0.6,
+          "depth": 0.3,
+          "axis": "z",
+          "purpose": "ventil\u0101cija"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "S02",
+      "instance": "S02-1",
+      "origin": [
+        18,
+        24.6,
+        15
+      ],
+      "size": [
+        4,
+        75.8,
+        8
+      ],
+      "group": "shelf",
+      "kind": "tube",
+      "axis": "y",
+      "wall": 0.3,
+      "holes": [
+        {
+          "x": 20,
+          "y": 62.5,
+          "z": 15,
+          "d": 0.6,
+          "depth": 0.3,
+          "axis": "z",
+          "purpose": "ventil\u0101cija"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "S02",
+      "instance": "S02-2",
+      "origin": [
+        228,
+        24.6,
+        15
+      ],
+      "size": [
+        4,
+        75.8,
+        8
+      ],
+      "group": "shelf",
+      "kind": "tube",
+      "axis": "y",
+      "wall": 0.3,
+      "holes": [
+        {
+          "x": 230,
+          "y": 62.5,
+          "z": 15,
+          "d": 0.6,
+          "depth": 0.3,
+          "axis": "z",
+          "purpose": "ventil\u0101cija"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "S03",
+      "instance": "S03-1",
+      "origin": [
+        50,
+        49,
+        19
+      ],
+      "size": [
+        6,
+        27,
+        4
+      ],
+      "group": "shelf",
+      "kind": "tube",
+      "axis": "y",
+      "wall": 0.3,
+      "holes": [
+        {
+          "x": 53,
+          "y": 62.5,
+          "z": 19,
+          "d": 0.6,
+          "depth": 0.3,
+          "axis": "z",
+          "purpose": "ventil\u0101cija"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "S03",
+      "instance": "S03-2",
+      "origin": [
+        68,
+        49,
+        19
+      ],
+      "size": [
+        6,
+        27,
+        4
+      ],
+      "group": "shelf",
+      "kind": "tube",
+      "axis": "y",
+      "wall": 0.3,
+      "holes": [
+        {
+          "x": 71,
+          "y": 62.5,
+          "z": 19,
+          "d": 0.6,
+          "depth": 0.3,
+          "axis": "z",
+          "purpose": "ventil\u0101cija"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "S03",
+      "instance": "S03-3",
+      "origin": [
+        86,
+        49,
+        19
+      ],
+      "size": [
+        6,
+        27,
+        4
+      ],
+      "group": "shelf",
+      "kind": "tube",
+      "axis": "y",
+      "wall": 0.3,
+      "holes": [
+        {
+          "x": 89,
+          "y": 62.5,
+          "z": 19,
+          "d": 0.6,
+          "depth": 0.3,
+          "axis": "z",
+          "purpose": "ventil\u0101cija"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "S03",
+      "instance": "S03-4",
+      "origin": [
+        104,
+        49,
+        19
+      ],
+      "size": [
+        6,
+        27,
+        4
+      ],
+      "group": "shelf",
+      "kind": "tube",
+      "axis": "y",
+      "wall": 0.3,
+      "holes": [
+        {
+          "x": 107,
+          "y": 62.5,
+          "z": 19,
+          "d": 0.6,
+          "depth": 0.3,
+          "axis": "z",
+          "purpose": "ventil\u0101cija"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "S03",
+      "instance": "S03-5",
+      "origin": [
+        122,
+        49,
+        19
+      ],
+      "size": [
+        6,
+        27,
+        4
+      ],
+      "group": "shelf",
+      "kind": "tube",
+      "axis": "y",
+      "wall": 0.3,
+      "holes": [
+        {
+          "x": 125,
+          "y": 62.5,
+          "z": 19,
+          "d": 0.6,
+          "depth": 0.3,
+          "axis": "z",
+          "purpose": "ventil\u0101cija"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "S03",
+      "instance": "S03-6",
+      "origin": [
+        140,
+        49,
+        19
+      ],
+      "size": [
+        6,
+        27,
+        4
+      ],
+      "group": "shelf",
+      "kind": "tube",
+      "axis": "y",
+      "wall": 0.3,
+      "holes": [
+        {
+          "x": 143,
+          "y": 62.5,
+          "z": 19,
+          "d": 0.6,
+          "depth": 0.3,
+          "axis": "z",
+          "purpose": "ventil\u0101cija"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "S03",
+      "instance": "S03-7",
+      "origin": [
+        158,
+        49,
+        19
+      ],
+      "size": [
+        6,
+        27,
+        4
+      ],
+      "group": "shelf",
+      "kind": "tube",
+      "axis": "y",
+      "wall": 0.3,
+      "holes": [
+        {
+          "x": 161,
+          "y": 62.5,
+          "z": 19,
+          "d": 0.6,
+          "depth": 0.3,
+          "axis": "z",
+          "purpose": "ventil\u0101cija"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "S03",
+      "instance": "S03-8",
+      "origin": [
+        176,
+        49,
+        19
+      ],
+      "size": [
+        6,
+        27,
+        4
+      ],
+      "group": "shelf",
+      "kind": "tube",
+      "axis": "y",
+      "wall": 0.3,
+      "holes": [
+        {
+          "x": 179,
+          "y": 62.5,
+          "z": 19,
+          "d": 0.6,
+          "depth": 0.3,
+          "axis": "z",
+          "purpose": "ventil\u0101cija"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "S03",
+      "instance": "S03-9",
+      "origin": [
+        194,
+        49,
+        19
+      ],
+      "size": [
+        6,
+        27,
+        4
+      ],
+      "group": "shelf",
+      "kind": "tube",
+      "axis": "y",
+      "wall": 0.3,
+      "holes": [
+        {
+          "x": 197,
+          "y": 62.5,
+          "z": 19,
+          "d": 0.6,
+          "depth": 0.3,
+          "axis": "z",
+          "purpose": "ventil\u0101cija"
+        }
+      ],
+      "slots": []
+    },
+    {
+      "mark": "P04",
+      "instance": "P04-W01-1",
+      "origin": [
+        38,
+        18,
+        72.4
+      ],
+      "size": [
+        4,
+        4,
+        0.4
+      ],
+      "group": "frame",
+      "kind": "plate",
+      "axis": null,
+      "wall": 0,
+      "holes": [],
+      "slots": [
+        {
+          "x": 40,
+          "y": 20,
+          "z": 72.4,
+          "width": 0.8,
+          "length": 1.6,
+          "depth": 0.4,
+          "wood": "W01"
+        }
+      ]
+    },
+    {
+      "mark": "P04",
+      "instance": "P04-W01-2",
+      "origin": [
+        72,
+        18,
+        72.4
+      ],
+      "size": [
+        4,
+        4,
+        0.4
+      ],
+      "group": "frame",
+      "kind": "plate",
+      "axis": null,
+      "wall": 0,
+      "holes": [],
+      "slots": [
+        {
+          "x": 74,
+          "y": 20,
+          "z": 72.4,
+          "width": 0.8,
+          "length": 1.6,
+          "depth": 0.4,
+          "wood": "W01"
+        }
+      ]
+    },
+    {
+      "mark": "P04",
+      "instance": "P04-W01-3",
+      "origin": [
+        106,
+        18,
+        72.4
+      ],
+      "size": [
+        4,
+        4,
+        0.4
+      ],
+      "group": "frame",
+      "kind": "plate",
+      "axis": null,
+      "wall": 0,
+      "holes": [],
+      "slots": [
+        {
+          "x": 108,
+          "y": 20,
+          "z": 72.4,
+          "width": 0.8,
+          "length": 1.6,
+          "depth": 0.4,
+          "wood": "W01"
+        }
+      ]
+    },
+    {
+      "mark": "P04",
+      "instance": "P04-W01-4",
+      "origin": [
+        140,
+        18,
+        72.4
+      ],
+      "size": [
+        4,
+        4,
+        0.4
+      ],
+      "group": "frame",
+      "kind": "plate",
+      "axis": null,
+      "wall": 0,
+      "holes": [],
+      "slots": [
+        {
+          "x": 142,
+          "y": 20,
+          "z": 72.4,
+          "width": 0.8,
+          "length": 1.6,
+          "depth": 0.4,
+          "wood": "W01"
+        }
+      ]
+    },
+    {
+      "mark": "P04",
+      "instance": "P04-W01-5",
+      "origin": [
+        174,
+        18,
+        72.4
+      ],
+      "size": [
+        4,
+        4,
+        0.4
+      ],
+      "group": "frame",
+      "kind": "plate",
+      "axis": null,
+      "wall": 0,
+      "holes": [],
+      "slots": [
+        {
+          "x": 176,
+          "y": 20,
+          "z": 72.4,
+          "width": 0.8,
+          "length": 1.6,
+          "depth": 0.4,
+          "wood": "W01"
+        }
+      ]
+    },
+    {
+      "mark": "P04",
+      "instance": "P04-W01-6",
+      "origin": [
+        208,
+        18,
+        72.4
+      ],
+      "size": [
+        4,
+        4,
+        0.4
+      ],
+      "group": "frame",
+      "kind": "plate",
+      "axis": null,
+      "wall": 0,
+      "holes": [],
+      "slots": [
+        {
+          "x": 210,
+          "y": 20,
+          "z": 72.4,
+          "width": 0.8,
+          "length": 1.6,
+          "depth": 0.4,
+          "wood": "W01"
+        }
+      ]
+    },
+    {
+      "mark": "P04",
+      "instance": "P04-W01-7",
+      "origin": [
+        38,
+        103,
+        72.4
+      ],
+      "size": [
+        4,
+        4,
+        0.4
+      ],
+      "group": "frame",
+      "kind": "plate",
+      "axis": null,
+      "wall": 0,
+      "holes": [],
+      "slots": [
+        {
+          "x": 40,
+          "y": 105,
+          "z": 72.4,
+          "width": 0.8,
+          "length": 1.6,
+          "depth": 0.4,
+          "wood": "W01"
+        }
+      ]
+    },
+    {
+      "mark": "P04",
+      "instance": "P04-W01-8",
+      "origin": [
+        72,
+        103,
+        72.4
+      ],
+      "size": [
+        4,
+        4,
+        0.4
+      ],
+      "group": "frame",
+      "kind": "plate",
+      "axis": null,
+      "wall": 0,
+      "holes": [],
+      "slots": [
+        {
+          "x": 74,
+          "y": 105,
+          "z": 72.4,
+          "width": 0.8,
+          "length": 1.6,
+          "depth": 0.4,
+          "wood": "W01"
+        }
+      ]
+    },
+    {
+      "mark": "P04",
+      "instance": "P04-W01-9",
+      "origin": [
+        106,
+        103,
+        72.4
+      ],
+      "size": [
+        4,
+        4,
+        0.4
+      ],
+      "group": "frame",
+      "kind": "plate",
+      "axis": null,
+      "wall": 0,
+      "holes": [],
+      "slots": [
+        {
+          "x": 108,
+          "y": 105,
+          "z": 72.4,
+          "width": 0.8,
+          "length": 1.6,
+          "depth": 0.4,
+          "wood": "W01"
+        }
+      ]
+    },
+    {
+      "mark": "P04",
+      "instance": "P04-W01-10",
+      "origin": [
+        140,
+        103,
+        72.4
+      ],
+      "size": [
+        4,
+        4,
+        0.4
+      ],
+      "group": "frame",
+      "kind": "plate",
+      "axis": null,
+      "wall": 0,
+      "holes": [],
+      "slots": [
+        {
+          "x": 142,
+          "y": 105,
+          "z": 72.4,
+          "width": 0.8,
+          "length": 1.6,
+          "depth": 0.4,
+          "wood": "W01"
+        }
+      ]
+    },
+    {
+      "mark": "P04",
+      "instance": "P04-W01-11",
+      "origin": [
+        174,
+        103,
+        72.4
+      ],
+      "size": [
+        4,
+        4,
+        0.4
+      ],
+      "group": "frame",
+      "kind": "plate",
+      "axis": null,
+      "wall": 0,
+      "holes": [],
+      "slots": [
+        {
+          "x": 176,
+          "y": 105,
+          "z": 72.4,
+          "width": 0.8,
+          "length": 1.6,
+          "depth": 0.4,
+          "wood": "W01"
+        }
+      ]
+    },
+    {
+      "mark": "P04",
+      "instance": "P04-W01-12",
+      "origin": [
+        208,
+        103,
+        72.4
+      ],
+      "size": [
+        4,
+        4,
+        0.4
+      ],
+      "group": "frame",
+      "kind": "plate",
+      "axis": null,
+      "wall": 0,
+      "holes": [],
+      "slots": [
+        {
+          "x": 210,
+          "y": 105,
+          "z": 72.4,
+          "width": 0.8,
+          "length": 1.6,
+          "depth": 0.4,
+          "wood": "W01"
+        }
+      ]
+    },
+    {
+      "mark": "P04",
+      "instance": "P04-W05-1",
+      "origin": [
+        60,
+        49,
+        22.6
+      ],
+      "size": [
+        4,
+        4,
+        0.4
+      ],
+      "group": "shelf",
+      "kind": "plate",
+      "axis": null,
+      "wall": 0,
+      "holes": [],
+      "slots": [
+        {
+          "x": 62,
+          "y": 51,
+          "z": 22.6,
+          "width": 0.8,
+          "length": 1.6,
+          "depth": 0.4,
+          "wood": "W05"
+        }
+      ]
+    },
+    {
+      "mark": "P04",
+      "instance": "P04-W05-2",
+      "origin": [
+        114,
+        49,
+        22.6
+      ],
+      "size": [
+        4,
+        4,
+        0.4
+      ],
+      "group": "shelf",
+      "kind": "plate",
+      "axis": null,
+      "wall": 0,
+      "holes": [],
+      "slots": [
+        {
+          "x": 116,
+          "y": 51,
+          "z": 22.6,
+          "width": 0.8,
+          "length": 1.6,
+          "depth": 0.4,
+          "wood": "W05"
+        }
+      ]
+    },
+    {
+      "mark": "P04",
+      "instance": "P04-W05-3",
+      "origin": [
+        186,
+        49,
+        22.6
+      ],
+      "size": [
+        4,
+        4,
+        0.4
+      ],
+      "group": "shelf",
+      "kind": "plate",
+      "axis": null,
+      "wall": 0,
+      "holes": [],
+      "slots": [
+        {
+          "x": 188,
+          "y": 51,
+          "z": 22.6,
+          "width": 0.8,
+          "length": 1.6,
+          "depth": 0.4,
+          "wood": "W05"
+        }
+      ]
+    },
+    {
+      "mark": "P04",
+      "instance": "P04-W05-4",
+      "origin": [
+        60,
+        72,
+        22.6
+      ],
+      "size": [
+        4,
+        4,
+        0.4
+      ],
+      "group": "shelf",
+      "kind": "plate",
+      "axis": null,
+      "wall": 0,
+      "holes": [],
+      "slots": [
+        {
+          "x": 62,
+          "y": 74,
+          "z": 22.6,
+          "width": 0.8,
+          "length": 1.6,
+          "depth": 0.4,
+          "wood": "W05"
+        }
+      ]
+    },
+    {
+      "mark": "P04",
+      "instance": "P04-W05-5",
+      "origin": [
+        114,
+        72,
+        22.6
+      ],
+      "size": [
+        4,
+        4,
+        0.4
+      ],
+      "group": "shelf",
+      "kind": "plate",
+      "axis": null,
+      "wall": 0,
+      "holes": [],
+      "slots": [
+        {
+          "x": 116,
+          "y": 74,
+          "z": 22.6,
+          "width": 0.8,
+          "length": 1.6,
+          "depth": 0.4,
+          "wood": "W05"
+        }
+      ]
+    },
+    {
+      "mark": "P04",
+      "instance": "P04-W05-6",
+      "origin": [
+        186,
+        72,
+        22.6
+      ],
+      "size": [
+        4,
+        4,
+        0.4
+      ],
+      "group": "shelf",
+      "kind": "plate",
+      "axis": null,
+      "wall": 0,
+      "holes": [],
+      "slots": [
+        {
+          "x": 188,
+          "y": 74,
+          "z": 22.6,
+          "width": 0.8,
+          "length": 1.6,
+          "depth": 0.4,
+          "wood": "W05"
+        }
+      ]
+    }
+  ]
+}
