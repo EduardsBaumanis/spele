@@ -5,7 +5,7 @@
 <text x="14" y="34" font-family="DejaVu Sans" font-size="2.7" fill="#77858e" text-anchor="start">Plāns 1:10; skats caur virsmu no augšas, nevis spoguļots apakšskats · P04 mērogā 2:1</text>
 <line x1="14" y1="39" x2="406" y2="39" stroke="#243441" stroke-width="0.45"/>
 <line x1="14" y1="278" x2="406" y2="278" stroke="#243441" stroke-width="0.4"/>
-<text x="14" y="284" font-family="DejaVu Sans" font-size="2.6" fill="#243441" text-anchor="start" font-weight="bold">PT-250  /  S06  /  RED. C  /  2026-09-28</text>
+<text x="14" y="284" font-family="DejaVu Sans" font-size="2.6" fill="#243441" text-anchor="start" font-weight="bold">PT-250  /  S06  /  RED. D  /  2026-09-28</text>
 <text x="14" y="290" font-family="DejaVu Sans" font-size="2.5" fill="#77858e" text-anchor="start">Visi izmēri cm · Nomināla ģeometrija pirms krāsošanas · Izmantot norādītos izmērus</text>
 <text x="406" y="284" font-family="DejaVu Sans" font-size="2.6" fill="#243441" text-anchor="end">A3 · 42 × 29,7 cm</text>
 <line x1="356" y1="287" x2="406" y2="287" stroke="#243441" stroke-width="0.5"/>
@@ -73,25 +73,27 @@
 <text x="302" y="62.5" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">12 M6 ieliktņi, garums 1,8.</text>
 <text x="302" y="68" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">Urbuma dziļums līdz 2.</text>
 <text x="302" y="73.5" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">M6 skrūves garums 2.</text>
-<text x="302" y="79" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">Saķere nomināli 1,24.</text>
-<text x="302" y="84.5" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start"></text>
-<text x="302" y="90" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">EPDM 0,2 tikai zem virsmas.</text>
-<text x="302" y="95.5" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">Urbuma Ø pēc ieliktņa ražotāja.</text>
-<text x="302" y="101" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start"></text>
-<text x="302" y="106.5" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">PLAUKTS</text>
-<text x="302" y="112" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">Maisi balstās uz metāla.</text>
-<text x="302" y="117.5" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">Nav saplākšņa vai stiprinājumu.</text>
-<text x="302" y="123" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">Plaukta režģis: skatīt S05.</text>
+<text x="302" y="79" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start"></text>
+<text x="302" y="84.5" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">PLAUKTA KLĀJS W05</text>
+<text x="302" y="90" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">154 × 39 × 3; stūri R1.</text>
+<text x="302" y="95.5" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">6 M6 ieliktņi, garums 1,8.</text>
+<text x="302" y="101" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">Urbuma dziļums līdz 2.</text>
+<text x="302" y="106.5" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">M6 skrūves garums 2.</text>
+<text x="302" y="112" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start"></text>
+<text x="302" y="117.5" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">Abiem klājiem: EPDM 0,2.</text>
+<text x="302" y="123" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">Saķere nomināli 1,24.</text>
+<text x="302" y="128.5" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">Urbuma Ø pēc ieliktņa ražotāja.</text>
 <rect x="32" y="194" width="80" height="80" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.35" rx="0"/>
 <rect x="56" y="226" width="32" height="16" fill="white" stroke="#243441" stroke-width="0.3" rx="8"/>
 <text x="72" y="213" font-family="DejaVu Sans" font-size="2.8" fill="#243441" text-anchor="middle">P04 · 4 × 4 × 0,4</text>
 <text x="72" y="260" font-family="DejaVu Sans" font-size="2.8" fill="#243441" text-anchor="middle">Ovāls 0,8 × 1,6</text>
-<text x="128" y="201" font-family="DejaVu Sans" font-size="2.75" fill="#243441" text-anchor="start">12 vienādas P04, visas tikai augšējā rāmī.</text>
+<text x="128" y="201" font-family="DejaVu Sans" font-size="2.75" fill="#243441" text-anchor="start">18 vienādas P04: 12 virsmai un 6 plaukta klājam.</text>
 <text x="128" y="208" font-family="DejaVu Sans" font-size="2.75" fill="#243441" text-anchor="start">Spraugas garenass X; centrs plāksnītes vidū.</text>
-<text x="128" y="215" font-family="DejaVu Sans" font-size="2.75" fill="#243441" text-anchor="start">P04 augša vienā plaknē ar augšējā rāmja augšu.</text>
+<text x="128" y="215" font-family="DejaVu Sans" font-size="2.75" fill="#243441" text-anchor="start">P04 augša vienā plaknē ar attiecīgo tērauda balsta virsmu.</text>
 <text x="128" y="222" font-family="DejaVu Sans" font-size="2.75" fill="#243441" text-anchor="start"></text>
-<text x="128" y="229" font-family="DejaVu Sans" font-size="2.75" fill="#243441" text-anchor="start">X=40; 74; 108; 142; 176; 210 un Y=20; 105.</text>
-<text x="128" y="236" font-family="DejaVu Sans" font-size="2.75" fill="#243441" text-anchor="start">Koordinātas pārnest pēc sausās montāžas; urbt no apakšas.</text>
-<text x="128" y="243" font-family="DejaVu Sans" font-size="2.75" fill="#243441" text-anchor="start">Plata paplāksne: Ø ap 1,8; biezums 0,16. Pārbaudīt saķeri.</text>
-<text x="128" y="250" font-family="DejaVu Sans" font-size="2.75" fill="#243441" text-anchor="start">Aizsargāt abas saplākšņa puses, malas un urbumus.</text>
+<text x="128" y="229" font-family="DejaVu Sans" font-size="2.75" fill="#243441" text-anchor="start">W05 centri: X=77; 125; 173 un Y=51; 74.</text>
+<text x="128" y="236" font-family="DejaVu Sans" font-size="2.75" fill="#243441" text-anchor="start">No W05 stūra (X=48; Y=43): x=29; 77; 125 un y=8; 31.</text>
+<text x="128" y="243" font-family="DejaVu Sans" font-size="2.75" fill="#243441" text-anchor="start">Koordinātas pārnest pēc sausās montāžas; urbt no apakšas.</text>
+<text x="128" y="250" font-family="DejaVu Sans" font-size="2.75" fill="#243441" text-anchor="start">Plata paplāksne: Ø ap 1,8; biezums 0,16. Pārbaudīt saķeri.</text>
+<text x="128" y="257" font-family="DejaVu Sans" font-size="2.75" fill="#243441" text-anchor="start">Klāju pārklāt no abām pusēm, arī malas un urbumus.</text>
 </svg>
