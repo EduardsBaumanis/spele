@@ -10,14 +10,14 @@ header{padding:32px 5vw 25px;border-bottom:1px solid var(--line)}.eyebrow{font-s
 h1{font-weight:650;font-size:clamp(28px,4vw,48px);letter-spacing:-.045em;margin:8px 0}header p{color:var(--muted);margin:8px 0 0;max-width:850px;line-height:1.6}
 main{max-width:1440px;margin:auto;padding:26px 5vw 60px}.workspace{display:grid;grid-template-columns:minmax(0,1fr) 290px;gap:20px}.view{position:relative;background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;min-height:440px}
 canvas{display:block;position:absolute;inset:0;width:100%;height:100%;touch-action:none;cursor:grab}canvas:active{cursor:grabbing}.help{position:absolute;left:18px;bottom:16px;color:var(--muted);font-size:12px;pointer-events:none}.badge{position:absolute;z-index:1;left:18px;top:18px;font-size:12px;font-weight:650;background:#f6f4ee;padding:7px 10px;border-radius:6px}
-aside{border:1px solid var(--line);background:#fff;border-radius:14px;padding:22px}h2{font-size:16px;margin:0 0 17px}label{display:block;font-size:14px;margin:18px 0 8px}input[type=checkbox]{accent-color:var(--red);margin-right:8px}input[type=range]{width:100%;accent-color:var(--red)}button{font:inherit;border:1px solid var(--line);padding:9px 12px;border-radius:7px;color:var(--ink);background:#fff;cursor:pointer}button:hover{border-color:var(--red);color:var(--red)}.buttons{display:flex;gap:6px;flex-wrap:wrap}.details{padding-top:20px;margin-top:20px;border-top:1px solid var(--line);display:grid;grid-template-columns:1fr auto;gap:12px;font-size:13px}.details span:nth-child(2n){font-weight:650}.small{font-size:12px;color:var(--muted);line-height:1.55}.downloads{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:22px 0}.card{display:block;text-decoration:none;background:#fff;color:var(--ink);padding:22px;border:1px solid var(--line);border-radius:12px}.card:hover{border-color:var(--red)}.card strong{display:block;font-size:17px;margin-bottom:8px}.card span{font-size:13px;color:var(--muted);line-height:1.5}.primary{background:var(--red);color:white;border-color:var(--red)}.primary span{color:#fff0ec}.links{display:flex;gap:18px;flex-wrap:wrap;margin-top:20px;font-size:13px}a{color:var(--red)}.notice{max-width:970px;font-size:13px;line-height:1.7;color:var(--muted);margin-top:24px}.error{display:none;padding:25px;font-size:15px}footer{font-size:12px;color:var(--muted);margin-top:28px}
+aside{border:1px solid var(--line);background:#fff;border-radius:14px;padding:22px}h2{font-size:16px;margin:0 0 17px}label{display:block;font-size:14px;margin:18px 0 8px}input[type=checkbox]{accent-color:var(--red);margin-right:8px}input[type=range]{width:100%;accent-color:var(--red)}button{font:inherit;border:1px solid var(--line);padding:9px 12px;border-radius:7px;color:var(--ink);background:#fff;cursor:pointer}button:hover{border-color:var(--red);color:var(--red)}button[aria-pressed=true]{background:var(--red);border-color:var(--red);color:white}input:disabled{opacity:.4}.buttons{display:flex;gap:6px;flex-wrap:wrap}.details{padding-top:20px;margin-top:20px;border-top:1px solid var(--line);display:grid;grid-template-columns:1fr auto;gap:12px;font-size:13px}.details span:nth-child(2n){font-weight:650}.small{font-size:12px;color:var(--muted);line-height:1.55}.downloads{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:22px 0}.card{display:block;text-decoration:none;background:#fff;color:var(--ink);padding:22px;border:1px solid var(--line);border-radius:12px}.card:hover{border-color:var(--red)}.card strong{display:block;font-size:17px;margin-bottom:8px}.card span{font-size:13px;color:var(--muted);line-height:1.5}.primary{background:var(--red);color:white;border-color:var(--red)}.primary span{color:#fff0ec}.links{display:flex;gap:18px;flex-wrap:wrap;margin-top:20px;font-size:13px}a{color:var(--red)}.notice{max-width:970px;font-size:13px;line-height:1.7;color:var(--muted);margin-top:24px}.error{display:none;padding:25px;font-size:15px}footer{font-size:12px;color:var(--muted);margin-top:28px}
 @media(max-width:850px){.workspace{grid-template-columns:1fr}canvas{height:420px}.view{min-height:420px}.downloads{grid-template-columns:1fr}aside{padding:18px}.details{grid-template-columns:1fr auto}.help{font-size:10px}header{padding-top:24px}}
 @media print{header{padding:0}main{padding:10px 0}aside,.help,.downloads,.links{display:none}.workspace{display:block}.view{border:0}canvas{height:420px}.notice:after{content:' Izgatavošanai lietot PDF rasējumus.'}}
 </style>
 <header><div class="eyebrow">IZGATAVOŠANAS DOKUMENTĀCIJA / REDAKCIJA E</div><h1>Galds darbam ar mālu.</h1><p>Bērza saplākšņa virsma 250 × 125 cm uz četrām stingrām tērauda kājām bez augšējā rāmja. Astoņas darba vietas, viengabala metināta pamatne un metāla plaukts 200 kg māla maisu slodzes mērķim.</p></header>
 <main>
 <div class="workspace"><div class="view"><div class="badge" id="mode">Samontēts · nominālie izmēri</div><canvas id="canvas" aria-label="Interaktīvs keramikas galda trīsdimensiju modelis"></canvas><div id="error" class="error">Pārlūks neatbalsta šo 3D skatu. Atveriet zemāk pieejamos rasējumus.</div><div class="help">Velciet, lai pagrieztu · Ritiniet, lai tuvinātu · Noņemiet virsmu, lai apskatītu kāju balstus</div></div>
-<aside><h2>Apskatiet konstrukciju</h2><div class="buttons"><button id="assembled">Samontēts</button><button id="frame">Balsti</button><button id="reset">Sākuma skats</button></div><label><input type="checkbox" id="top" checked>Rādīt galda virsmu</label><label><input type="checkbox" id="shelf" checked>Rādīt plauktu</label><label for="explode">Pacelt virsmu apskatei <span id="expval">0</span> cm</label><input type="range" id="explode" min="0" max="24" value="0" step="1"><p class="small">Virsma ir noņemama. Kājas un plaukts ir sametināti kopā un neatdalās.</p><div class="details"><span>Virsma</span><span>250 × 125 × 5 cm</span><span>Augstums</span><span>78 cm</span><span>Plaukta režģis</span><span>150 × 35 cm</span><span>Plaukta augstums</span><span>23 cm</span><span>Tiešie balsti</span><span>4 × 20 × 20 cm</span><span>Apdare</span><span>RAL 3020, satīna</span></div><p class="small">Skatā vienkāršotas cauruļu malas, skrūves un urbumi. Izgatavošanai lietojiet rasējumus un CAD modeli.</p></aside></div>
+<aside><h2>Apskatiet konstrukciju</h2><div class="buttons"><button id="assembled">Samontēts</button><button id="frame">Balsti</button><button id="individual" aria-pressed="false">Sadalīt detaļās</button><button id="reset">Sākuma skats</button></div><label><input type="checkbox" id="top" checked>Rādīt galda virsmu</label><label><input type="checkbox" id="shelf" checked>Rādīt plauktu</label><label for="explode">Pacelt virsmu apskatei <span id="expval">0</span> cm</label><input type="range" id="explode" min="0" max="24" value="0" step="1"><p class="small">Poga “Sadalīt detaļās” atdala visas 37 tērauda detaļas, virsmu un četras pēdas tikai apskatei. Metinātā pamatne dzīvē neizjaucas. Slīdnis paceļ tikai noņemamo virsmu.</p><div class="details"><span>Virsma</span><span>250 × 125 × 5 cm</span><span>Augstums</span><span>78 cm</span><span>Plaukta režģis</span><span>150 × 35 cm</span><span>Plaukta augstums</span><span>23 cm</span><span>Tiešie balsti</span><span>4 × 20 × 20 cm</span><span>Apdare</span><span>RAL 3020, satīna</span></div><p class="small">Skatā vienkāršotas cauruļu malas, skrūves un urbumi. Izgatavošanai lietojiet rasējumus un CAD modeli.</p></aside></div>
 <div class="downloads"><a class="card primary" href="workshop-package.pdf"><strong>Pilnā PDF dokumentācija ↗</strong><span>Izgatavošanas apraksts, detaļu saraksti un septiņas A3 rasējumu lapas ar izmēriem cm.</span></a><a class="card" href="drawings.pdf"><strong>Rasējumi ar izmēriem ↗</strong><span>Kopskats, tiešie balsti, sānskati, kāju mezgli, plaukts un saplākšņa stiprinājumi.</span></a><a class="card" href="supplier-quote-lv.txt"><strong>Cenas pieprasījums ↗</strong><span>Nesūtīts pieprasījuma melnraksts latviešu valodā ar sagatavju izmēriem centimetros.</span></a></div>
 <div class="links"><a href="../index.html">← Dokumentu vietne</a><a href="cutting-list.csv">Tērauda detaļas</a><a href="hardware-list.csv">Stiprinājumi</a><a href="stock-cutting.csv">Sagatavju sadalījums</a><a href="drilling-coordinates.csv">Urbumu koordinātas</a><a href="model/table.scad">OpenSCAD modelis</a><a href="construction-guide.md">Izgatavošanas apraksts</a><a href="verification.md">Pārbaudes protokols</a></div>
 <p class="notice">Vienkāršā versija: viena metināta pamatne, 8 mazas ribas, 16 kokskrūves no apakšas un 4 regulējamas pēdas. Virsma ir gluda, bez caurejošiem urbumiem. Plauktu var paslēpt tikai modeļa apskatei; tas ir piemetināts kājām. Pārbaudīt tukša galda šūpošanos, šuves un pēdu saskari ar grīdu. 200 kg ir slodzes mērķis, nevis sertificēta nestspēja.</p><footer>2026. gada 30. septembris · Visi izmēri centimetros · Darbojas bezsaistē, bez ārējām bibliotēkām</footer>
@@ -28,29 +28,90 @@ const cv=document.getElementById('canvas'),gl=cv.getContext('webgl',{antialias:t
 if(!gl){document.getElementById('error').style.display='block';cv.style.display='none';}
 else{
 const shader=(type,src)=>{const s=gl.createShader(type);gl.shaderSource(s,src);gl.compileShader(s);if(!gl.getShaderParameter(s,gl.COMPILE_STATUS))throw Error(gl.getShaderInfoLog(s));return s;};
-const program=gl.createProgram();gl.attachShader(program,shader(gl.VERTEX_SHADER,`attribute vec3 pos;attribute vec3 col;uniform vec3 right;uniform vec3 up;uniform vec3 toward;uniform vec2 factor;varying vec3 color;void main(){vec3 p=pos-vec3(125.,62.5,39.);gl_Position=vec4(dot(p,right)*factor.x,dot(p,up)*factor.y,-dot(p,toward)/650.,1.);color=col;}`));
+const program=gl.createProgram();gl.attachShader(program,shader(gl.VERTEX_SHADER,`attribute vec3 pos;attribute vec3 col;uniform vec3 right;uniform vec3 up;uniform vec3 toward;uniform vec2 factor;uniform vec3 center;uniform float depth;varying vec3 color;void main(){vec3 p=pos-center;gl_Position=vec4(dot(p,right)*factor.x,dot(p,up)*factor.y,-dot(p,toward)/depth,1.);color=col;}`));
 gl.attachShader(program,shader(gl.FRAGMENT_SHADER,`precision mediump float;varying vec3 color;void main(){gl_FragColor=vec4(color,1.);}`));gl.linkProgram(program);if(!gl.getProgramParameter(program,gl.LINK_STATUS))throw Error(gl.getProgramInfoLog(program));gl.useProgram(program);
 const buffer=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,buffer);const pa=gl.getAttribLocation(program,'pos'),ca=gl.getAttribLocation(program,'col');gl.enableVertexAttribArray(pa);gl.enableVertexAttribArray(ca);gl.vertexAttribPointer(pa,3,gl.FLOAT,false,24,0);gl.vertexAttribPointer(ca,3,gl.FLOAT,false,24,12);
-const uniforms={};for(const u of ['right','up','toward','factor'])uniforms[u]=gl.getUniformLocation(program,u);
+const uniforms={};for(const u of ['right','up','toward','factor','center','depth'])uniforms[u]=gl.getUniformLocation(program,u);
 gl.enable(gl.DEPTH_TEST);gl.disable(gl.CULL_FACE);gl.clearColor(.988,.985,.97,1);
-let yaw=-.92,elev=.40,zoom=1,drag=null,vertices=[];
-const top=document.getElementById('top'),shelf=document.getElementById('shelf'),explode=document.getElementById('explode');
+let yaw=-.92,elev=.40,zoom=1,drag=null,vertices=[],individual=false;
+let sceneCenter=[125,62.5,39],sceneBounds=null;const meshes=[];
+const top=document.getElementById('top'),shelf=document.getElementById('shelf'),explode=document.getElementById('explode'),individualButton=document.getElementById('individual');
 function face(v,color){let a=v[0],b=v[1],c=v[2],u=b.map((x,i)=>x-a[i]),w=c.map((x,i)=>x-a[i]);let n=[u[1]*w[2]-u[2]*w[1],u[2]*w[0]-u[0]*w[2],u[0]*w[1]-u[1]*w[0]],len=Math.hypot(...n)||1;n=n.map(x=>x/len);let light=.76+.24*Math.abs(n[0]*.3+n[1]*-.4+n[2]*.866);for(let j=1;j<v.length-1;j++)for(const p of [v[0],v[j],v[j+1]])vertices.push(...p,...color.map(x=>x*light));}
 function box(o,d,col){let[x,y,z]=o,[a,b,c]=d,v=[[x,y,z],[x+a,y,z],[x+a,y+b,z],[x,y+b,z],[x,y,z+c],[x+a,y,z+c],[x+a,y+b,z+c],[x,y+b,z+c]];for(const f of [[0,3,2,1],[4,5,6,7],[0,1,5,4],[1,2,6,5],[2,3,7,6],[3,0,4,7]])face(f.map(i=>v[i]),col);}
 function prism(poly,z,h,col){face(poly.map(([x,y])=>[x,y,z]),col);face(poly.map(([x,y])=>[x,y,z+h]).reverse(),col);for(let i=0;i<poly.length;i++){let a=poly[i],b=poly[(i+1)%poly.length];face([[...a,z],[...b,z],[...b,z+h],[...a,z+h]],col);}}
 function cylinder(cx,cy,z,r,h,col,n=32){let poly=[];for(let i=0;i<n;i++){let a=i/n*2*Math.PI;poly.push([cx+r*Math.cos(a),cy+r*Math.sin(a)]);}prism(poly,z,h,col);}
-function rebuild(){vertices=[];let e=+explode.value;document.getElementById('expval').textContent=e;document.getElementById('mode').textContent=e?'Virsma pacelta par '+e+' cm':top.checked?'Samontēts · nominālie izmēri':'Kāju galvas un plaukts';
-for(const p of PARTS){if(p.group==='shelf'&&!shelf.checked)continue;let dz=0;
-if(p.kind==='gusset'){let[cx,cy]=p.centre,a=p.side*Math.PI/2,v=[];for(const t of [-p.thickness/2,p.thickness/2])for(const[r,z]of[[3,p.top],[3+p.leg,p.top],[3,p.top-p.leg]])v.push([cx+r*Math.cos(a)-t*Math.sin(a),cy+r*Math.sin(a)+t*Math.cos(a),z+dz]);for(const f of[[0,1,2],[3,5,4],[0,3,4,1],[1,4,5,2],[2,5,3,0]])face(f.map(i=>v[i]),[.72,.16,.12]);}
-else box([p.origin[0],p.origin[1],p.origin[2]+dz],p.size,[.76,.18,.13]);}
-for(const[cx,cy]of[[20,20],[230,20],[20,105],[230,105]]){let dz=0;cylinder(cx,cy,dz,4,2,[.24,.28,.29]);cylinder(cx,cy,2+dz,.8,3,[.57,.59,.58],16);}
-if(top.checked){let poly=[];for(const[cx,cy,start]of[[247.5,122.5,0],[2.5,122.5,90],[2.5,2.5,180],[247.5,2.5,270]])for(let a=start;a<=start+90;a+=10)poly.push([cx+2.5*Math.cos(a*Math.PI/180),cy+2.5*Math.sin(a*Math.PI/180)]);prism(poly,73+e,5,[.89,.77,.55]);
-
-for(let z=73.3;z<77.9;z+=.45){box([2.5,0,z+e],[245,.08,.07],[.69,.52,.32]);box([0,2.5,z+e],[.08,120,.07],[.69,.52,.32]);box([2.5,124.92,z+e],[245,.08,.07],[.69,.52,.32]);box([249.92,2.5,z+e],[.08,120,.07],[.69,.52,.32]);}}
-gl.bufferData(gl.ARRAY_BUFFER,new Float32Array(vertices),gl.STATIC_DRAW);draw();}
-function draw(){let dpr=Math.min(devicePixelRatio||1,2),w=Math.round(cv.clientWidth*dpr),h=Math.round(cv.clientHeight*dpr);if(cv.width!==w||cv.height!==h){cv.width=w;cv.height=h;}gl.viewport(0,0,w,h);let co=Math.cos(yaw),si=Math.sin(yaw),ce=Math.cos(elev),se=Math.sin(elev);gl.uniform3f(uniforms.right,-si,co,0);gl.uniform3f(uniforms.up,-co*se,-si*se,ce);gl.uniform3f(uniforms.toward,co*ce,si*ce,se);let halfY=Math.max(120,175*h/w)/zoom;gl.uniform2f(uniforms.factor,1/(halfY*w/h),1/halfY);gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);gl.drawArrays(gl.TRIANGLES,0,vertices.length/6);}
+// Keep the fabrication geometry unchanged; only translate complete parts for the illustration.
+function addMesh(id,group,render){
+ vertices=[];render();const min=[Infinity,Infinity,Infinity],max=[-Infinity,-Infinity,-Infinity];
+ for(let i=0;i<vertices.length;i+=6)for(let a=0;a<3;a++){min[a]=Math.min(min[a],vertices[i+a]);max[a]=Math.max(max[a],vertices[i+a]);}
+ const center=min.map((v,a)=>(v+max[a])/2),size=min.map((v,a)=>max[a]-v);
+ meshes.push({id,group,data:vertices,min,max,center,size,offset:[0,0,0]});
+}
+for(const p of PARTS)addMesh(p.instance,p.group,()=>{
+ if(p.kind==='gusset'){let[cx,cy]=p.centre,a=p.side*Math.PI/2,v=[];for(const t of [-p.thickness/2,p.thickness/2])for(const[r,z]of[[3,p.top],[3+p.leg,p.top],[3,p.top-p.leg]])v.push([cx+r*Math.cos(a)-t*Math.sin(a),cy+r*Math.sin(a)+t*Math.cos(a),z]);for(const f of[[0,1,2],[3,5,4],[0,3,4,1],[1,4,5,2],[2,5,3,0]])face(f.map(i=>v[i]),[.72,.16,.12]);}
+ else box(p.origin,p.size,[.76,.18,.13]);
+});
+for(const [i,[cx,cy]]of [[20,20],[230,20],[20,105],[230,105]].entries())addMesh('FOOT-'+(i+1),'legs',()=>{
+ cylinder(cx,cy,0,4,2,[.24,.28,.29]);cylinder(cx,cy,2,.8,3,[.57,.59,.58],16);
+});
+addMesh('W01','top',()=>{
+ let poly=[];for(const[cx,cy,start]of[[247.5,122.5,0],[2.5,122.5,90],[2.5,2.5,180],[247.5,2.5,270]])for(let a=start;a<=start+90;a+=10)poly.push([cx+2.5*Math.cos(a*Math.PI/180),cy+2.5*Math.sin(a*Math.PI/180)]);prism(poly,73,5,[.89,.77,.55]);
+ for(let z=73.3;z<77.9;z+=.45){box([2.5,0,z],[245,.08,.07],[.69,.52,.32]);box([0,2.5,z],[.08,120,.07],[.69,.52,.32]);box([2.5,124.92,z],[245,.08,.07],[.69,.52,.32]);box([249.92,2.5,z],[.08,120,.07],[.69,.52,.32]);}
+});
+// Start with a radial exploded arrangement, then separate close neighbours.
+// This also opens a visible gap between thin plates that share the same axis.
+const spread=[1.5,1.8,2],anchor=[125,62.5,39],gap=8;
+const positions=meshes.map(m=>m.center.map((v,a)=>anchor[a]+(v-anchor[a])*spread[a]));
+for(let pass=0;pass<200;pass++){
+ let movement=0;
+ for(let i=0;i<meshes.length;i++)for(let j=i+1;j<meshes.length;j++){
+  const clear=positions[i].map((v,a)=>Math.abs(positions[j][a]-v)-(meshes[i].size[a]+meshes[j].size[a])/2);
+  const axis=clear.indexOf(Math.max(...clear));if(clear[axis]>=gap-.001)continue;
+  const shift=(gap-clear[axis])/2+.001,sign=positions[j][axis]>=positions[i][axis]?1:-1;
+  positions[i][axis]-=sign*shift;positions[j][axis]+=sign*shift;movement=Math.max(movement,shift);
+ }
+ if(movement<.001)break;
+}
+meshes.forEach((m,i)=>m.offset=positions[i].map((v,a)=>v-m.center[a]));
+function translation(m){
+ if(individual)return m.offset;
+ const e=+explode.value;return[0,0,m.group==='top'?e:0];
+}
+function visible(m){return(m.group!=='top'||top.checked)&&(m.group!=='shelf'||shelf.checked);}
+function rebuild(){
+ vertices=[];const e=+explode.value;document.getElementById('expval').textContent=e;
+ individualButton.setAttribute('aria-pressed',String(individual));explode.disabled=individual;
+ document.getElementById('mode').textContent=individual?'Sadalīts atsevišķās detaļās':e?'Virsma pacelta par '+e+' cm':top.checked?'Samontēts · nominālie izmēri':'Kāju galvas un plaukts';
+ const min=[Infinity,Infinity,Infinity],max=[-Infinity,-Infinity,-Infinity];
+ for(const m of meshes){if(!visible(m))continue;const offset=translation(m);
+  for(let i=0;i<m.data.length;i+=6){for(let a=0;a<3;a++){const value=m.data[i+a]+offset[a];vertices.push(value);min[a]=Math.min(min[a],value);max[a]=Math.max(max[a],value);}vertices.push(...m.data.slice(i+3,i+6));}
+ }
+ sceneBounds={min,max};sceneCenter=individual?min.map((v,a)=>(v+max[a])/2):[125,62.5,39];
+ gl.bufferData(gl.ARRAY_BUFFER,new Float32Array(vertices),gl.STATIC_DRAW);draw();
+}
+function draw(){
+ let dpr=Math.min(devicePixelRatio||1,2),w=Math.round(cv.clientWidth*dpr),h=Math.round(cv.clientHeight*dpr);if(!w||!h)return;
+ if(cv.width!==w||cv.height!==h){cv.width=w;cv.height=h;}gl.viewport(0,0,w,h);
+ let co=Math.cos(yaw),si=Math.sin(yaw),ce=Math.cos(elev),se=Math.sin(elev),right=[-si,co,0],up=[-co*se,-si*se,ce];
+ gl.uniform3fv(uniforms.right,right);gl.uniform3fv(uniforms.up,up);gl.uniform3f(uniforms.toward,co*ce,si*ce,se);gl.uniform3fv(uniforms.center,sceneCenter);
+ let halfY=Math.max(120,175*h/w)/zoom;
+ if(individual){
+  let rx=0,ry=0;for(let i=0;i<vertices.length;i+=6){let x=0,y=0;for(let a=0;a<3;a++){const v=vertices[i+a]-sceneCenter[a];x+=v*right[a];y+=v*up[a];}rx=Math.max(rx,Math.abs(x));ry=Math.max(ry,Math.abs(y));}
+  // Fit the entire exploded model, leaving room for the badge and gesture hint.
+  const roomX=Math.max(.5,1-40/cv.clientWidth),roomY=Math.max(.5,1-100/cv.clientHeight);
+  halfY=Math.max(rx/(w/h)/roomX,ry/roomY)/zoom;
+ }
+ gl.uniform1f(uniforms.depth,Math.max(650,...sceneBounds.max.map((v,a)=>(v-sceneBounds.min[a])*2)));
+ gl.uniform2f(uniforms.factor,1/(halfY*w/h),1/halfY);gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);gl.drawArrays(gl.TRIANGLES,0,vertices.length/6);
+}
 cv.addEventListener('pointerdown',e=>{drag=[e.clientX,e.clientY];cv.setPointerCapture(e.pointerId);});cv.addEventListener('pointermove',e=>{if(!drag)return;yaw-=(e.clientX-drag[0])*.008;elev=Math.max(.08,Math.min(1.45,elev+(e.clientY-drag[1])*.006));drag=[e.clientX,e.clientY];draw();});cv.addEventListener('pointerup',()=>drag=null);cv.addEventListener('pointercancel',()=>drag=null);cv.addEventListener('wheel',e=>{e.preventDefault();zoom=Math.max(.65,Math.min(2.2,zoom*Math.exp(-e.deltaY*.001)));draw();},{passive:false});
-for(const el of[top,shelf,explode])el.addEventListener('input',rebuild);document.getElementById('assembled').onclick=()=>{top.checked=true;shelf.checked=true;explode.value=0;rebuild();};document.getElementById('frame').onclick=()=>{top.checked=false;shelf.checked=true;explode.value=0;rebuild();};document.getElementById('reset').onclick=()=>{yaw=-.92;elev=.40;zoom=1;draw();};new ResizeObserver(draw).observe(cv);rebuild();window.tableViewer={parts:PARTS.length,redraw:draw};
+for(const el of[top,shelf,explode])el.addEventListener('input',rebuild);
+individualButton.onclick=()=>{individual=!individual;zoom=1;explode.value=0;if(individual){top.checked=true;shelf.checked=true;}rebuild();};
+document.getElementById('assembled').onclick=()=>{individual=false;zoom=1;top.checked=true;shelf.checked=true;explode.value=0;rebuild();};
+document.getElementById('frame').onclick=()=>{individual=false;zoom=1;top.checked=false;shelf.checked=true;explode.value=0;rebuild();};
+document.getElementById('reset').onclick=()=>{yaw=-.92;elev=.40;zoom=1;draw();};
+new ResizeObserver(draw).observe(cv);rebuild();
+window.tableViewer={parts:PARTS.length,redraw:draw,get mode(){return individual?'individual':'assembly';},get components(){return meshes.map(m=>({id:m.id,visible:visible(m),min:m.min.map((v,a)=>v+translation(m)[a]),max:m.max.map((v,a)=>v+translation(m)[a])}));}};
 }
 </script>
 </html>

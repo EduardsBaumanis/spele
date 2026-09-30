@@ -23,4 +23,4 @@ python -m pip install -r pottery-table/source/requirements.txt
 python -X utf8 pottery-table/source/build.py
 ```
 
-Komanda atjauno CSV, modeli, vietni, PDF, SVG, priekšskatījumus un ZIP. Avoti source/design.py, source/drawings.py un construction-guide.md. Modeļa izvirzītais skats paceļ tikai virsmu; metinātā pamatne paliek kopā. OpenSCAD modelis šajā vidē nav kompilēts.
+Komanda atjauno CSV, modeli, vietni, PDF, SVG, priekšskatījumus un ZIP. Avoti source/design.py, source/drawings.py un construction-guide.md. 3D skatā poga **Sadalīt detaļās** atdala visas 37 tērauda detaļas, virsmu un četras pēdas, automātiski ietilpinot tās skatā. **Samontēts** atjauno salikto galdu. Detaļu izmēri nemainās; sadalījums ir tikai ilustrācija, jo pamatne ir sametināta. Atsevišķais slīdnis paceļ tikai noņemamo virsmu. OpenSCAD modelis šajā vidē nav kompilēts.

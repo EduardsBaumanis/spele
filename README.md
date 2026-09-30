@@ -4,6 +4,8 @@ Latviska dokumentācija galdam 250 × 125 cm. Redakcija E: viena metināta pamat
 
 Atveriet **[index.html](index.html)**. Vietnē ir 3D modelis, visi trīs PDF un septiņi SVG rasējumi ar lapu izvēli un tuvināšanu, detaļu tabula un lasāms apraksts. PDF priekšskatījumi ir lokāli attēli; vietnei nav vajadzīgs servera kods, ārējas bibliotēkas vai pārlūka PDF spraudnis. Oriģinālie PDF un SVG ir pieejami lejupielādei.
 
+3D skatā poga **Sadalīt detaļās** atdala visas 37 tērauda detaļas, galda saplākšņa virsmu un četras pēdas; skats automātiski ietilpina visu konstrukciju. Detaļu izmēri saglabājas, atdalījuma attālumi ir ilustratīvi. Poga **Samontēts** atjauno salikto galdu. Atsevišķais slīdnis paceļ tikai noņemamo virsmu. Detaļu sadalījums ir apskates ilustrācija: metinātā pamatne dzīvē neizjaucas.
+
 ## Publicēšana GitHub Pages
 
 1. Pievienojiet repozitorijam `index.html`, `.nojekyll`, visu `site-assets/` un `pottery-table/` mapi. Lietojiet šeit esošo mapju struktūru. ZIP arhīvs publicēšanai nav nepieciešams.
