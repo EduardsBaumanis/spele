@@ -5,7 +5,7 @@
 <text x="14" y="34" font-family="DejaVu Sans" font-size="2.7" fill="#77858e" text-anchor="start">Mērogs 1:10 uz A3 · Tieši balstīta 5 cm virsma · Bez mīksta starpslāņa</text>
 <line x1="14" y1="39" x2="406" y2="39" stroke="#243441" stroke-width="0.45"/>
 <line x1="14" y1="278" x2="406" y2="278" stroke="#243441" stroke-width="0.4"/>
-<text x="14" y="284" font-family="DejaVu Sans" font-size="2.6" fill="#243441" text-anchor="start" font-weight="bold">PT-250  /  S03  /  RED. D  /  2026-09-30</text>
+<text x="14" y="284" font-family="DejaVu Sans" font-size="2.6" fill="#243441" text-anchor="start" font-weight="bold">PT-250  /  S03  /  RED. E  /  2026-09-30</text>
 <text x="14" y="290" font-family="DejaVu Sans" font-size="2.5" fill="#77858e" text-anchor="start">Visi izmēri cm · Nomināla ģeometrija pirms krāsošanas · Izmantot norādītos izmērus</text>
 <text x="406" y="284" font-family="DejaVu Sans" font-size="2.6" fill="#243441" text-anchor="end">A3 · 42 × 29,7 cm</text>
 <line x1="356" y1="287" x2="406" y2="287" stroke="#243441" stroke-width="0.5"/>
@@ -18,10 +18,6 @@
 <text x="381" y="291" font-family="DejaVu Sans" font-size="2.1" fill="#77858e" text-anchor="middle">Izdrukas pārbaude: 5 cm</text>
 <text x="18" y="54" font-family="DejaVu Sans" font-size="3.1" fill="#243441" text-anchor="start" font-weight="bold">SKATS NO GARĀS MALAS</text>
 <line x1="16" y1="151" x2="270" y2="151" stroke="#77858e" stroke-width="0.25"/>
-<rect x="35" y="124" width="6" height="16" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="245" y="124" width="6" height="16" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="35" y="124" width="6" height="16" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="245" y="124" width="6" height="16" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
 <rect x="40" y="128" width="206" height="8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
 <rect x="40" y="128" width="206" height="8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
 <rect x="36" y="128" width="4" height="8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
@@ -39,54 +35,26 @@
 <rect x="188" y="128" width="6" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
 <rect x="200" y="128" width="6" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
 <rect x="212" y="128" width="6" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="23" y="78" width="30" height="0.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="25" y="73" width="4" height="0.6" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="25" y="73" width="4" height="0.6" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="47" y="73" width="4" height="0.6" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="47" y="73" width="4" height="0.6" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
+<rect x="28" y="78" width="20" height="0.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
 <rect x="35" y="78.8" width="6" height="68.4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
 <rect x="35" y="147.2" width="6" height="0.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<polygon points="41,78.8 52,78.8 41,89.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
-<polygon points="38.3,78.8 38.3,78.8 38.3,89.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
-<polygon points="35,78.8 24,78.8 35,89.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
-<polygon points="37.7,78.8 37.7,78.8 37.7,89.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
-<rect x="35" y="124" width="6" height="16" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="233" y="78" width="30" height="0.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="235" y="73" width="4" height="0.6" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="235" y="73" width="4" height="0.6" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="257" y="73" width="4" height="0.6" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="257" y="73" width="4" height="0.6" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
+<polygon points="41,78.8 47,78.8 41,84.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
+<polygon points="38.3,78.8 38.3,78.8 38.3,84.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
+<rect x="238" y="78" width="20" height="0.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
 <rect x="245" y="78.8" width="6" height="68.4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
 <rect x="245" y="147.2" width="6" height="0.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<polygon points="251,78.8 262,78.8 251,89.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
-<polygon points="248.3,78.8 248.3,78.8 248.3,89.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
-<polygon points="245,78.8 234,78.8 245,89.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
-<polygon points="247.7,78.8 247.7,78.8 247.7,89.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
-<rect x="245" y="124" width="6" height="16" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="23" y="78" width="30" height="0.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="25" y="73" width="4" height="0.6" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="25" y="73" width="4" height="0.6" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="47" y="73" width="4" height="0.6" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="47" y="73" width="4" height="0.6" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
+<polygon points="245,78.8 239,78.8 245,84.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
+<polygon points="248.3,78.8 248.3,78.8 248.3,84.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
+<rect x="28" y="78" width="20" height="0.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
 <rect x="35" y="78.8" width="6" height="68.4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
 <rect x="35" y="147.2" width="6" height="0.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<polygon points="41,78.8 52,78.8 41,89.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
-<polygon points="38.3,78.8 38.3,78.8 38.3,89.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
-<polygon points="35,78.8 24,78.8 35,89.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
-<polygon points="37.7,78.8 37.7,78.8 37.7,89.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
-<rect x="35" y="124" width="6" height="16" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="233" y="78" width="30" height="0.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="235" y="73" width="4" height="0.6" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="235" y="73" width="4" height="0.6" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="257" y="73" width="4" height="0.6" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="257" y="73" width="4" height="0.6" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
+<polygon points="41,78.8 47,78.8 41,84.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
+<polygon points="37.7,78.8 37.7,78.8 37.7,84.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
+<rect x="238" y="78" width="20" height="0.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
 <rect x="245" y="78.8" width="6" height="68.4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
 <rect x="245" y="147.2" width="6" height="0.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<polygon points="251,78.8 262,78.8 251,89.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
-<polygon points="248.3,78.8 248.3,78.8 248.3,89.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
-<polygon points="245,78.8 234,78.8 245,89.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
-<polygon points="247.7,78.8 247.7,78.8 247.7,89.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
-<rect x="245" y="124" width="6" height="16" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
+<polygon points="245,78.8 239,78.8 245,84.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
+<polygon points="247.7,78.8 247.7,78.8 247.7,84.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
 <rect x="18" y="73" width="250" height="5" fill="#ead7b3" stroke="#aa854c" stroke-width="0.3" rx="0"/>
 <rect x="34" y="149" width="8" height="2" fill="#52616a" stroke="#243441" stroke-width="0.2" rx="0.5"/>
 <rect x="37.2" y="148" width="1.6" height="1" fill="#a2a9ae" stroke="#243441" stroke-width="0.1" rx="0"/>
@@ -100,14 +68,10 @@
 <text x="143" y="162.5" font-family="DejaVu Sans" font-size="3" fill="#243441" text-anchor="middle">250</text>
 <text x="279" y="54" font-family="DejaVu Sans" font-size="3.1" fill="#243441" text-anchor="start" font-weight="bold">SKATS NO GALA</text>
 <line x1="277" y1="151" x2="406" y2="151" stroke="#77858e" stroke-width="0.25"/>
-<rect x="302.8" y="124" width="0.8" height="16" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="302.8" y="124" width="0.8" height="16" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="379.4" y="124" width="0.8" height="16" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="379.4" y="124" width="0.8" height="16" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
 <rect x="324" y="128" width="4" height="8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
 <rect x="355" y="128" width="4" height="8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="303.6" y="128" width="75.8" height="8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="303.6" y="128" width="75.8" height="8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
+<rect x="302" y="128" width="79" height="8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
+<rect x="302" y="128" width="79" height="8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
 <rect x="328" y="128" width="27" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
 <rect x="328" y="128" width="27" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
 <rect x="328" y="128" width="27" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
@@ -121,54 +85,26 @@
 <rect x="328" y="128" width="27" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
 <rect x="328" y="128" width="27" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
 <rect x="328" y="128" width="27" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="284" y="78" width="30" height="0.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="286" y="73" width="4" height="0.6" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="308" y="73" width="4" height="0.6" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="286" y="73" width="4" height="0.6" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="308" y="73" width="4" height="0.6" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
+<rect x="289" y="78" width="20" height="0.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
 <rect x="296" y="78.8" width="6" height="68.4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
 <rect x="296" y="147.2" width="6" height="0.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<polygon points="298.7,78.8 298.7,78.8 298.7,89.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
-<polygon points="302,78.8 313,78.8 302,89.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
-<polygon points="299.3,78.8 299.3,78.8 299.3,89.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
-<polygon points="296,78.8 285,78.8 296,89.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
-<rect x="302" y="124" width="0.8" height="16" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="284" y="78" width="30" height="0.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="286" y="73" width="4" height="0.6" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="308" y="73" width="4" height="0.6" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="286" y="73" width="4" height="0.6" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="308" y="73" width="4" height="0.6" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
+<polygon points="298.7,78.8 298.7,78.8 298.7,84.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
+<polygon points="302,78.8 308,78.8 302,84.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
+<rect x="289" y="78" width="20" height="0.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
 <rect x="296" y="78.8" width="6" height="68.4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
 <rect x="296" y="147.2" width="6" height="0.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<polygon points="298.7,78.8 298.7,78.8 298.7,89.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
-<polygon points="302,78.8 313,78.8 302,89.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
-<polygon points="299.3,78.8 299.3,78.8 299.3,89.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
-<polygon points="296,78.8 285,78.8 296,89.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
-<rect x="302" y="124" width="0.8" height="16" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="369" y="78" width="30" height="0.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="371" y="73" width="4" height="0.6" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="393" y="73" width="4" height="0.6" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="371" y="73" width="4" height="0.6" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="393" y="73" width="4" height="0.6" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
+<polygon points="299.3,78.8 299.3,78.8 299.3,84.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
+<polygon points="302,78.8 308,78.8 302,84.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
+<rect x="374" y="78" width="20" height="0.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
 <rect x="381" y="78.8" width="6" height="68.4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
 <rect x="381" y="147.2" width="6" height="0.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<polygon points="383.7,78.8 383.7,78.8 383.7,89.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
-<polygon points="387,78.8 398,78.8 387,89.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
-<polygon points="384.3,78.8 384.3,78.8 384.3,89.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
-<polygon points="381,78.8 370,78.8 381,89.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
-<rect x="380.2" y="124" width="0.8" height="16" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="369" y="78" width="30" height="0.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="371" y="73" width="4" height="0.6" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="393" y="73" width="4" height="0.6" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="371" y="73" width="4" height="0.6" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<rect x="393" y="73" width="4" height="0.6" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
+<polygon points="383.7,78.8 383.7,78.8 383.7,84.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
+<polygon points="381,78.8 375,78.8 381,84.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
+<rect x="374" y="78" width="20" height="0.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
 <rect x="381" y="78.8" width="6" height="68.4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
 <rect x="381" y="147.2" width="6" height="0.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
-<polygon points="383.7,78.8 383.7,78.8 383.7,89.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
-<polygon points="387,78.8 398,78.8 387,89.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
-<polygon points="384.3,78.8 384.3,78.8 384.3,89.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
-<polygon points="381,78.8 370,78.8 381,89.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
-<rect x="380.2" y="124" width="0.8" height="16" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.18" rx="0"/>
+<polygon points="384.3,78.8 384.3,78.8 384.3,84.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
+<polygon points="381,78.8 375,78.8 381,84.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.15"/>
 <rect x="279" y="73" width="125" height="5" fill="#ead7b3" stroke="#aa854c" stroke-width="0.3" rx="0"/>
 <rect x="295" y="149" width="8" height="2" fill="#52616a" stroke="#243441" stroke-width="0.2" rx="0.5"/>
 <rect x="298.2" y="148" width="1.6" height="1" fill="#a2a9ae" stroke="#243441" stroke-width="0.1" rx="0"/>
@@ -199,10 +135,10 @@
 <polygon points="359,140 357.4,139.45 357.4,140.55" fill="#77858e" stroke="#77858e" stroke-width="0.1"/>
 <text x="341.5" y="138.5" font-family="DejaVu Sans" font-size="3" fill="#243441" text-anchor="middle">35 — režģis</text>
 <text x="20" y="192" font-family="DejaVu Sans" font-size="3.3" fill="#243441" text-anchor="start" font-weight="bold">AUGSTUMI NO GRĪDAS</text>
-<text x="20" y="203" font-family="DejaVu Sans" font-size="2.85" fill="#243441" text-anchor="start">78 — gatavā galda virsma; P06 vienā līmenī</text>
+<text x="20" y="203" font-family="DejaVu Sans" font-size="2.85" fill="#243441" text-anchor="start">78 — gluda darba virsma bez caurejošiem urbumiem</text>
 <text x="20" y="210" font-family="DejaVu Sans" font-size="2.85" fill="#243441" text-anchor="start">73 — virsmas apakša un P01 augša</text>
 <text x="20" y="217" font-family="DejaVu Sans" font-size="2.85" fill="#243441" text-anchor="start">72,2 — P01 apakša un L01 augša</text>
-<text x="20" y="224" font-family="DejaVu Sans" font-size="2.85" fill="#243441" text-anchor="start">61,2 — ribu P05 apakšpunkts</text>
+<text x="20" y="224" font-family="DejaVu Sans" font-size="2.85" fill="#243441" text-anchor="start">66,2 — mazo ribu P05 apakšpunkts</text>
 <text x="20" y="231" font-family="DejaVu Sans" font-size="2.85" fill="#243441" text-anchor="start">L01 garums 68,4; P01 biezums 0,8</text>
 <text x="20" y="238" font-family="DejaVu Sans" font-size="2.85" fill="#243441" text-anchor="start">3,8 — kājas caurules apakša</text>
 <text x="20" y="245" font-family="DejaVu Sans" font-size="2.85" fill="#243441" text-anchor="start">3 — P02 apakša; 0 — grīda</text>

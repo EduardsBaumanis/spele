@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="42cm" height="29.7cm" viewBox="0 0 420 297">
 <rect width="420" height="297" fill="white"/>
 <text x="14" y="16" font-family="DejaVu Sans" font-size="3.1" fill="#77858e" text-anchor="start" font-weight="bold">DARBNĪCA / KERAMIKAS GALDS</text>
-<text x="14" y="26" font-family="DejaVu Sans" font-size="6.2" fill="#243441" text-anchor="start" font-weight="bold">Virsmas caurejošie stiprinājumi</text>
-<text x="14" y="34" font-family="DejaVu Sans" font-size="2.7" fill="#77858e" text-anchor="start">Plāns 1:10 no augšas · P06 un skrūvju galvas vienā līmenī ar darba virsmu</text>
+<text x="14" y="26" font-family="DejaVu Sans" font-size="6.2" fill="#243441" text-anchor="start" font-weight="bold">Virsma pieskrūvēta no apakšas</text>
+<text x="14" y="34" font-family="DejaVu Sans" font-size="2.7" fill="#77858e" text-anchor="start">Plāns 1:10, skats caur virsmu · Augšpuse paliek gluda · Frēzēšana nav vajadzīga</text>
 <line x1="14" y1="39" x2="406" y2="39" stroke="#243441" stroke-width="0.45"/>
 <line x1="14" y1="278" x2="406" y2="278" stroke="#243441" stroke-width="0.4"/>
-<text x="14" y="284" font-family="DejaVu Sans" font-size="2.6" fill="#243441" text-anchor="start" font-weight="bold">PT-250  /  S06  /  RED. D  /  2026-09-30</text>
+<text x="14" y="284" font-family="DejaVu Sans" font-size="2.6" fill="#243441" text-anchor="start" font-weight="bold">PT-250  /  S06  /  RED. E  /  2026-09-30</text>
 <text x="14" y="290" font-family="DejaVu Sans" font-size="2.5" fill="#77858e" text-anchor="start">Visi izmēri cm · Nomināla ģeometrija pirms krāsošanas · Izmantot norādītos izmērus</text>
 <text x="406" y="284" font-family="DejaVu Sans" font-size="2.6" fill="#243441" text-anchor="end">A3 · 42 × 29,7 cm</text>
 <line x1="356" y1="287" x2="406" y2="287" stroke="#243441" stroke-width="0.5"/>
@@ -17,42 +17,30 @@
 <line x1="406" y1="286" x2="406" y2="288" stroke="#243441" stroke-width="0.3"/>
 <text x="381" y="291" font-family="DejaVu Sans" font-size="2.1" fill="#77858e" text-anchor="middle">Izdrukas pārbaude: 5 cm</text>
 <rect x="32" y="62" width="250" height="125" fill="#fcf6eb" stroke="#aa854c" stroke-width="0.35" rx="2.5"/>
-<rect x="39" y="69" width="4" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
-<circle cx="41" cy="71" r="0.525" fill="#243441" stroke="#243441" stroke-width="0.1"/>
-<rect x="39" y="91" width="4" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
-<circle cx="41" cy="93" r="0.525" fill="#243441" stroke="#243441" stroke-width="0.1"/>
-<rect x="61" y="69" width="4" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
-<circle cx="63" cy="71" r="0.525" fill="#243441" stroke="#243441" stroke-width="0.1"/>
-<rect x="61" y="91" width="4" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
-<circle cx="63" cy="93" r="0.525" fill="#243441" stroke="#243441" stroke-width="0.1"/>
-<rect x="249" y="69" width="4" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
-<circle cx="251" cy="71" r="0.525" fill="#243441" stroke="#243441" stroke-width="0.1"/>
-<rect x="249" y="91" width="4" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
-<circle cx="251" cy="93" r="0.525" fill="#243441" stroke="#243441" stroke-width="0.1"/>
-<rect x="271" y="69" width="4" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
-<circle cx="273" cy="71" r="0.525" fill="#243441" stroke="#243441" stroke-width="0.1"/>
-<rect x="271" y="91" width="4" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
-<circle cx="273" cy="93" r="0.525" fill="#243441" stroke="#243441" stroke-width="0.1"/>
-<rect x="39" y="154" width="4" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
-<circle cx="41" cy="156" r="0.525" fill="#243441" stroke="#243441" stroke-width="0.1"/>
-<rect x="39" y="176" width="4" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
-<circle cx="41" cy="178" r="0.525" fill="#243441" stroke="#243441" stroke-width="0.1"/>
-<rect x="61" y="154" width="4" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
-<circle cx="63" cy="156" r="0.525" fill="#243441" stroke="#243441" stroke-width="0.1"/>
-<rect x="61" y="176" width="4" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
-<circle cx="63" cy="178" r="0.525" fill="#243441" stroke="#243441" stroke-width="0.1"/>
-<rect x="249" y="154" width="4" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
-<circle cx="251" cy="156" r="0.525" fill="#243441" stroke="#243441" stroke-width="0.1"/>
-<rect x="249" y="176" width="4" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
-<circle cx="251" cy="178" r="0.525" fill="#243441" stroke="#243441" stroke-width="0.1"/>
-<rect x="271" y="154" width="4" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
-<circle cx="273" cy="156" r="0.525" fill="#243441" stroke="#243441" stroke-width="0.1"/>
-<rect x="271" y="176" width="4" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
-<circle cx="273" cy="178" r="0.525" fill="#243441" stroke="#243441" stroke-width="0.1"/>
-<text x="41" y="58" font-family="DejaVu Sans" font-size="2.5" fill="#243441" text-anchor="middle">9</text>
-<text x="63" y="58" font-family="DejaVu Sans" font-size="2.5" fill="#243441" text-anchor="middle">31</text>
-<text x="251" y="58" font-family="DejaVu Sans" font-size="2.5" fill="#243441" text-anchor="middle">219</text>
-<text x="273" y="58" font-family="DejaVu Sans" font-size="2.5" fill="#243441" text-anchor="middle">241</text>
+<rect x="42" y="72" width="20" height="20" fill="none" stroke="#b83b31" stroke-width="0.2" rx="0" stroke-dasharray="1 .7"/>
+<rect x="252" y="72" width="20" height="20" fill="none" stroke="#b83b31" stroke-width="0.2" rx="0" stroke-dasharray="1 .7"/>
+<rect x="42" y="157" width="20" height="20" fill="none" stroke="#b83b31" stroke-width="0.2" rx="0" stroke-dasharray="1 .7"/>
+<rect x="252" y="157" width="20" height="20" fill="none" stroke="#b83b31" stroke-width="0.2" rx="0" stroke-dasharray="1 .7"/>
+<circle cx="45" cy="75" r="0.45" fill="none" stroke="#b83b31" stroke-width="0.2"/>
+<circle cx="45" cy="89" r="0.45" fill="none" stroke="#b83b31" stroke-width="0.2"/>
+<circle cx="59" cy="75" r="0.45" fill="none" stroke="#b83b31" stroke-width="0.2"/>
+<circle cx="59" cy="89" r="0.45" fill="none" stroke="#b83b31" stroke-width="0.2"/>
+<circle cx="255" cy="75" r="0.45" fill="none" stroke="#b83b31" stroke-width="0.2"/>
+<circle cx="255" cy="89" r="0.45" fill="none" stroke="#b83b31" stroke-width="0.2"/>
+<circle cx="269" cy="75" r="0.45" fill="none" stroke="#b83b31" stroke-width="0.2"/>
+<circle cx="269" cy="89" r="0.45" fill="none" stroke="#b83b31" stroke-width="0.2"/>
+<circle cx="45" cy="160" r="0.45" fill="none" stroke="#b83b31" stroke-width="0.2"/>
+<circle cx="45" cy="174" r="0.45" fill="none" stroke="#b83b31" stroke-width="0.2"/>
+<circle cx="59" cy="160" r="0.45" fill="none" stroke="#b83b31" stroke-width="0.2"/>
+<circle cx="59" cy="174" r="0.45" fill="none" stroke="#b83b31" stroke-width="0.2"/>
+<circle cx="255" cy="160" r="0.45" fill="none" stroke="#b83b31" stroke-width="0.2"/>
+<circle cx="255" cy="174" r="0.45" fill="none" stroke="#b83b31" stroke-width="0.2"/>
+<circle cx="269" cy="160" r="0.45" fill="none" stroke="#b83b31" stroke-width="0.2"/>
+<circle cx="269" cy="174" r="0.45" fill="none" stroke="#b83b31" stroke-width="0.2"/>
+<text x="45" y="58" font-family="DejaVu Sans" font-size="2.5" fill="#243441" text-anchor="middle">13</text>
+<text x="59" y="58" font-family="DejaVu Sans" font-size="2.5" fill="#243441" text-anchor="middle">27</text>
+<text x="255" y="58" font-family="DejaVu Sans" font-size="2.5" fill="#243441" text-anchor="middle">223</text>
+<text x="269" y="58" font-family="DejaVu Sans" font-size="2.5" fill="#243441" text-anchor="middle">237</text>
 <line x1="32" y1="62" x2="32" y2="52" stroke="#77858e" stroke-width="0.18"/>
 <line x1="282" y1="62" x2="282" y2="52" stroke="#77858e" stroke-width="0.18"/>
 <line x1="32" y1="50" x2="282" y2="50" stroke="#77858e" stroke-width="0.18"/>
@@ -65,37 +53,32 @@
 <polygon points="19,62 18.45,63.6 19.55,63.6" fill="#77858e" stroke="#77858e" stroke-width="0.1"/>
 <polygon points="19,187 18.45,185.4 19.55,185.4" fill="#77858e" stroke="#77858e" stroke-width="0.1"/>
 <text x="17.5" y="124.5" font-family="DejaVu Sans" font-size="3" fill="#243441" text-anchor="middle" transform="rotate(-90 17.5 124.5)">125</text>
-<text x="157" y="116" font-family="DejaVu Sans" font-size="3" fill="#243441" text-anchor="middle">W01 · BB uz augšu · biezums nomināli 5</text>
-<text x="157" y="126" font-family="DejaVu Sans" font-size="2.8" fill="#243441" text-anchor="middle">Stūri R2,5 · augšējā un apakšējā mala R0,4</text>
-<text x="302" y="57" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">16 STIPRINĀJUMI</text>
-<text x="302" y="62.5" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">X=9; 31; 219; 241</text>
-<text x="302" y="68" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">Y=9; 31; 94; 116</text>
-<text x="302" y="73.5" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">Visas X un Y kombinācijas.</text>
-<text x="302" y="79" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start"></text>
-<text x="302" y="84.5" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">W01 urbums Ø1,05 cauri.</text>
-<text x="302" y="90" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">Augšā ligzda P06:</text>
-<text x="302" y="95.5" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">4 × 4; dziļums 0,6.</text>
-<text x="302" y="101" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start"></text>
-<text x="302" y="106.5" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">P06: 4 × 4 × 0,6.</text>
-<text x="302" y="112" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">Konuss pēc M10 galvas.</text>
-<text x="302" y="117.5" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">Nomināli 90°, Ø2,</text>
-<text x="302" y="123" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">dziļums 0,5.</text>
-<text x="302" y="128.5" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start"></text>
-<text x="302" y="134" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">Cieša, cieta saskare.</text>
-<rect x="32" y="208" width="72" height="30" fill="#ead7b3" stroke="#aa854c" stroke-width="0.3" rx="0"/>
-<rect x="32" y="238" width="72" height="4.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.3" rx="0"/>
-<rect x="56" y="208" width="24" height="3.6" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.3" rx="0"/>
-<polygon points="62,208 74,208 71,211 65,211" fill="#65727a" stroke="#243441" stroke-width="0.2"/>
-<rect x="65" y="211" width="6" height="42" fill="#88949c" stroke="#243441" stroke-width="0.2" rx="0"/>
-<rect x="62" y="242.8" width="12" height="1.2" fill="#65727a" stroke="#243441" stroke-width="0.2" rx="0"/>
-<rect x="62" y="244" width="12" height="6" fill="#65727a" stroke="#243441" stroke-width="0.2" rx="0"/>
-<text x="32" y="262" font-family="DejaVu Sans" font-size="2.7" fill="#243441" text-anchor="start">Šķērsgriezums 1:1,67</text>
-<text x="128" y="202" font-family="DejaVu Sans" font-size="2.75" fill="#243441" text-anchor="start">M10 gremdgalvas skrūve 7,5 KOPĀ ar galvu; klase 8.8.</text>
-<text x="128" y="209" font-family="DejaVu Sans" font-size="2.75" fill="#243441" text-anchor="start">P06 balsta galvu tēraudā; zem tās paliek 4,4 saplākšņa.</text>
-<text x="128" y="216" font-family="DejaVu Sans" font-size="2.75" fill="#243441" text-anchor="start">P01 0,8; paplāksne 0,2; pašfiksējošs uzgrieznis ap 1.</text>
-<text x="128" y="223" font-family="DejaVu Sans" font-size="2.75" fill="#243441" text-anchor="start">Aiz uzgriežņa vismaz 2 vītnes; pārbaudīt faktisko komplektu.</text>
-<text x="128" y="230" font-family="DejaVu Sans" font-size="2.75" fill="#243441" text-anchor="start">Pievilkt krusteniski līdz ciešai saskarei, nesaspiežot koku.</text>
-<text x="128" y="237" font-family="DejaVu Sans" font-size="2.75" fill="#243441" text-anchor="start">P06 un galva ir redzami, bet neizvirzās virs darba plaknes.</text>
-<text x="128" y="244" font-family="DejaVu Sans" font-size="2.75" fill="#243441" text-anchor="start">Saplākšņa malas, ligzdas un urbumus aizsargāt pret mitrumu.</text>
-<text x="128" y="251" font-family="DejaVu Sans" font-size="2.75" fill="#243441" text-anchor="start">Pēc pirmās nedēļas pārbaudīt pievilkumu; ieliktņus neizmantot.</text>
+<text x="157" y="116" font-family="DejaVu Sans" font-size="3" fill="#243441" text-anchor="middle">W01 · biezums 5 · BB uz augšu</text>
+<text x="157" y="126" font-family="DejaVu Sans" font-size="2.8" fill="#243441" text-anchor="middle">Augšpusē nav skrūvju vai metāla ielaidumu.</text>
+<text x="302" y="57" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">16 KOKSKRŪVES</text>
+<text x="302" y="62.6" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">Ø0,8 × 4, ar seškanšu galvu.</text>
+<text x="302" y="68.2" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">Garums 4 zem galvas.</text>
+<text x="302" y="73.8" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">Katrai parasta paplāksne.</text>
+<text x="302" y="79.4" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start"></text>
+<text x="302" y="85" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">Caurums P01: Ø0,9.</text>
+<text x="302" y="90.6" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">Kokā priekšurbums no apakšas;</text>
+<text x="302" y="96.2" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">Ø pēc skrūves ražotāja.</text>
+<text x="302" y="101.8" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">Dziļums līdz 3,2.</text>
+<text x="302" y="107.4" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start"></text>
+<text x="302" y="113" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">X=13; 27; 223; 237</text>
+<text x="302" y="118.6" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">Y=13; 27; 98; 112</text>
+<text x="302" y="124.2" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">Visas X un Y kombinācijas.</text>
+<rect x="32" y="211" width="88" height="30" fill="#ead7b3" stroke="#aa854c" stroke-width="0.3" rx="0"/>
+<rect x="32" y="241" width="88" height="4.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.3" rx="0"/>
+<rect x="70" y="245.8" width="12" height="1.2" fill="#65727a" stroke="#243441" stroke-width="0.2" rx="0"/>
+<polygon points="76,223 78.4,227 78.4,247 73.6,247 73.6,227" fill="#88949c" stroke="#243441" stroke-width="0.2"/>
+<rect x="72" y="247" width="8" height="4" fill="#65727a" stroke="#243441" stroke-width="0.2" rx="0"/>
+<text x="32" y="264" font-family="DejaVu Sans" font-size="2.7" fill="#243441" text-anchor="start">Šķērsgriezums 1:1,67</text>
+<text x="137" y="207" font-family="DejaVu Sans" font-size="2.75" fill="#243441" text-anchor="start">4 cm skrūve − 0,8 P01 − 0,2 paplāksne = 3 cm kokā.</text>
+<text x="137" y="214" font-family="DejaVu Sans" font-size="2.75" fill="#243441" text-anchor="start">Virs skrūves paliek ap 2 cm saplākšņa. Neurbt cauri!</text>
+<text x="137" y="221" font-family="DejaVu Sans" font-size="2.75" fill="#243441" text-anchor="start">Urbja dziļuma ierobežotājs; pirms montāžas izmēģināt atgriezumā.</text>
+<text x="137" y="228" font-family="DejaVu Sans" font-size="2.75" fill="#243441" text-anchor="start">Pārnest caurumus pēc pamatnes uzlikšanas uz apgrieztās virsmas.</text>
+<text x="137" y="235" font-family="DejaVu Sans" font-size="2.75" fill="#243441" text-anchor="start">Pievilkt cieši ar rokas atslēgu, neizplēšot vītni kokā.</text>
+<text x="137" y="242" font-family="DejaVu Sans" font-size="2.75" fill="#243441" text-anchor="start">Virsmas svaru nes plāksnes; skrūves to notur vietā.</text>
+<text x="137" y="249" font-family="DejaVu Sans" font-size="2.75" fill="#243441" text-anchor="start">Smago galdu celt aiz tērauda pamatnes, nevis saplākšņa malas.</text>
 </svg>

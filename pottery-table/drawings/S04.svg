@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="42cm" height="29.7cm" viewBox="0 0 420 297">
 <rect width="420" height="297" fill="white"/>
 <text x="14" y="16" font-family="DejaVu Sans" font-size="3.1" fill="#77858e" text-anchor="start" font-weight="bold">DARBNĪCA / KERAMIKAS GALDS</text>
-<text x="14" y="26" font-family="DejaVu Sans" font-size="6.2" fill="#243441" text-anchor="start" font-weight="bold">Stingras kāju galvas un pēdas</text>
-<text x="14" y="34" font-family="DejaVu Sans" font-size="2.7" fill="#77858e" text-anchor="start">P01 mērogā 1:2 · Četras ribas katrai kājai · Četri caurejoši M10 katrā galvā</text>
+<text x="14" y="26" font-family="DejaVu Sans" font-size="6.2" fill="#243441" text-anchor="start" font-weight="bold">Vienkāršas kāju plāksnes un pēdas</text>
+<text x="14" y="34" font-family="DejaVu Sans" font-size="2.7" fill="#77858e" text-anchor="start">P01 mērogā 1:2 · Divas nelielas ribas katrai kājai · Kokskrūves no apakšas</text>
 <line x1="14" y1="39" x2="406" y2="39" stroke="#243441" stroke-width="0.45"/>
 <line x1="14" y1="278" x2="406" y2="278" stroke="#243441" stroke-width="0.4"/>
-<text x="14" y="284" font-family="DejaVu Sans" font-size="2.6" fill="#243441" text-anchor="start" font-weight="bold">PT-250  /  S04  /  RED. D  /  2026-09-30</text>
+<text x="14" y="284" font-family="DejaVu Sans" font-size="2.6" fill="#243441" text-anchor="start" font-weight="bold">PT-250  /  S04  /  RED. E  /  2026-09-30</text>
 <text x="14" y="290" font-family="DejaVu Sans" font-size="2.5" fill="#77858e" text-anchor="start">Visi izmēri cm · Nomināla ģeometrija pirms krāsošanas · Izmantot norādītos izmērus</text>
 <text x="406" y="284" font-family="DejaVu Sans" font-size="2.6" fill="#243441" text-anchor="end">A3 · 42 × 29,7 cm</text>
 <line x1="356" y1="287" x2="406" y2="287" stroke="#243441" stroke-width="0.5"/>
@@ -16,50 +16,50 @@
 <line x1="396" y1="286" x2="396" y2="288" stroke="#243441" stroke-width="0.3"/>
 <line x1="406" y1="286" x2="406" y2="288" stroke="#243441" stroke-width="0.3"/>
 <text x="381" y="291" font-family="DejaVu Sans" font-size="2.1" fill="#77858e" text-anchor="middle">Izdrukas pārbaude: 5 cm</text>
-<rect x="31" y="66" width="150" height="150" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.4" rx="0"/>
-<rect x="91" y="126" width="30" height="30" fill="none" stroke="#243441" stroke-width="0.3" rx="0"/>
-<circle cx="51" cy="86" r="2.625" fill="white" stroke="#243441" stroke-width="0.22"/>
-<circle cx="51" cy="196" r="2.625" fill="white" stroke="#243441" stroke-width="0.22"/>
-<circle cx="161" cy="86" r="2.625" fill="white" stroke="#243441" stroke-width="0.22"/>
-<circle cx="161" cy="196" r="2.625" fill="white" stroke="#243441" stroke-width="0.22"/>
-<line x1="106" y1="71" x2="106" y2="126" stroke="#b83b31" stroke-width="3"/>
-<line x1="106" y1="156" x2="106" y2="211" stroke="#b83b31" stroke-width="3"/>
-<line x1="36" y1="141" x2="91" y2="141" stroke="#b83b31" stroke-width="3"/>
-<line x1="121" y1="141" x2="176" y2="141" stroke="#b83b31" stroke-width="3"/>
-<line x1="31" y1="66" x2="31" y2="56" stroke="#77858e" stroke-width="0.18"/>
-<line x1="181" y1="66" x2="181" y2="56" stroke="#77858e" stroke-width="0.18"/>
-<line x1="31" y1="54" x2="181" y2="54" stroke="#77858e" stroke-width="0.18"/>
-<polygon points="31,54 32.6,53.45 32.6,54.55" fill="#77858e" stroke="#77858e" stroke-width="0.1"/>
-<polygon points="181,54 179.4,53.45 179.4,54.55" fill="#77858e" stroke="#77858e" stroke-width="0.1"/>
-<text x="106" y="52.5" font-family="DejaVu Sans" font-size="3" fill="#243441" text-anchor="middle">30</text>
-<line x1="51" y1="216" x2="51" y2="230" stroke="#77858e" stroke-width="0.18"/>
-<line x1="161" y1="216" x2="161" y2="230" stroke="#77858e" stroke-width="0.18"/>
-<line x1="51" y1="228" x2="161" y2="228" stroke="#77858e" stroke-width="0.18"/>
-<polygon points="51,228 52.6,227.45 52.6,228.55" fill="#77858e" stroke="#77858e" stroke-width="0.1"/>
-<polygon points="161,228 159.4,227.45 159.4,228.55" fill="#77858e" stroke="#77858e" stroke-width="0.1"/>
-<text x="106" y="226.5" font-family="DejaVu Sans" font-size="3" fill="#243441" text-anchor="middle">22 — centru attālums</text>
-<line x1="31" y1="66" x2="22" y2="66" stroke="#77858e" stroke-width="0.18"/>
-<line x1="31" y1="216" x2="22" y2="216" stroke="#77858e" stroke-width="0.18"/>
-<line x1="20" y1="66" x2="20" y2="216" stroke="#77858e" stroke-width="0.18"/>
-<polygon points="20,66 19.45,67.6 20.55,67.6" fill="#77858e" stroke="#77858e" stroke-width="0.1"/>
-<polygon points="20,216 19.45,214.4 20.55,214.4" fill="#77858e" stroke="#77858e" stroke-width="0.1"/>
-<text x="18.5" y="141" font-family="DejaVu Sans" font-size="3" fill="#243441" text-anchor="middle" transform="rotate(-90 18.5 141)">30</text>
-<text x="31" y="243" font-family="DejaVu Sans" font-size="2.8" fill="#243441" text-anchor="start">P01: 4 gab.; 30 × 30 × 0,8.</text>
-<text x="31" y="249" font-family="DejaVu Sans" font-size="2.8" fill="#243441" text-anchor="start">4 urbumi Ø1,05; centri 4 no malām.</text>
-<text x="31" y="255" font-family="DejaVu Sans" font-size="2.8" fill="#243441" text-anchor="start">L01 centrā; P05 visu četru plakņu vidū.</text>
-<text x="203" y="56" font-family="DejaVu Sans" font-size="3" fill="#243441" text-anchor="start" font-weight="bold">KĀJAS GALVA — SĀNSKATS 1:2</text>
-<rect x="212" y="144" width="150" height="25" fill="#ead7b3" stroke="#aa854c" stroke-width="0.3" rx="0"/>
-<rect x="212" y="169" width="150" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.3" rx="0"/>
-<rect x="272" y="173" width="30" height="65" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.3" rx="0"/>
-<polygon points="217,173 272,173 272,228" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.3"/>
-<polygon points="302,173 357,173 302,228" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.3"/>
-<text x="203" y="68" font-family="DejaVu Sans" font-size="2.8" fill="#243441" text-anchor="start">L01: 6 × 6 × 0,3; garums 68,4.</text>
-<text x="203" y="74" font-family="DejaVu Sans" font-size="2.8" fill="#243441" text-anchor="start">P05: 16 gab.; katetes 11 × 11; biezums 0,6.</text>
-<text x="203" y="80" font-family="DejaVu Sans" font-size="2.8" fill="#243441" text-anchor="start">Ribas cieši pie L01 un P01; šuves abās pusēs.</text>
-<text x="203" y="86" font-family="DejaVu Sans" font-size="2.8" fill="#243441" text-anchor="start">P01 augša Z=73; apakša Z=72,2.</text>
-<text x="203" y="92" font-family="DejaVu Sans" font-size="2.8" fill="#243441" text-anchor="start">P05 zemākais punkts Z=61,2.</text>
-<text x="203" y="98" font-family="DejaVu Sans" font-size="2.8" fill="#243441" text-anchor="start">Stiprinājuma šķērsgriezums: S06.</text>
-<text x="203" y="248" font-family="DejaVu Sans" font-size="2.6" fill="#243441" text-anchor="start">P02: 6 × 6 × 0,8; Ø1,8 centrā; M16 uzgrieznis virs tās.</text>
-<text x="203" y="254" font-family="DejaVu Sans" font-size="2.6" fill="#243441" text-anchor="start">4 regulējamas neslīdošas pēdas Ø ap 8; kontruzgriežņi.</text>
-<text x="203" y="260" font-family="DejaVu Sans" font-size="2.6" fill="#243441" text-anchor="start">Pilna vītnes saķere; balsta augstums 2,85–3,19.</text>
+<rect x="31" y="72" width="100" height="100" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.4" rx="0"/>
+<rect x="66" y="107" width="30" height="30" fill="none" stroke="#243441" stroke-width="0.3" rx="0"/>
+<circle cx="46" cy="87" r="2.25" fill="white" stroke="#243441" stroke-width="0.22"/>
+<circle cx="46" cy="157" r="2.25" fill="white" stroke="#243441" stroke-width="0.22"/>
+<circle cx="116" cy="87" r="2.25" fill="white" stroke="#243441" stroke-width="0.22"/>
+<circle cx="116" cy="157" r="2.25" fill="white" stroke="#243441" stroke-width="0.22"/>
+<line x1="96" y1="122" x2="126" y2="122" stroke="#b83b31" stroke-width="3"/>
+<line x1="81" y1="137" x2="81" y2="167" stroke="#b83b31" stroke-width="3"/>
+<line x1="31" y1="72" x2="31" y2="62" stroke="#77858e" stroke-width="0.18"/>
+<line x1="131" y1="72" x2="131" y2="62" stroke="#77858e" stroke-width="0.18"/>
+<line x1="31" y1="60" x2="131" y2="60" stroke="#77858e" stroke-width="0.18"/>
+<polygon points="31,60 32.6,59.45 32.6,60.55" fill="#77858e" stroke="#77858e" stroke-width="0.1"/>
+<polygon points="131,60 129.4,59.45 129.4,60.55" fill="#77858e" stroke="#77858e" stroke-width="0.1"/>
+<text x="81" y="58.5" font-family="DejaVu Sans" font-size="3" fill="#243441" text-anchor="middle">20</text>
+<line x1="46" y1="172" x2="46" y2="190" stroke="#77858e" stroke-width="0.18"/>
+<line x1="116" y1="172" x2="116" y2="190" stroke="#77858e" stroke-width="0.18"/>
+<line x1="46" y1="188" x2="116" y2="188" stroke="#77858e" stroke-width="0.18"/>
+<polygon points="46,188 47.6,187.45 47.6,188.55" fill="#77858e" stroke="#77858e" stroke-width="0.1"/>
+<polygon points="116,188 114.4,187.45 114.4,188.55" fill="#77858e" stroke="#77858e" stroke-width="0.1"/>
+<text x="81" y="186.5" font-family="DejaVu Sans" font-size="3" fill="#243441" text-anchor="middle">14 — caurumu centru attālums</text>
+<line x1="31" y1="72" x2="22" y2="72" stroke="#77858e" stroke-width="0.18"/>
+<line x1="31" y1="172" x2="22" y2="172" stroke="#77858e" stroke-width="0.18"/>
+<line x1="20" y1="72" x2="20" y2="172" stroke="#77858e" stroke-width="0.18"/>
+<polygon points="20,72 19.45,73.6 20.55,73.6" fill="#77858e" stroke="#77858e" stroke-width="0.1"/>
+<polygon points="20,172 19.45,170.4 20.55,170.4" fill="#77858e" stroke="#77858e" stroke-width="0.1"/>
+<text x="18.5" y="122" font-family="DejaVu Sans" font-size="3" fill="#243441" text-anchor="middle" transform="rotate(-90 18.5 122)">20</text>
+<text x="31" y="207" font-family="DejaVu Sans" font-size="2.9" fill="#243441" text-anchor="start">P01: 4 gab.; 20 × 20 × 0,8.</text>
+<text x="31" y="214" font-family="DejaVu Sans" font-size="2.9" fill="#243441" text-anchor="start">4 parasti urbumi Ø0,9.</text>
+<text x="31" y="221" font-family="DejaVu Sans" font-size="2.9" fill="#243441" text-anchor="start">Centri 3 no malām; kāja centrā.</text>
+<text x="31" y="228" font-family="DejaVu Sans" font-size="2.9" fill="#243441" text-anchor="start">Parādīts stūris X=20; Y=20.</text>
+<text x="31" y="235" font-family="DejaVu Sans" font-size="2.9" fill="#243441" text-anchor="start">Ribas vērstas uz galda vidu.</text>
+<text x="31" y="242" font-family="DejaVu Sans" font-size="2.9" fill="#243441" text-anchor="start">Pārējiem stūriem spoguļot.</text>
+<text x="185" y="58" font-family="DejaVu Sans" font-size="3.3" fill="#243441" text-anchor="start" font-weight="bold">DIVAS RIBAS, TAISNI CAURUĻU GALI</text>
+<rect x="198" y="136" width="100" height="25" fill="#ead7b3" stroke="#aa854c" stroke-width="0.3" rx="0"/>
+<rect x="198" y="161" width="100" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.3" rx="0"/>
+<rect x="233" y="165" width="30" height="65" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.3" rx="0"/>
+<polygon points="263,165 293,165 263,195" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.3"/>
+<text x="185" y="70" font-family="DejaVu Sans" font-size="2.8" fill="#243441" text-anchor="start">L01: 6 × 6 × 0,3; garums 68,4.</text>
+<text x="185" y="76" font-family="DejaVu Sans" font-size="2.8" fill="#243441" text-anchor="start">P05: 8 gab.; katetes 6 × 6; biezums 0,6.</text>
+<text x="185" y="82" font-family="DejaVu Sans" font-size="2.8" fill="#243441" text-anchor="start">No 6 × 6 kvadrāta iegūst divus trīsstūrus;</text>
+<text x="185" y="88" font-family="DejaVu Sans" font-size="2.8" fill="#243441" text-anchor="start">ņem vērā zāģējumu vai pasūta gatavus.</text>
+<text x="185" y="94" font-family="DejaVu Sans" font-size="2.8" fill="#243441" text-anchor="start">Pa vienai ribai X un Y virzienā.</text>
+<text x="185" y="100" font-family="DejaVu Sans" font-size="2.8" fill="#243441" text-anchor="start">Ribas šuves pie kājas un plāksnes abās pusēs.</text>
+<text x="185" y="245" font-family="DejaVu Sans" font-size="2.75" fill="#243441" text-anchor="start">P02: 6 × 6 × 0,8; Ø1,8 centrā; M16 uzgrieznis augšpusē.</text>
+<text x="185" y="251" font-family="DejaVu Sans" font-size="2.75" fill="#243441" text-anchor="start">Uzgriezni piemetina pie atsevišķas P02, tad P02 pie kājas.</text>
+<text x="185" y="257" font-family="DejaVu Sans" font-size="2.75" fill="#243441" text-anchor="start">4 regulējamas gumijotas pēdas; fiksēt ar kontruzgriežņiem.</text>
 </svg>

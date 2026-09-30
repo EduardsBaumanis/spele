@@ -11,8 +11,8 @@ SHEETS=[
  ('S03','Sānskati un augstumi','Galda un metāla plaukta augstumu ķēde.'),
  ('S04','Kāju mezgli un pēdas','Augšējās plāksnes, stiprinājuma ribas un regulējamie balsti.'),
  ('S05','Plaukta metāla rāmis','13 šķērslīstes, 6 cm spraugas; maisi balstās uz metāla.'),
- ('S06','Galda virsmas stiprinājumi','16 caurejoši M10 un vienā līmenī iegremdētas P06.'),
- ('S07','Plaukta savienojums ar kāju','P03 plāksnes un divas M12 skrūves katrā savienojumā.'),
+ ('S06','Galda virsmas stiprinājumi','16 parastas kokskrūves no apakšas; augšpuse gluda.'),
+ ('S07','Pamatnes metināšanas secība','Plaukts piemetināts kājām; vienkārši, pieejami savienojumi.'),
 ]
 
 def inline(text):
@@ -78,7 +78,7 @@ def build_website():
     rows=[]
     for p in CUTS:
         size=fmt(p['length']) if p['wall'] else ' × '.join(fmt(p[k]) for k in ['length','a','b'])
-        if p.get('triangle'):size='Katetes 11 un 11; biezums 0,6'
+        if p.get('triangle'):size='Katetes 6 un 6; biezums 0,6'
         row=[p['mark'],p['name'],p['section'],p['qty'],size]
         rows.append('<tr>'+''.join('<td>'+escape(str(v))+'</td>' for v in row)+'</tr>')
     table='<table><caption class="sr-only">Tērauda griešanas saraksts, izmēri cm</caption><thead><tr>'+''.join(f'<th scope="col">{h}</th>' for h in ['Pozīcija','Detaļa','Profils, cm','Skaits','Gatavais izmērs, cm'])+'</tr></thead><tbody>'+''.join(rows)+'</tbody></table>'
