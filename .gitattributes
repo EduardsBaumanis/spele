@@ -1,0 +1,7 @@
+# Preserve generated fabrication documents and images byte for byte.
+*.pdf binary
+*.zip binary
+*.png binary
+*.jpeg binary
+*.jpg binary
+*.csv text eol=lf

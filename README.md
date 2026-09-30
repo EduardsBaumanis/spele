@@ -1,6 +1,6 @@
 # Keramikas darba galds — vietne GitHub Pages
 
-Latviska izgatavošanas dokumentācija galdam 250 × 125 cm. Redakcija C: plaukts stiprinās pie četrām kājām, bez saplākšņa klāja; maisus balsta 13 metāla šķērslīstes. Visi lineārie izmēri centimetros.
+Latviska izgatavošanas dokumentācija galdam 250 × 125 cm. Redakcija D: augšējais rāmis noņemts; 5 cm bērza virsma uz četrām stingrām kāju galvām ar caurejošiem M10. Plaukts stiprinās pie četrām kājām, bez saplākšņa klāja; maisus balsta 13 metāla šķērslīstes. Visi lineārie izmēri centimetros.
 
 Atveriet **[index.html](index.html)**. Vietnē ir 3D modelis, visi trīs PDF un septiņi SVG rasējumi ar lapu izvēli un tuvināšanu, detaļu tabula un lasāms apraksts. PDF priekšskatījumi ir lokāli attēli; vietnei nav vajadzīgs servera kods, ārējas bibliotēkas vai pārlūka PDF spraudnis. Oriģinālie PDF un SVG ir pieejami lejupielādei.
 
@@ -30,12 +30,15 @@ Tad atveriet `http://localhost:8000`. Vietne nelieto `fetch`, tādēļ lokālaji
 
 Izmēri un modeļa dati: `pottery-table/source/design.py`. Rasējumi: `pottery-table/source/drawings.py`. Apraksts: `pottery-table/construction-guide.md`. Vietnes avoti: `pottery-table/source/site/` un `pottery-table/source/website.py`.
 
-Ģenerēšanai vajadzīgs Python 3, `reportlab`, `cairosvg`, `pypdf`, Cairo, DejaVu Sans un `pdftoppm` no `poppler-utils`. No repozitorija saknes:
+Ģenerēšanai vajadzīgs Python 3, `reportlab`, `svglib`, `pypdf`, `pymupdf` un DejaVu Sans vai Windows Arial. No repozitorija saknes:
 
 ```sh
-python3 pottery-table/source/build.py
+python -m pip install -r pottery-table/source/requirements.txt
+python -X utf8 pottery-table/source/build.py
 ```
 
 Komanda atjauno CSV, CAD, visus PDF un SVG, PDF priekšskatījumus, vietni un `pottery-table-workshop-package.zip`. Priekšskatījumi tiek pārrenderēti, ja PDF lapu saturs mainās. Pēc ģenerēšanas publicējiet arī atjaunotos statiskos failus.
 
 Plaukta 200 kg slodze ir projektēšanas un pieņemšanas mērķis, nevis sertificēta nestspēja. Pirms lietošanas jāpārbauda izgatavotie mezgli un pakāpeniska slogošana; pilnas norādes aprakstā.
+
+Redakcijas D stabilitātes pieņemšana: arī tukšam galdam 300 N abos horizontālajos virzienos un stūros, nobīdes mērķis ≤0,1 cm. Faktiskās plātnes un mezglu novērtējums un fiziska pārbaude obligāti pirms lietošanas; absolūts nekustīgums nav pierādīts. Ja nepieļaujama pārbīde, vajadzīga grīdai atbilstoša mehāniska fiksācija.

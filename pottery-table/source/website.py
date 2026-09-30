@@ -7,11 +7,11 @@ from design import ROOT, REV, DATE, CUTS, fmt
 
 SHEETS=[
  ('S01','Kopskats un galvenie izmēri','Galda izskats, izmēri un pārvadāšanas mezgli.'),
- ('S02','Augšējais rāmis','Siju izvietojums, garumi un atskaites koordinātas.'),
+ ('S02','Tiešie virsmas balsti','Četras stingras kāju galvas; bez augšējā rāmja.'),
  ('S03','Sānskati un augstumi','Galda un metāla plaukta augstumu ķēde.'),
  ('S04','Kāju mezgli un pēdas','Augšējās plāksnes, stiprinājuma ribas un regulējamie balsti.'),
  ('S05','Plaukta metāla rāmis','13 šķērslīstes, 6 cm spraugas; maisi balstās uz metāla.'),
- ('S06','Galda virsmas stiprinājumi','12 stiprinājuma plāksnītes un saplākšņa urbumi.'),
+ ('S06','Galda virsmas stiprinājumi','16 caurejoši M10 un vienā līmenī iegremdētas P06.'),
  ('S07','Plaukta savienojums ar kāju','P03 plāksnes un divas M12 skrūves katrā savienojumā.'),
 ]
 
@@ -29,7 +29,7 @@ def guide_html():
     def end_list():
         nonlocal in_list
         if in_list:out.append('</ul>');in_list=False
-    for line in (ROOT/'construction-guide.md').read_text().splitlines():
+    for line in (ROOT/'construction-guide.md').read_text(encoding='utf-8').splitlines():
         if line.startswith('# '):continue
         if line.startswith('## '):
             flush();end_list();out.append('</div></details>' if in_section else '</div>')
@@ -48,19 +48,19 @@ def build_website():
     guide=ROOT/'construction-guide.pdf';reader=PdfReader(guide)
     # Hash the content streams, not PDF creation timestamps, to avoid re-rendering identical pages.
     streams=b''.join(p.get_contents().get_data() for p in reader.pages)
-    digest=hashlib.sha256(b'preview-1600-v1'+streams).hexdigest()
+    digest=hashlib.sha256(b'preview-1600-pymupdf-v2'+streams).hexdigest()
     stamp=pages/'manifest.json'
-    old=json.loads(stamp.read_text()) if stamp.exists() else {}
+    old=json.loads(stamp.read_text(encoding='utf-8')) if stamp.exists() else {}
     page_files=[pages/f'guide-{i:02d}.png' for i in range(1,len(reader.pages)+1)]
     if old.get('digest')!=digest or not all(p.exists() for p in page_files):
-        if not shutil.which('pdftoppm'):raise RuntimeError('PDF priekšskatījumiem vajadzīgs pdftoppm (poppler-utils).')
-        for path in pages.glob('guide-*.png'):path.unlink()
-        subprocess.run(['pdftoppm','-png','-scale-to-x','1600','-scale-to-y','-1',str(guide),str(pages/'guide')],check=True)
-        generated=sorted(pages.glob('guide-*.png'),key=lambda p:int(p.stem.split('-')[-1]))
-        for i,p in enumerate(generated,1):
-            target=pages/f'guide-{i:02d}.png'
-            if p!=target:p.rename(target)
-        stamp.write_text(json.dumps(dict(digest=digest,pages=len(reader.pages)),indent=2)+'\n')
+        import pymupdf
+        # Delete only obsolete previews in this fixed, resolved output directory.
+        with pymupdf.open(guide) as pdf:
+            for page,path in zip(pdf,page_files):
+                page.get_pixmap(matrix=pymupdf.Matrix(1600/page.rect.width,1600/page.rect.width),alpha=False).save(path)
+        for path in pages.glob('guide-*.png'):
+            if path not in page_files:path.unlink()
+        stamp.write_text(json.dumps(dict(digest=digest,pages=len(reader.pages)),indent=2)+'\n',encoding='utf-8')
     guide_pages=[str(p.relative_to(site)) for p in page_files]
     drawing_pages=[f'pottery-table/drawings/{sid}.svg' for sid,_,_ in SHEETS]
     docs=[
@@ -78,14 +78,14 @@ def build_website():
     rows=[]
     for p in CUTS:
         size=fmt(p['length']) if p['wall'] else ' × '.join(fmt(p[k]) for k in ['length','a','b'])
-        if p.get('triangle'):size='Katetes 6 un 6; biezums 0,6'
+        if p.get('triangle'):size='Katetes 11 un 11; biezums 0,6'
         row=[p['mark'],p['name'],p['section'],p['qty'],size]
         rows.append('<tr>'+''.join('<td>'+escape(str(v))+'</td>' for v in row)+'</tr>')
     table='<table><caption class="sr-only">Tērauda griešanas saraksts, izmēri cm</caption><thead><tr>'+''.join(f'<th scope="col">{h}</th>' for h in ['Pozīcija','Detaļa','Profils, cm','Skaits','Gatavais izmērs, cm'])+'</tr></thead><tbody>'+''.join(rows)+'</tbody></table>'
-    viewer=(ROOT/'index.html').read_text()
+    viewer=(ROOT/'index.html').read_text(encoding='utf-8')
     workspace=viewer.split('<div class="workspace">',1)[1].split('<div class="downloads">',1)[0]
     viewer_script=viewer.split('<script>',1)[1].split('</script>',1)[0]
-    template=(ROOT/'source'/'site'/'page.html').read_text()
+    template=(ROOT/'source'/'site'/'page.html').read_text(encoding='utf-8')
     values=dict(REV=REV,DATE=DATE,VIEWER='<div class="workspace">'+workspace,VIEWER_SCRIPT=viewer_script,
         DOCUMENT_LINKS='\n'.join(links),FIRST_PAGE=guide_pages[0],DOCUMENT_DATA=json.dumps(docs,ensure_ascii=False),CUT_TABLE=table,GUIDE_HTML=guide_html())
     for name,value in values.items():template=template.replace('__'+name+'__',value)

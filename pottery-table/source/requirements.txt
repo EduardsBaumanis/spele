@@ -1,0 +1,4 @@
+reportlab>=4,<6
+pypdf>=5,<7
+svglib>=2.2,<3
+pymupdf>=1.24,<2
