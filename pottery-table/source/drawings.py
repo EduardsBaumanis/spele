@@ -1,7 +1,10 @@
 """Dimensioned A3 SVG sheets, generated from the same geometry as the CAD model."""
 import math
 from html import escape
-from design import ROOT, PARTS, DATE, REV, gusset_vertices, fmt, CORNERS, SLATS, TOP_HOLES
+from design import ROOT, PARTS, PARAMS, DATE, REV, gusset_vertices, fmt, CORNERS, SLATS, TOP_HOLES, LEG_SPAN_X, LEG_SPAN_Y, SHELF_X, SHELF_Y
+
+L=PARAMS['length']; W=PARAMS['width']
+DIAGONAL=fmt(round(math.hypot(LEG_SPAN_X,LEG_SPAN_Y),2))
 
 INK='#243441'; RED='#b83b31'; LIGHT='#f7e6e1'; GREY='#77858e'; GOLD='#aa854c'; WOOD='#ead7b3'
 
@@ -17,7 +20,7 @@ class Sheet:
         self.text(14,34,subtitle,2.7,GREY)
         self.line(14,39,406,39,.45,INK)
         self.line(14,278,406,278,.4,INK)
-        self.text(14,284,f'PT-250  /  {number}  /  RED. {REV}  /  {DATE}',2.6,bold=True)
+        self.text(14,284,f'PT-{L}  /  {number}  /  RED. {REV}  /  {DATE}',2.6,bold=True)
         self.text(14,290,'Visi izmēri cm · Nomināla ģeometrija pirms krāsošanas · Izmantot norādītos izmērus',2.5,GREY)
         self.text(406,284,'A3 · 42 × 29,7 cm',2.6,align='end')
         self.line(356,287,406,287,.5)
@@ -67,7 +70,7 @@ def box_faces(p):
 
 def iso(s,parts,bounds,wood=True):
     allp=list(parts)
-    if wood:allp.append(dict(kind='plate',origin=[0,0,73],size=[250,125,5],group='wood'))
+    if wood:allp.append(dict(kind='plate',origin=[0,0,73],size=[L,W,5],group='wood'))
     for cx,cy in CORNERS:
         allp.append(dict(kind='plate',origin=[cx-4,cy-4,0],size=[8,8,2],group='foot'))
     def proj(v):
@@ -91,19 +94,19 @@ def general():
     s=Sheet('S01','Kopskats un galvenie izmēri','Uz kājām balstīts māla plaukts · Savienojumi un detaļas: S02–S07')
     iso(s,PARTS,(18,48,275,185))
     s.text(301,56,'KONSTRUKCIJA',3.4,bold=True)
-    s.note(301,66,['Virsma: 250 × 125 × 5','Galda augstums: 78','Bērza saplāksnis; BB uz augšu','Tērauds: satīna RAL 3020','','8 vietas; reizēm 10','Viengabala metināta pamatne','Plaukts piemetināts kājām','','Plaukta slodzes mērķis: 200 kg'],2.8,6)
+    s.note(301,66,[f'Virsma: {L} × {W} × 5','Galda augstums: 78','Bērza saplāksnis; BB uz augšu','Tērauds: satīna RAL 3020','','Vietas pārbaudīt ar krēsliem','Viengabala metināta pamatne','Plaukts piemetināts kājām','','Plaukta slodzes mērķis: 200 kg'],2.8,6)
     s.text(301,143,'PĀRVADĀŠANA',3.4,bold=True)
-    s.note(301,153,['Virsma: 250 × 125','Pamatne: 230 × 105 × 73','Virsma noņemama','Režģa zona: 150 × 35','','Pārbaudīt durvju aili.','Pamatne neizjaucas.'],2.75,5.5)
+    s.note(301,153,[f'Virsma: {L} × {W}',f'Pamatne: {PARAMS["base_length"]} × {PARAMS["base_width"]} × 73','Virsma noņemama','Režģa zona: 150 × 35','','Pārbaudīt durvju aili.','Pamatne neizjaucas.'],2.75,5.5)
     s.line(14,240,406,240,.25,GREY)
-    s.note(18,249,['DARBA VIETA','Pa trim sēdvietām gar sāniem,','pa vienai katrā galā.'],2.9,5.6)
-    s.note(150,249,['VIETA KĀJĀM','Režģis 45 no sāniem, 50 no galiem.','Gala šķērssijas Z=15–23.'],2.9,5.6)
+    s.note(18,249,['DARBA VIETA','Sēdvietu skaitu un izvietojumu','pārbaudīt ar īstajiem krēsliem.'],2.9,5.6)
+    s.note(150,249,['VIETA KĀJĀM',f'Režģis {fmt(SHELF_Y)} no sāniem, {fmt(SHELF_X)} no galiem.','Gala šķērssijas Z=15–23.'],2.9,5.6)
     s.note(287,249,['SLODZE','Maisi → metāla režģis → kājas.','200 kg ir projektēšanas mērķis.'],2.9,5.6)
     return s.save()
 
 def supports():
     s=Sheet('S02','Tiešie virsmas balsti — plāns','Mērogs 1:10 uz A3 · Četras atsevišķas kāju plāksnes · Bez augšējā rāmja')
     ox,oy=45,62
-    s.rect(ox,oy,250,125,'none',GOLD,.25,'2 1',rx=2.5)
+    s.rect(ox,oy,L,W,'none',GOLD,.25,'2 1',rx=2.5)
     for p in PARTS:
         if p['mark']!='P01':continue
         x,y,z=p['origin'];a,b,c=p['size']
@@ -112,14 +115,14 @@ def supports():
     for x,y in CORNERS:s.rect(ox+x-3,oy+y-3,6,6,'none',INK,.2,'1 .6')
     for p in PARTS:
         if p['kind']=='gusset':s.poly([(ox+v[0],oy+v[1]) for v in gusset_vertices(p)],RED,RED,.2)
-    s.text(ox+125,oy+57,'5 cm bērza saplāksnis nes virsmas slodzi.',3.2,align='middle')
-    s.text(ox+125,oy+66,'Kājas un plaukts sametināti vienā pamatnē.',3,align='middle')
-    s.dimh(ox,ox+250,49,oy,'250 — virsma');s.dimv(oy,oy+125,25,ox,'125 — virsma')
-    s.dimh(ox+20,ox+230,203,187,'210 — kāju centri');s.dimv(oy+20,oy+105,309,295,'85 — kāju centri')
-    s.dimh(ox+30,ox+220,216,187,'190 — starp P01 iekšmalām')
+    s.text(ox+L/2,oy+W/2-5,'5 cm bērza saplāksnis nes virsmas slodzi.',3.2,align='middle')
+    s.text(ox+L/2,oy+W/2+4,'Kājas un plaukts sametināti vienā pamatnē.',3,align='middle')
+    s.dimh(ox,ox+L,49,oy,f'{L} — virsma');s.dimv(oy,oy+W,25,ox,f'{W} — virsma')
+    s.dimh(ox+20,ox+L-20,203,oy+W,f'{LEG_SPAN_X} — kāju centri');s.dimv(oy+20,oy+W-20,ox+L+14,ox+L,f'{LEG_SPAN_Y} — kāju centri')
+    s.dimh(ox+30,ox+L-30,216,oy+W,f'{L-60} — starp P01 iekšmalām')
     s.circle(ox,oy,1);s.text(ox-3,oy-3,'0;0',2.7,align='end')
-    s.note(328,63,['P01: 4 GAB.','20 × 20 × 0,8','X: 10–30; 220–240','Y: 10–30; 95–115','','Kāju centri:','X=20 un 230','Y=20 un 105','','4 kokskrūves katrā P01.','Urbumu kvadrāts 14 × 14.','Plāksnes augša Z=73.','','Bez mīkstas starplikas.','Kāju galvas: S04.'],2.65,5.3)
-    s.note(18,239,['Kāju centru diagonāle: 226,55; diagonāļu starpība ≤0,2. Plāksnēm cieši jābalsta virsma.',
+    s.note(328,63,['P01: 4 GAB.','20 × 20 × 0,8',f'X: 10–30; {L-30}–{L-10}',f'Y: 10–30; {W-30}–{W-10}','','Kāju centri:',f'X=20 un {L-20}',f'Y=20 un {W-20}','','4 kokskrūves katrā P01.','Urbumu kvadrāts 14 × 14.','Plāksnes augša Z=73.','','Bez mīkstas starplikas.','Kāju galvas: S04.'],2.65,5.3)
+    s.note(18,239,[f'Kāju centru diagonāle: {DIAGONAL}; diagonāļu starpība ≤0,2. Plāksnēm cieši jābalsta virsma.',
         'Visām P01 cieši jābalsta virsma; spraugas koriģēt ar cietām pilnas saskares starplikām.',
         'Nav perimetra siju vai centrālo šķērssiju. Plaukts savieno visas četras kājas zemāk.',
         'Pārbaudīt tukšu galdu: stingri spiežot abos virzienos, nav šūpošanās, klikšķu vai slīdēšanas.'],2.8,6)
@@ -128,7 +131,7 @@ def supports():
 def elevations():
     s=Sheet('S03','Sānskati un augstumu ķēde','Mērogs 1:10 uz A3 · Tieši balstīta 5 cm virsma · Bez mīksta starpslāņa')
     for end,ox in [(False,18),(True,279)]:
-        base=151;span=125 if end else 250
+        base=151;span=W if end else L
         s.text(ox,54,'SKATS NO GALA' if end else 'SKATS NO GARĀS MALAS',3.1,bold=True)
         s.line(ox-2,base,ox+span+2,base,.25,GREY)
         for p in sorted(PARTS,key=lambda p:0 if p['group']=='shelf' else 1):
@@ -136,16 +139,16 @@ def elevations():
                 s.poly([(ox+v[1 if end else 0],base-v[2]) for v in gusset_vertices(p)[:3]],LIGHT,RED,.15);continue
             x,y,z=p['origin'];a,b,c=p['size'];s.rect(ox+(y if end else x),base-z-c,b if end else a,c,LIGHT,RED,.18)
         s.rect(ox,base-78,span,5,WOOD,GOLD,.3)
-        for u in ([20,105] if end else [20,230]):
+        for u in ([20,W-20] if end else [20,L-20]):
             s.rect(ox+u-4,base-2,8,2,'#52616a',INK,.2,rx=.5);s.rect(ox+u-.8,base-3,1.6,1,'#a2a9ae',INK,.1)
         s.dimh(ox,ox+span,164,base,fmt(span))
-    s.dimv(73,151,271,268,'78');s.dimh(68,218,177,126,'150 — režģis')
-    s.dimh(324,359,140,132,'35 — režģis')
+    s.dimv(73,151,271,268,'78');s.dimh(18+SHELF_X,18+SHELF_X+150,177,128,'150 — režģis')
+    s.dimh(279+SHELF_Y,279+SHELF_Y+35,140,128,'35 — režģis')
     s.text(20,192,'AUGSTUMI NO GRĪDAS',3.3,bold=True)
     s.note(20,203,['78 — gluda darba virsma bez caurejošiem urbumiem','73 — virsmas apakša un P01 augša','72,2 — P01 apakša un L01 augša','66,2 — mazo ribu P05 apakšpunkts','L01 garums 68,4; P01 biezums 0,8','3,8 — kājas caurules apakša','3 — P02 apakša; 0 — grīda','3 + 0,8 + 68,4 + 0,8 + 5 = 78'],2.85,7)
     s.text(211,192,'PLAUKTS UN REGULĒŠANA',3.3,bold=True)
     s.note(211,203,['23 — plaukta metāla balsta virsma.','23 — plaukta tērauda augša; 15 — siju apakša.',
-        'Gala šķērssijas atrodas pie X=20 un 230.','Pirms griešanas pārbaudīt krēslus un vietu pēdām.','',
+        f'Gala šķērssijas atrodas pie X=20 un {L-20}.','Pirms griešanas pārbaudīt krēslus un vietu pēdām.','',
         'Balsta augstums = 8 − faktiskais virsmas biezums t.','Pie t=4,81–5,15: balsts 3,19–2,85.',
         'Tērauda augstumi mainās par 5 − t; skatīt aprakstu.'],2.75,7)
     return s.save()
@@ -176,34 +179,34 @@ def shelf():
         if p['group']!='shelf':continue
         x,y,z=p['origin'];a,b,c=p['size'];s.rect(ox+x,oy+y,a,b,LIGHT,RED,.23)
     for cx,cy in CORNERS:s.rect(ox+cx-3,oy+cy-3,6,6,'none',INK,.2,'1 .6')
-    s.rect(ox+50,oy+45,150,35,'none',GOLD,.6,'2 1')
-    for x in SLATS:s.text(ox+x,oy+64,fmt(x),2.35,align='middle',rotate=-90)
-    s.dimh(ox+18,ox+232,64,oy+23,'214 — plaukta cauruļu ārmalas')
-    s.dimh(ox+50,ox+200,143,oy+80,'150 — režģis');s.dimh(ox+22,ox+228,165,oy+100.4,'206 — S01 gatavais garums')
-    s.dimv(oy+45,oy+80,289,267,'35');s.dimv(oy+23,oy+102,306,267,'79 — S02')
-    s.note(326,58,['KOORDINĀTAS','Režģis X: 50–200','Režģis Y: 45–80','','S01 Y: 45–49','un 76–80','S01 X: 22–228','','S02 X: 18–22','un 228–232','S02 Y: 23–102','','S03: 13 gab., garums 27.','Centri X=53,65,…,197.','Solis 12; sprauga 6.'],2.55,5.3)
+    s.rect(ox+SHELF_X,oy+SHELF_Y,150,35,'none',GOLD,.6,'2 1')
+    for x in SLATS:s.text(ox+x,oy+W/2+1.5,fmt(x),2.35,align='middle',rotate=-90)
+    s.dimh(ox+18,ox+L-18,64,oy+23,f'{L-36} — plaukta cauruļu ārmalas')
+    s.dimh(ox+SHELF_X,ox+SHELF_X+150,143,oy+SHELF_Y+35,'150 — režģis');s.dimh(ox+22,ox+L-22,165,oy+W-23,f'{LEG_SPAN_X-4} — S01 gatavais garums')
+    s.dimv(oy+SHELF_Y,oy+SHELF_Y+35,289,ox+L-18,'35');s.dimv(oy+23,oy+W-23,306,ox+L-18,f'{LEG_SPAN_Y-6} — S02')
+    s.note(326,58,['KOORDINĀTAS',f'Režģis X: {fmt(SHELF_X)}–{fmt(SHELF_X+150)}',f'Režģis Y: {fmt(SHELF_Y)}–{fmt(SHELF_Y+35)}','',f'S01 Y: {fmt(SHELF_Y)}–{fmt(SHELF_Y+4)}',f'un {fmt(SHELF_Y+31)}–{fmt(SHELF_Y+35)}',f'S01 X: 22–{L-22}','','S02 X: 18–22',f'un {L-22}–{L-18}',f'S02 Y: 23–{W-23}','','S03: 13 gab., garums 27.',f'Centri X={fmt(SLATS[0])},{fmt(SLATS[1])},…,{fmt(SLATS[-1])}.','Solis 12; sprauga 6.'],2.55,5.3)
     base=220
     for p in PARTS:
         if p['group']!='shelf':continue
         x,y,z=p['origin'];a,b,c=p['size'];s.rect(ox+x,base-z-c,a,c,LIGHT,RED,.2)
-    s.line(ox+10,base,ox+240,base,.2,GREY);s.dimv(base-23,base,287,267,'23 — nomināli')
+    s.line(ox+10,base,ox+L-10,base,.2,GREY);s.dimv(base-23,base,287,ox+L-18,'23 — nomināli')
     s.text(65,230,'Sānskats ar aizsegtajām detaļām; maisus balsta metāls.',2.8)
     s.note(18,246,['S01 un S02: profils 8 × 4 × 0,3 ar 8 vertikāli. S03: profils 6 × 4 × 0,3 ar 4 vertikāli.',
         'Siju augša Z=23; S01/S02 apakša Z=15; S03 apakša Z=19. Saplākšņa klāja nav.',
-        'S02 garums 79; galus metina tieši pie kāju iekšējām sienām. Darbu secība: S07.',
+        f'S02 garums {LEG_SPAN_Y-6}; galus metina tieši pie kāju iekšējām sienām. Darbu secība: S07.',
         'Līdz 200 kg vienmērīgi izvietotu maisu; neuzskatīt par sertificētu nestspēju.'],2.75,6)
     return s.save()
 
 def top_fixings():
     s=Sheet('S06','Virsma pieskrūvēta no apakšas','Plāns 1:10, skats caur virsmu · Augšpuse paliek gluda · Frēzēšana nav vajadzīga')
-    ox,oy=32,62;s.rect(ox,oy,250,125,'#fcf6eb',GOLD,.35,rx=2.5)
+    ox,oy=32,62;s.rect(ox,oy,L,W,'#fcf6eb',GOLD,.35,rx=2.5)
     for cx,cy in CORNERS:s.rect(ox+cx-10,oy+cy-10,20,20,'none',RED,.2,'1 .7')
     for x,y in TOP_HOLES:s.circle(ox+x,oy+y,.45,'none',RED,.2)
-    for x in [13,27,223,237]:s.text(ox+x,oy-4,fmt(x),2.5,align='middle')
-    s.dimh(ox,ox+250,50,oy,'250');s.dimv(oy,oy+125,19,ox,'125')
-    s.text(157,116,'W01 · biezums 5 · BB uz augšu',3,align='middle')
-    s.text(157,126,'Augšpusē nav skrūvju vai metāla ielaidumu.',2.8,align='middle')
-    s.note(302,57,['16 KOKSKRŪVES','Ø0,8 × 4, ar seškanšu galvu.','Garums 4 zem galvas.','Katrai parasta paplāksne.','','Caurums P01: Ø0,9.','Kokā priekšurbums no apakšas;','Ø pēc skrūves ražotāja.','Dziļums līdz 3,2.','','X=13; 27; 223; 237','Y=13; 27; 98; 112','Visas X un Y kombinācijas.'],2.65,5.6)
+    for x in sorted({x for x,y in TOP_HOLES}):s.text(ox+x,oy-4,fmt(x),2.5,align='middle')
+    s.dimh(ox,ox+L,50,oy,str(L));s.dimv(oy,oy+W,19,ox,str(W))
+    s.text(ox+L/2,oy+W/2-8,'W01 · biezums 5 · BB uz augšu',3,align='middle')
+    s.text(ox+L/2,oy+W/2+2,'Augšpusē nav skrūvju vai metāla ielaidumu.',2.8,align='middle')
+    s.note(302,57,['16 KOKSKRŪVES','Ø0,8 × 4, ar seškanšu galvu.','Garums 4 zem galvas.','Katrai parasta paplāksne.','','Caurums P01: Ø0,9.','Kokā priekšurbums no apakšas;','Ø pēc skrūves ražotāja.','Dziļums līdz 3,2.','',f'X=13; 27; {L-27}; {L-13}',f'Y=13; 27; {W-27}; {W-13}','Visas X un Y kombinācijas.'],2.65,5.6)
     x,y=32,211
     s.rect(x,y,88,30,WOOD,GOLD,.3);s.rect(x,y+30,88,4.8,LIGHT,RED,.3)
     s.rect(x+38,y+34.8,12,1.2,'#65727a',INK,.2)
@@ -223,15 +226,15 @@ def top_fixings():
 def shelf_joint():
     s=Sheet('S07','Viengabala pamatnes montāža','Taisni profilu gali · Gala sijas metina tieši pie kājām · Nav plaukta skrūvju vai slēptu uzgriežņu')
     ox,base,k=20,227,1.7
-    for cy in [20,105]:s.rect(ox+(cy-3)*k,base-72.2*k,6*k,68.4*k,LIGHT,RED,.3)
-    s.rect(ox+23*k,base-23*k,79*k,8*k,LIGHT,RED,.3)
-    for cy in [20,105]:s.rect(ox+(cy-10)*k,base-73*k,20*k,.8*k,LIGHT,RED,.3)
-    for cy in [23,102]:s.line(ox+cy*k,base-23*k,ox+cy*k,base-15*k,.8,RED)
-    s.dimh(ox+23*k,ox+102*k,249,base-15*k,'79 — S02 starp kājām')
-    s.text(ox+62.5*k,base-19*k,'S02 · 8 vertikāli',2.8,align='middle')
-    s.note(229,57,['1. IZVEIDOT DIVUS VIENĀDUS GALUS','Pa divām kājām un vienai S02 sijai.','S02 apakša 11,2 virs kājas caurules apakšgala.','Ar pēdām tas ir Z=15; sijas augša Z=23.','Izmantot vienādus atgriezumus kā starplikas.','','2. SAVIENOT GALUS AR GARSIJĀM','Divas S01, garums 206; 8 vertikāli.','Sijas X=22–228; Y=45–49 un 76–80.','Pagaidām tikai pieķert; pārbaudīt taisnleņķus.','','3. IEVIETOT 13 ŠĶĒRSLĪSTES','Garums 27; 4 vertikāli; augša vienā līmenī.','6 cm atgriezums kalpo kā spraugas šablons.','','4. PĀRBAUDĪT UN SAMETINĀT','Kāju centru diagonāles 226,55; starpība ≤0,2.','P01 plāksnes vienā plaknē uz līdzenas pamatnes.','Metināt pārmaiņus pretējās pusēs.','S02 galus sametināt ar kājām pa perimetru.','Pieķeršanas punkti nav gatavs savienojums.'],2.8,7)
-    s.note(23,61,['SKATS NO GALA · 1:5,88','Vienādi gala mezgli pie X=20 un 230.','Abu cauruļu sienas 0,3; piegulošus galus','piegriezt pēc faktiskās ailes.'],2.8,6)
-    s.note(229,218,['PIRMS KRĀSOŠANAS','Apskatīt šuves; pārbaudīt pamatni uz grīdas.','Šaubīgas šuves parādīt pieredzējušam metinātājam.','Pamatne ir viena detaļa: 230 × 105 plānā.','Durvju aili un pārvietošanas ceļu pārbaudīt iepriekš.'],2.8,7)
+    for cy in [20,W-20]:s.rect(ox+(cy-3)*k,base-72.2*k,6*k,68.4*k,LIGHT,RED,.3)
+    s.rect(ox+23*k,base-23*k,(LEG_SPAN_Y-6)*k,8*k,LIGHT,RED,.3)
+    for cy in [20,W-20]:s.rect(ox+(cy-10)*k,base-73*k,20*k,.8*k,LIGHT,RED,.3)
+    for cy in [23,W-23]:s.line(ox+cy*k,base-23*k,ox+cy*k,base-15*k,.8,RED)
+    s.dimh(ox+23*k,ox+(W-23)*k,249,base-15*k,f'{LEG_SPAN_Y-6} — S02 starp kājām')
+    s.text(ox+W/2*k,base-19*k,'S02 · 8 vertikāli',2.8,align='middle')
+    s.note(229,57,['1. IZVEIDOT DIVUS VIENĀDUS GALUS','Pa divām kājām un vienai S02 sijai.','S02 apakša 11,2 virs kājas caurules apakšgala.','Ar pēdām tas ir Z=15; sijas augša Z=23.','Izmantot vienādus atgriezumus kā starplikas.','','2. SAVIENOT GALUS AR GARSIJĀM',f'Divas S01, garums {LEG_SPAN_X-4}; 8 vertikāli.',f'Sijas X=22–{L-22}; Y={fmt(SHELF_Y)}–{fmt(SHELF_Y+4)} un {fmt(SHELF_Y+31)}–{fmt(SHELF_Y+35)}.','Pagaidām tikai pieķert; pārbaudīt taisnleņķus.','','3. IEVIETOT 13 ŠĶĒRSLĪSTES','Garums 27; 4 vertikāli; augša vienā līmenī.','6 cm atgriezums kalpo kā spraugas šablons.','','4. PĀRBAUDĪT UN SAMETINĀT',f'Kāju centru diagonāles {DIAGONAL}; starpība ≤0,2.','P01 plāksnes vienā plaknē uz līdzenas pamatnes.','Metināt pārmaiņus pretējās pusēs.','S02 galus sametināt ar kājām pa perimetru.','Pieķeršanas punkti nav gatavs savienojums.'],2.8,7)
+    s.note(23,61,['SKATS NO GALA · 1:5,88',f'Vienādi gala mezgli pie X=20 un {L-20}.','Abu cauruļu sienas 0,3; piegulošus galus','piegriezt pēc faktiskās ailes.'],2.8,6)
+    s.note(229,218,['PIRMS KRĀSOŠANAS','Apskatīt šuves; pārbaudīt pamatni uz grīdas.','Šaubīgas šuves parādīt pieredzējušam metinātājam.',f'Pamatne ir viena detaļa: {PARAMS["base_length"]} × {PARAMS["base_width"]} plānā.','Durvju aili un pārvietošanas ceļu pārbaudīt iepriekš.'],2.8,7)
     return s.save()
 
 

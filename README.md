@@ -1,6 +1,6 @@
 # Keramikas darba galds — vietne GitHub Pages
 
-Latviska dokumentācija galdam 250 × 125 cm. Redakcija E: viena metināta pamatne, 5 cm bērza virsma ar kokskrūvēm no apakšas, astoņas mazas ribas un regulējamas pēdas. Augšējā rāmja nav. Metāla plaukts piemetināts kājām. Visi izgatavošanas izmēri centimetros.
+Latviska dokumentācija galdam 200 × 100 cm. Redakcija F: viena metināta pamatne, 5 cm bērza virsma ar kokskrūvēm no apakšas, astoņas mazas ribas un regulējamas pēdas. Augšējā rāmja nav. Metāla plaukts piemetināts kājām. Visi izgatavošanas izmēri centimetros.
 
 Atveriet **[index.html](index.html)**. Vietnē ir 3D modelis, visi trīs PDF un septiņi SVG rasējumi ar lapu izvēli un tuvināšanu, detaļu tabula un lasāms apraksts. PDF priekšskatījumi ir lokāli attēli; vietnei nav vajadzīgs servera kods, ārējas bibliotēkas vai pārlūka PDF spraudnis. Oriģinālie PDF un SVG ir pieejami lejupielādei.
 
@@ -43,4 +43,4 @@ Komanda atjauno CSV, CAD, visus PDF un SVG, PDF priekšskatījumus, vietni un `p
 
 Plaukta 200 kg slodze ir projektēšanas un pieņemšanas mērķis, nevis sertificēta nestspēja. Pirms lietošanas jāpārbauda izgatavotie mezgli un pakāpeniska slogošana; pilnas norādes aprakstā.
 
-Pamatne nav izjaucama (230 × 105 × 73 cm); virsma ir noņemama. Pirms izgatavošanas pārbaudiet pārvietošanas ceļu. Gatavam galdam pārbaudiet šuves, pēdu līmeni un šūpošanos, pēc tam slodzi palieliniet pakāpeniski.
+Pamatne nav izjaucama (180 × 80 × 73 cm); virsma ir noņemama. Pirms izgatavošanas pārbaudiet pārvietošanas ceļu. Gatavam galdam pārbaudiet šuves, pēdu līmeni un šūpošanos, pēc tam slodzi palieliniet pakāpeniski.

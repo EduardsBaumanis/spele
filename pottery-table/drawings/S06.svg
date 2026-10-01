@@ -5,7 +5,7 @@
 <text x="14" y="34" font-family="DejaVu Sans" font-size="2.7" fill="#77858e" text-anchor="start">Plāns 1:10, skats caur virsmu · Augšpuse paliek gluda · Frēzēšana nav vajadzīga</text>
 <line x1="14" y1="39" x2="406" y2="39" stroke="#243441" stroke-width="0.45"/>
 <line x1="14" y1="278" x2="406" y2="278" stroke="#243441" stroke-width="0.4"/>
-<text x="14" y="284" font-family="DejaVu Sans" font-size="2.6" fill="#243441" text-anchor="start" font-weight="bold">PT-250  /  S06  /  RED. E  /  2026-09-30</text>
+<text x="14" y="284" font-family="DejaVu Sans" font-size="2.6" fill="#243441" text-anchor="start" font-weight="bold">PT-200  /  S06  /  RED. F  /  2026-10-01</text>
 <text x="14" y="290" font-family="DejaVu Sans" font-size="2.5" fill="#77858e" text-anchor="start">Visi izmēri cm · Nomināla ģeometrija pirms krāsošanas · Izmantot norādītos izmērus</text>
 <text x="406" y="284" font-family="DejaVu Sans" font-size="2.6" fill="#243441" text-anchor="end">A3 · 42 × 29,7 cm</text>
 <line x1="356" y1="287" x2="406" y2="287" stroke="#243441" stroke-width="0.5"/>
@@ -16,45 +16,45 @@
 <line x1="396" y1="286" x2="396" y2="288" stroke="#243441" stroke-width="0.3"/>
 <line x1="406" y1="286" x2="406" y2="288" stroke="#243441" stroke-width="0.3"/>
 <text x="381" y="291" font-family="DejaVu Sans" font-size="2.1" fill="#77858e" text-anchor="middle">Izdrukas pārbaude: 5 cm</text>
-<rect x="32" y="62" width="250" height="125" fill="#fcf6eb" stroke="#aa854c" stroke-width="0.35" rx="2.5"/>
+<rect x="32" y="62" width="200" height="100" fill="#fcf6eb" stroke="#aa854c" stroke-width="0.35" rx="2.5"/>
 <rect x="42" y="72" width="20" height="20" fill="none" stroke="#b83b31" stroke-width="0.2" rx="0" stroke-dasharray="1 .7"/>
-<rect x="252" y="72" width="20" height="20" fill="none" stroke="#b83b31" stroke-width="0.2" rx="0" stroke-dasharray="1 .7"/>
-<rect x="42" y="157" width="20" height="20" fill="none" stroke="#b83b31" stroke-width="0.2" rx="0" stroke-dasharray="1 .7"/>
-<rect x="252" y="157" width="20" height="20" fill="none" stroke="#b83b31" stroke-width="0.2" rx="0" stroke-dasharray="1 .7"/>
+<rect x="202" y="72" width="20" height="20" fill="none" stroke="#b83b31" stroke-width="0.2" rx="0" stroke-dasharray="1 .7"/>
+<rect x="42" y="132" width="20" height="20" fill="none" stroke="#b83b31" stroke-width="0.2" rx="0" stroke-dasharray="1 .7"/>
+<rect x="202" y="132" width="20" height="20" fill="none" stroke="#b83b31" stroke-width="0.2" rx="0" stroke-dasharray="1 .7"/>
 <circle cx="45" cy="75" r="0.45" fill="none" stroke="#b83b31" stroke-width="0.2"/>
 <circle cx="45" cy="89" r="0.45" fill="none" stroke="#b83b31" stroke-width="0.2"/>
 <circle cx="59" cy="75" r="0.45" fill="none" stroke="#b83b31" stroke-width="0.2"/>
 <circle cx="59" cy="89" r="0.45" fill="none" stroke="#b83b31" stroke-width="0.2"/>
-<circle cx="255" cy="75" r="0.45" fill="none" stroke="#b83b31" stroke-width="0.2"/>
-<circle cx="255" cy="89" r="0.45" fill="none" stroke="#b83b31" stroke-width="0.2"/>
-<circle cx="269" cy="75" r="0.45" fill="none" stroke="#b83b31" stroke-width="0.2"/>
-<circle cx="269" cy="89" r="0.45" fill="none" stroke="#b83b31" stroke-width="0.2"/>
-<circle cx="45" cy="160" r="0.45" fill="none" stroke="#b83b31" stroke-width="0.2"/>
-<circle cx="45" cy="174" r="0.45" fill="none" stroke="#b83b31" stroke-width="0.2"/>
-<circle cx="59" cy="160" r="0.45" fill="none" stroke="#b83b31" stroke-width="0.2"/>
-<circle cx="59" cy="174" r="0.45" fill="none" stroke="#b83b31" stroke-width="0.2"/>
-<circle cx="255" cy="160" r="0.45" fill="none" stroke="#b83b31" stroke-width="0.2"/>
-<circle cx="255" cy="174" r="0.45" fill="none" stroke="#b83b31" stroke-width="0.2"/>
-<circle cx="269" cy="160" r="0.45" fill="none" stroke="#b83b31" stroke-width="0.2"/>
-<circle cx="269" cy="174" r="0.45" fill="none" stroke="#b83b31" stroke-width="0.2"/>
+<circle cx="205" cy="75" r="0.45" fill="none" stroke="#b83b31" stroke-width="0.2"/>
+<circle cx="205" cy="89" r="0.45" fill="none" stroke="#b83b31" stroke-width="0.2"/>
+<circle cx="219" cy="75" r="0.45" fill="none" stroke="#b83b31" stroke-width="0.2"/>
+<circle cx="219" cy="89" r="0.45" fill="none" stroke="#b83b31" stroke-width="0.2"/>
+<circle cx="45" cy="135" r="0.45" fill="none" stroke="#b83b31" stroke-width="0.2"/>
+<circle cx="45" cy="149" r="0.45" fill="none" stroke="#b83b31" stroke-width="0.2"/>
+<circle cx="59" cy="135" r="0.45" fill="none" stroke="#b83b31" stroke-width="0.2"/>
+<circle cx="59" cy="149" r="0.45" fill="none" stroke="#b83b31" stroke-width="0.2"/>
+<circle cx="205" cy="135" r="0.45" fill="none" stroke="#b83b31" stroke-width="0.2"/>
+<circle cx="205" cy="149" r="0.45" fill="none" stroke="#b83b31" stroke-width="0.2"/>
+<circle cx="219" cy="135" r="0.45" fill="none" stroke="#b83b31" stroke-width="0.2"/>
+<circle cx="219" cy="149" r="0.45" fill="none" stroke="#b83b31" stroke-width="0.2"/>
 <text x="45" y="58" font-family="DejaVu Sans" font-size="2.5" fill="#243441" text-anchor="middle">13</text>
 <text x="59" y="58" font-family="DejaVu Sans" font-size="2.5" fill="#243441" text-anchor="middle">27</text>
-<text x="255" y="58" font-family="DejaVu Sans" font-size="2.5" fill="#243441" text-anchor="middle">223</text>
-<text x="269" y="58" font-family="DejaVu Sans" font-size="2.5" fill="#243441" text-anchor="middle">237</text>
+<text x="205" y="58" font-family="DejaVu Sans" font-size="2.5" fill="#243441" text-anchor="middle">173</text>
+<text x="219" y="58" font-family="DejaVu Sans" font-size="2.5" fill="#243441" text-anchor="middle">187</text>
 <line x1="32" y1="62" x2="32" y2="52" stroke="#77858e" stroke-width="0.18"/>
-<line x1="282" y1="62" x2="282" y2="52" stroke="#77858e" stroke-width="0.18"/>
-<line x1="32" y1="50" x2="282" y2="50" stroke="#77858e" stroke-width="0.18"/>
+<line x1="232" y1="62" x2="232" y2="52" stroke="#77858e" stroke-width="0.18"/>
+<line x1="32" y1="50" x2="232" y2="50" stroke="#77858e" stroke-width="0.18"/>
 <polygon points="32,50 33.6,49.45 33.6,50.55" fill="#77858e" stroke="#77858e" stroke-width="0.1"/>
-<polygon points="282,50 280.4,49.45 280.4,50.55" fill="#77858e" stroke="#77858e" stroke-width="0.1"/>
-<text x="157" y="48.5" font-family="DejaVu Sans" font-size="3" fill="#243441" text-anchor="middle">250</text>
+<polygon points="232,50 230.4,49.45 230.4,50.55" fill="#77858e" stroke="#77858e" stroke-width="0.1"/>
+<text x="132" y="48.5" font-family="DejaVu Sans" font-size="3" fill="#243441" text-anchor="middle">200</text>
 <line x1="32" y1="62" x2="21" y2="62" stroke="#77858e" stroke-width="0.18"/>
-<line x1="32" y1="187" x2="21" y2="187" stroke="#77858e" stroke-width="0.18"/>
-<line x1="19" y1="62" x2="19" y2="187" stroke="#77858e" stroke-width="0.18"/>
+<line x1="32" y1="162" x2="21" y2="162" stroke="#77858e" stroke-width="0.18"/>
+<line x1="19" y1="62" x2="19" y2="162" stroke="#77858e" stroke-width="0.18"/>
 <polygon points="19,62 18.45,63.6 19.55,63.6" fill="#77858e" stroke="#77858e" stroke-width="0.1"/>
-<polygon points="19,187 18.45,185.4 19.55,185.4" fill="#77858e" stroke="#77858e" stroke-width="0.1"/>
-<text x="17.5" y="124.5" font-family="DejaVu Sans" font-size="3" fill="#243441" text-anchor="middle" transform="rotate(-90 17.5 124.5)">125</text>
-<text x="157" y="116" font-family="DejaVu Sans" font-size="3" fill="#243441" text-anchor="middle">W01 · biezums 5 · BB uz augšu</text>
-<text x="157" y="126" font-family="DejaVu Sans" font-size="2.8" fill="#243441" text-anchor="middle">Augšpusē nav skrūvju vai metāla ielaidumu.</text>
+<polygon points="19,162 18.45,160.4 19.55,160.4" fill="#77858e" stroke="#77858e" stroke-width="0.1"/>
+<text x="17.5" y="112" font-family="DejaVu Sans" font-size="3" fill="#243441" text-anchor="middle" transform="rotate(-90 17.5 112)">100</text>
+<text x="132" y="104" font-family="DejaVu Sans" font-size="3" fill="#243441" text-anchor="middle">W01 · biezums 5 · BB uz augšu</text>
+<text x="132" y="114" font-family="DejaVu Sans" font-size="2.8" fill="#243441" text-anchor="middle">Augšpusē nav skrūvju vai metāla ielaidumu.</text>
 <text x="302" y="57" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">16 KOKSKRŪVES</text>
 <text x="302" y="62.6" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">Ø0,8 × 4, ar seškanšu galvu.</text>
 <text x="302" y="68.2" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">Garums 4 zem galvas.</text>
@@ -65,8 +65,8 @@
 <text x="302" y="96.2" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">Ø pēc skrūves ražotāja.</text>
 <text x="302" y="101.8" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">Dziļums līdz 3,2.</text>
 <text x="302" y="107.4" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start"></text>
-<text x="302" y="113" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">X=13; 27; 223; 237</text>
-<text x="302" y="118.6" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">Y=13; 27; 98; 112</text>
+<text x="302" y="113" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">X=13; 27; 173; 187</text>
+<text x="302" y="118.6" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">Y=13; 27; 73; 87</text>
 <text x="302" y="124.2" font-family="DejaVu Sans" font-size="2.65" fill="#243441" text-anchor="start">Visas X un Y kombinācijas.</text>
 <rect x="32" y="211" width="88" height="30" fill="#ead7b3" stroke="#aa854c" stroke-width="0.3" rx="0"/>
 <rect x="32" y="241" width="88" height="4.8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.3" rx="0"/>

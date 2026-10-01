@@ -14,16 +14,18 @@ aside{border:1px solid var(--line);background:#fff;border-radius:14px;padding:22
 @media(max-width:850px){.workspace{grid-template-columns:1fr}canvas{height:420px}.view{min-height:420px}.downloads{grid-template-columns:1fr}aside{padding:18px}.details{grid-template-columns:1fr auto}.help{font-size:10px}header{padding-top:24px}}
 @media print{header{padding:0}main{padding:10px 0}aside,.help,.downloads,.links{display:none}.workspace{display:block}.view{border:0}canvas{height:420px}.notice:after{content:' Izgatavošanai lietot PDF rasējumus.'}}
 </style>
-<header><div class="eyebrow">IZGATAVOŠANAS DOKUMENTĀCIJA / REDAKCIJA E</div><h1>Galds darbam ar mālu.</h1><p>Bērza saplākšņa virsma 250 × 125 cm uz četrām stingrām tērauda kājām bez augšējā rāmja. Astoņas darba vietas, viengabala metināta pamatne un metāla plaukts 200 kg māla maisu slodzes mērķim.</p></header>
+<header><div class="eyebrow">IZGATAVOŠANAS DOKUMENTĀCIJA / REDAKCIJA __REV__</div><h1>Galds darbam ar mālu.</h1><p>Bērza saplākšņa virsma __LENGTH__ × __WIDTH__ cm uz četrām stingrām tērauda kājām bez augšējā rāmja. Viengabala metināta pamatne un metāla plaukts 200 kg māla maisu slodzes mērķim.</p></header>
 <main>
 <div class="workspace"><div class="view"><div class="badge" id="mode">Samontēts · nominālie izmēri</div><canvas id="canvas" aria-label="Interaktīvs keramikas galda trīsdimensiju modelis"></canvas><div id="error" class="error">Pārlūks neatbalsta šo 3D skatu. Atveriet zemāk pieejamos rasējumus.</div><div class="help">Velciet, lai pagrieztu · Ritiniet, lai tuvinātu · Noņemiet virsmu, lai apskatītu kāju balstus</div></div>
-<aside><h2>Apskatiet konstrukciju</h2><div class="buttons"><button id="assembled">Samontēts</button><button id="frame">Balsti</button><button id="individual" aria-pressed="false">Sadalīt detaļās</button><button id="reset">Sākuma skats</button></div><label><input type="checkbox" id="top" checked>Rādīt galda virsmu</label><label><input type="checkbox" id="shelf" checked>Rādīt plauktu</label><label for="explode">Pacelt virsmu apskatei <span id="expval">0</span> cm</label><input type="range" id="explode" min="0" max="24" value="0" step="1"><p class="small">Poga “Sadalīt detaļās” atdala visas 37 tērauda detaļas, virsmu un četras pēdas tikai apskatei. Metinātā pamatne dzīvē neizjaucas. Slīdnis paceļ tikai noņemamo virsmu.</p><div class="details"><span>Virsma</span><span>250 × 125 × 5 cm</span><span>Augstums</span><span>78 cm</span><span>Plaukta režģis</span><span>150 × 35 cm</span><span>Plaukta augstums</span><span>23 cm</span><span>Tiešie balsti</span><span>4 × 20 × 20 cm</span><span>Apdare</span><span>RAL 3020, satīna</span></div><p class="small">Skatā vienkāršotas cauruļu malas, skrūves un urbumi. Izgatavošanai lietojiet rasējumus un CAD modeli.</p></aside></div>
+<aside><h2>Apskatiet konstrukciju</h2><div class="buttons"><button id="assembled">Samontēts</button><button id="frame">Balsti</button><button id="individual" aria-pressed="false">Sadalīt detaļās</button><button id="reset">Sākuma skats</button></div><label><input type="checkbox" id="top" checked>Rādīt galda virsmu</label><label><input type="checkbox" id="shelf" checked>Rādīt plauktu</label><label for="explode">Pacelt virsmu apskatei <span id="expval">0</span> cm</label><input type="range" id="explode" min="0" max="24" value="0" step="1"><p class="small">Poga “Sadalīt detaļās” atdala visas 37 tērauda detaļas, virsmu un četras pēdas tikai apskatei. Metinātā pamatne dzīvē neizjaucas. Slīdnis paceļ tikai noņemamo virsmu.</p><div class="details"><span>Virsma</span><span>__LENGTH__ × __WIDTH__ × 5 cm</span><span>Augstums</span><span>78 cm</span><span>Plaukta režģis</span><span>150 × 35 cm</span><span>Plaukta augstums</span><span>23 cm</span><span>Tiešie balsti</span><span>4 × 20 × 20 cm</span><span>Apdare</span><span>RAL 3020, satīna</span></div><p class="small">Skatā vienkāršotas cauruļu malas, skrūves un urbumi. Izgatavošanai lietojiet rasējumus un CAD modeli.</p></aside></div>
 <div class="downloads"><a class="card primary" href="workshop-package.pdf"><strong>Pilnā PDF dokumentācija ↗</strong><span>Izgatavošanas apraksts, detaļu saraksti un septiņas A3 rasējumu lapas ar izmēriem cm.</span></a><a class="card" href="drawings.pdf"><strong>Rasējumi ar izmēriem ↗</strong><span>Kopskats, tiešie balsti, sānskati, kāju mezgli, plaukts un saplākšņa stiprinājumi.</span></a><a class="card" href="supplier-quote-lv.txt"><strong>Cenas pieprasījums ↗</strong><span>Nesūtīts pieprasījuma melnraksts latviešu valodā ar sagatavju izmēriem centimetros.</span></a></div>
 <div class="links"><a href="../index.html">← Dokumentu vietne</a><a href="cutting-list.csv">Tērauda detaļas</a><a href="hardware-list.csv">Stiprinājumi</a><a href="stock-cutting.csv">Sagatavju sadalījums</a><a href="drilling-coordinates.csv">Urbumu koordinātas</a><a href="model/table.scad">OpenSCAD modelis</a><a href="construction-guide.md">Izgatavošanas apraksts</a><a href="verification.md">Pārbaudes protokols</a></div>
-<p class="notice">Vienkāršā versija: viena metināta pamatne, 8 mazas ribas, 16 kokskrūves no apakšas un 4 regulējamas pēdas. Virsma ir gluda, bez caurejošiem urbumiem. Plauktu var paslēpt tikai modeļa apskatei; tas ir piemetināts kājām. Pārbaudīt tukša galda šūpošanos, šuves un pēdu saskari ar grīdu. 200 kg ir slodzes mērķis, nevis sertificēta nestspēja.</p><footer>2026. gada 30. septembris · Visi izmēri centimetros · Darbojas bezsaistē, bez ārējām bibliotēkām</footer>
+<p class="notice">Vienkāršā versija: viena metināta pamatne, 8 mazas ribas, 16 kokskrūves no apakšas un 4 regulējamas pēdas. Virsma ir gluda, bez caurejošiem urbumiem. Plauktu var paslēpt tikai modeļa apskatei; tas ir piemetināts kājām. Pārbaudīt tukša galda šūpošanos, šuves un pēdu saskari ar grīdu. 200 kg ir slodzes mērķis, nevis sertificēta nestspēja.</p><footer>__DATE__ · Visi izmēri centimetros · Darbojas bezsaistē, bez ārējām bibliotēkām</footer>
 </main>
 <script>
 const PARTS=__MODEL__;
+const DIMENSIONS=__PARAMETERS__,CORNERS=__CORNERS__;
+const TABLE_CENTER=[DIMENSIONS.length/2,DIMENSIONS.width/2,DIMENSIONS.height/2];
 const cv=document.getElementById('canvas'),gl=cv.getContext('webgl',{antialias:true,preserveDrawingBuffer:true});
 if(!gl){document.getElementById('error').style.display='block';cv.style.display='none';}
 else{
@@ -34,7 +36,7 @@ const buffer=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,buffer);const pa=gl
 const uniforms={};for(const u of ['right','up','toward','factor','center','depth'])uniforms[u]=gl.getUniformLocation(program,u);
 gl.enable(gl.DEPTH_TEST);gl.disable(gl.CULL_FACE);gl.clearColor(.988,.985,.97,1);
 let yaw=-.92,elev=.40,zoom=1,drag=null,vertices=[],individual=false;
-let sceneCenter=[125,62.5,39],sceneBounds=null;const meshes=[];
+let sceneCenter=TABLE_CENTER,sceneBounds=null;const meshes=[];
 const top=document.getElementById('top'),shelf=document.getElementById('shelf'),explode=document.getElementById('explode'),individualButton=document.getElementById('individual');
 function face(v,color){let a=v[0],b=v[1],c=v[2],u=b.map((x,i)=>x-a[i]),w=c.map((x,i)=>x-a[i]);let n=[u[1]*w[2]-u[2]*w[1],u[2]*w[0]-u[0]*w[2],u[0]*w[1]-u[1]*w[0]],len=Math.hypot(...n)||1;n=n.map(x=>x/len);let light=.76+.24*Math.abs(n[0]*.3+n[1]*-.4+n[2]*.866);for(let j=1;j<v.length-1;j++)for(const p of [v[0],v[j],v[j+1]])vertices.push(...p,...color.map(x=>x*light));}
 function box(o,d,col){let[x,y,z]=o,[a,b,c]=d,v=[[x,y,z],[x+a,y,z],[x+a,y+b,z],[x,y+b,z],[x,y,z+c],[x+a,y,z+c],[x+a,y+b,z+c],[x,y+b,z+c]];for(const f of [[0,3,2,1],[4,5,6,7],[0,1,5,4],[1,2,6,5],[2,3,7,6],[3,0,4,7]])face(f.map(i=>v[i]),col);}
@@ -51,16 +53,17 @@ for(const p of PARTS)addMesh(p.instance,p.group,()=>{
  if(p.kind==='gusset'){let[cx,cy]=p.centre,a=p.side*Math.PI/2,v=[];for(const t of [-p.thickness/2,p.thickness/2])for(const[r,z]of[[3,p.top],[3+p.leg,p.top],[3,p.top-p.leg]])v.push([cx+r*Math.cos(a)-t*Math.sin(a),cy+r*Math.sin(a)+t*Math.cos(a),z]);for(const f of[[0,1,2],[3,5,4],[0,3,4,1],[1,4,5,2],[2,5,3,0]])face(f.map(i=>v[i]),[.72,.16,.12]);}
  else box(p.origin,p.size,[.76,.18,.13]);
 });
-for(const [i,[cx,cy]]of [[20,20],[230,20],[20,105],[230,105]].entries())addMesh('FOOT-'+(i+1),'legs',()=>{
+for(const [i,[cx,cy]]of CORNERS.entries())addMesh('FOOT-'+(i+1),'legs',()=>{
  cylinder(cx,cy,0,4,2,[.24,.28,.29]);cylinder(cx,cy,2,.8,3,[.57,.59,.58],16);
 });
 addMesh('W01','top',()=>{
- let poly=[];for(const[cx,cy,start]of[[247.5,122.5,0],[2.5,122.5,90],[2.5,2.5,180],[247.5,2.5,270]])for(let a=start;a<=start+90;a+=10)poly.push([cx+2.5*Math.cos(a*Math.PI/180),cy+2.5*Math.sin(a*Math.PI/180)]);prism(poly,73,5,[.89,.77,.55]);
- for(let z=73.3;z<77.9;z+=.45){box([2.5,0,z],[245,.08,.07],[.69,.52,.32]);box([0,2.5,z],[.08,120,.07],[.69,.52,.32]);box([2.5,124.92,z],[245,.08,.07],[.69,.52,.32]);box([249.92,2.5,z],[.08,120,.07],[.69,.52,.32]);}
+ const l=DIMENSIONS.length,w=DIMENSIONS.width,t=DIMENSIONS.plywood,z0=DIMENSIONS.height-t;
+ let poly=[];for(const[cx,cy,start]of[[l-2.5,w-2.5,0],[2.5,w-2.5,90],[2.5,2.5,180],[l-2.5,2.5,270]])for(let a=start;a<=start+90;a+=10)poly.push([cx+2.5*Math.cos(a*Math.PI/180),cy+2.5*Math.sin(a*Math.PI/180)]);prism(poly,z0,t,[.89,.77,.55]);
+ for(let z=z0+.3;z<DIMENSIONS.height-.1;z+=.45){box([2.5,0,z],[l-5,.08,.07],[.69,.52,.32]);box([0,2.5,z],[.08,w-5,.07],[.69,.52,.32]);box([2.5,w-.08,z],[l-5,.08,.07],[.69,.52,.32]);box([l-.08,2.5,z],[.08,w-5,.07],[.69,.52,.32]);}
 });
 // Start with a radial exploded arrangement, then separate close neighbours.
 // This also opens a visible gap between thin plates that share the same axis.
-const spread=[1.5,1.8,2],anchor=[125,62.5,39],gap=8;
+const spread=[1.5,1.8,2],anchor=TABLE_CENTER,gap=8;
 const positions=meshes.map(m=>m.center.map((v,a)=>anchor[a]+(v-anchor[a])*spread[a]));
 for(let pass=0;pass<200;pass++){
  let movement=0;
@@ -86,7 +89,7 @@ function rebuild(){
  for(const m of meshes){if(!visible(m))continue;const offset=translation(m);
   for(let i=0;i<m.data.length;i+=6){for(let a=0;a<3;a++){const value=m.data[i+a]+offset[a];vertices.push(value);min[a]=Math.min(min[a],value);max[a]=Math.max(max[a],value);}vertices.push(...m.data.slice(i+3,i+6));}
  }
- sceneBounds={min,max};sceneCenter=individual?min.map((v,a)=>(v+max[a])/2):[125,62.5,39];
+ sceneBounds={min,max};sceneCenter=individual?min.map((v,a)=>(v+max[a])/2):TABLE_CENTER;
  gl.bufferData(gl.ARRAY_BUFFER,new Float32Array(vertices),gl.STATIC_DRAW);draw();
 }
 function draw(){
@@ -94,7 +97,7 @@ function draw(){
  if(cv.width!==w||cv.height!==h){cv.width=w;cv.height=h;}gl.viewport(0,0,w,h);
  let co=Math.cos(yaw),si=Math.sin(yaw),ce=Math.cos(elev),se=Math.sin(elev),right=[-si,co,0],up=[-co*se,-si*se,ce];
  gl.uniform3fv(uniforms.right,right);gl.uniform3fv(uniforms.up,up);gl.uniform3f(uniforms.toward,co*ce,si*ce,se);gl.uniform3fv(uniforms.center,sceneCenter);
- let halfY=Math.max(120,175*h/w)/zoom;
+ let halfY=Math.max(.48*DIMENSIONS.length,.7*DIMENSIONS.length*h/w)/zoom;
  if(individual){
   let rx=0,ry=0;for(let i=0;i<vertices.length;i+=6){let x=0,y=0;for(let a=0;a<3;a++){const v=vertices[i+a]-sceneCenter[a];x+=v*right[a];y+=v*up[a];}rx=Math.max(rx,Math.abs(x));ry=Math.max(ry,Math.abs(y));}
   // Fit the entire exploded model, leaving room for the badge and gesture hint.

@@ -1,7 +1,7 @@
 ﻿pozīcija;detaļa;profils_cm;skaits;gatavais_garums_cm;platums_cm;biezums_vai_augstums_cm;piegādātāja_kods;norāde;kopējā_teorētiskā_masa_kg
 L01;Galda kāja;SHS 6×6×0,3;4;68,4;6;6;06CV06006003000;"Taisni gali; garuma pielaide ±0,1 cm; noņemt atskabargas";14,691
-S01;"Plaukta garensija; 8 vertikāli";RHS 8×4×0,3;2;206;8;4;06CV08004003000;"Taisni gali; garuma pielaide ±0,1 cm; noņemt atskabargas";22,122
-S02;"Plaukta gala šķērssija; 8 vertikāli";RHS 8×4×0,3;2;79;8;4;06CV08004003000;"Taisni gali; garuma pielaide ±0,1 cm; noņemt atskabargas";8,484
+S01;"Plaukta garensija; 8 vertikāli";RHS 8×4×0,3;2;156;8;4;06CV08004003000;"Taisni gali; garuma pielaide ±0,1 cm; noņemt atskabargas";16,753
+S02;"Plaukta gala šķērssija; 8 vertikāli";RHS 8×4×0,3;2;54;8;4;06CV08004003000;"Taisni gali; garuma pielaide ±0,1 cm; noņemt atskabargas";5,799
 S03;"Plaukta šķērslīste; 4 vertikāli";RHS 6×4×0,3;13;27;6;4;06CV06004003000;"Taisni gali; garuma pielaide ±0,1 cm; noņemt atskabargas";15,54
 P01;Kājas balsta plāksne tieši zem saplākšņa;Plāksne 0,8;4;20;20;0,8;;"Taisni gali; garuma pielaide ±0,1 cm; noņemt atskabargas";10,048
 P02;Kājas apakšējā plāksne;Plakandzelzs 6×0,8;4;6;6;0,8;05PL08006000;"Taisni gali; garuma pielaide ±0,1 cm; noņemt atskabargas";0,904

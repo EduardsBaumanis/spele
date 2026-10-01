@@ -3,7 +3,7 @@ from pathlib import Path
 from html import escape
 import hashlib, json, re, shutil, subprocess
 from pypdf import PdfReader
-from design import ROOT, REV, DATE, CUTS, fmt
+from design import ROOT, REV, DATE, PARAMS, CUTS, fmt
 
 SHEETS=[
  ('S01','Kopskats un galvenie izmēri','Galda izskats, izmēri un pārvadāšanas mezgli.'),
@@ -86,7 +86,7 @@ def build_website():
     workspace=viewer.split('<div class="workspace">',1)[1].split('<div class="downloads">',1)[0]
     viewer_script=viewer.split('<script>',1)[1].split('</script>',1)[0]
     template=(ROOT/'source'/'site'/'page.html').read_text(encoding='utf-8')
-    values=dict(REV=REV,DATE=DATE,VIEWER='<div class="workspace">'+workspace,VIEWER_SCRIPT=viewer_script,
+    values=dict(REV=REV,DATE=DATE,LENGTH=str(PARAMS['length']),WIDTH=str(PARAMS['width']),VIEWER='<div class="workspace">'+workspace,VIEWER_SCRIPT=viewer_script,
         DOCUMENT_LINKS='\n'.join(links),FIRST_PAGE=guide_pages[0],DOCUMENT_DATA=json.dumps(docs,ensure_ascii=False),CUT_TABLE=table,GUIDE_HTML=guide_html())
     for name,value in values.items():template=template.replace('__'+name+'__',value)
     assert not re.search(r'__[A-Z_]+__',template),'Vietnē palicis neaizpildīts lauks'

@@ -2,11 +2,12 @@
 from pathlib import Path
 import io, json, math, re, zipfile, shutil
 from html import escape
-from design import ROOT, DATE, REV, CUTS, HARDWARE, PARTS, PARAMS, CORNERS, TOP_HOLES, fmt, export_data, gusset_vertices, stock_nesting
+from design import ROOT, DATE, REV, CUTS, HARDWARE, PARTS, PARAMS, CORNERS, TOP_HOLES, LEG_SPAN_X, LEG_SPAN_Y, fmt, export_data, gusset_vertices, stock_nesting
 from drawings import build_drawings
+MODEL_NAME=f"PT-{PARAMS['length']}"
 
 def cad():
-    out=[f'// PT-250 / Redakcija {REV} / visas koordinātas cm; 1 vienība = 1 cm.',
+    out=[f'// {MODEL_NAME} / Redakcija {REV} / visas koordinātas cm; 1 vienība = 1 cm.',
          '// Izveidots no source/design.py. Cauruļu stūri un stiprinājumi vienkāršoti.',
          '// Šuves nav modelētas; rasējumos dotās prasības ir spēkā. Bez augšējā rāmja.',
          '$fn=36;', 'show_top=true;', 'show_shelf=true;', 'show_hardware=true;',
@@ -19,7 +20,7 @@ def cad():
          'module bolt(x,y,z,diam,length,af,head) {translate([x,y,z]) {cylinder(d=diam,h=length);translate([0,0,-head])cylinder(d=af/cos(30),h=head,$fn=6);}}',
          'module deck(x,y,z,l,w,t,r) {color([.89,.77,.55]) translate([x,y,z]) linear_extrude(t) hull() for(a=[r,l-r],b=[r,w-r]) translate([a,b]) circle(r=r);}',
          'pilot_diameter=.5; // Ilustratīvi; priekšurbuma Ø pēc kokskrūves ražotāja.',
-         'if(show_top) difference(){deck(0,0,78-top_thickness+exploded,250,125,top_thickness,2.5);']
+         f'if(show_top) difference(){{deck(0,0,78-top_thickness+exploded,{PARAMS["length"]},{PARAMS["width"]},top_thickness,2.5);']
     for x,y in TOP_HOLES:
         out.append(f'translate([{x},{y},78-top_thickness+exploded-.01]) cylinder(d=pilot_diameter,h=3.21);')
     out.append('}')
@@ -53,9 +54,9 @@ def cad():
 
 def quote():
     lines=['NESŪTĪTS MELNRAKSTS — cenu piedāvājuma pieprasījums',
-           'Kam: biz@metalucentrs.lv','Temats: S235 materiāli un sagarināšana keramikas galdam PT-250, redakcija E',
+           'Kam: biz@metalucentrs.lv',f'Temats: S235 materiāli un sagarināšana keramikas galdam {MODEL_NAME}, redakcija {REV}',
            '', 'Labdien!', '',
-           'Lūdzu cenu piedāvājumu necinkota S235 materiāliem un sagarināšanai pēc zemāk norādītā saraksta. VISI IZMĒRI CENTIMETROS, arī profilu sienu un plākšņu biezumi. Preču kodi paliek piegādātāja oriģinālie. Šī ir redakcija E: BEZ augšējā rāmja; viengabala metināta pamatne, četras balsta plāksnes un metāla plaukts ar 13 šķērslīstēm.',
+           f'Lūdzu cenu piedāvājumu necinkota S235 materiāliem un sagarināšanai pēc zemāk norādītā saraksta. VISI IZMĒRI CENTIMETROS, arī profilu sienu un plākšņu biezumi. Preču kodi paliek piegādātāja oriģinālie. Šī ir redakcija {REV}: BEZ augšējā rāmja; viengabala metināta pamatne, četras balsta plāksnes un metāla plaukts ar 13 šķērslīstēm.',
            '', 'GATAVĀS DETAĻAS — cm']
     for p in CUTS:
         size=f'gatavais garums {fmt(p["length"])} cm' if p['wall'] else f'{fmt(p["length"])} × {fmt(p["a"])} × {fmt(p["b"])} cm'
@@ -78,30 +79,33 @@ def quote():
 
 def verification(checks):
     steel=sum(p['mass_each_kg']*p['qty'] for p in CUTS)
-    E=21000000; I=(4*8**3-3.4*7.4**3)/12; F=260*9.81/2; L=210
+    plywood_min=105*PARAMS['length']*PARAMS['width']/(250*125)
+    plywood_max=119*PARAMS['length']*PARAMS['width']/(250*125)
+    E=21000000; I=(4*8**3-3.4*7.4**3)/12; F=260*9.81/2; L=LEG_SPAN_X
     stress=F*L/4/(I/4)/100; deflection=F*L**3/(48*E*I)
     lines=['# Izmēru pārbaude un vienkāršā projekta robežas',f'Redakcija {REV} · {DATE} · Izmēri cm.',
         '', '## Kas pārbaudīts datorā', '',f'Izpildītas {len(checks)} ģeometrijas pārbaudes. Tas nav fiziska galda slodzes tests.']
     lines += ['- '+c for c in dict.fromkeys(checks) if ': modeļa garums' not in c and ': riba savieno' not in c]
     lines += ['', '## Daudzumi un masa', '',
         f'- {len(PARTS)} tērauda detaļas agrāko 69 vietā; 8 ribas agrāko 16 vietā. Nav P03, P06, M10 vai M12 savienojumu.',
-        f'- Teorētiskā tērauda masa {fmt(round(steel,1))} kg; saplāksnim ap 105–119 kg. Kopā ar pēdām un skrūvēm tukšs galds ap {round(steel+105+5)}–{round(steel+119+8)} kg.',
+        f'- Teorētiskā tērauda masa {fmt(round(steel,1))} kg; saplāksnim ap {fmt(round(plywood_min,1))}–{fmt(round(plywood_max,1))} kg. Kopā ar pēdām un skrūvēm tukšs galds ap {round(steel+plywood_min+5)}–{round(steel+plywood_max+8)} kg.',
         '- Masai lietoti ideāli taisnstūra profili un tērauda blīvums 0,00785 kg/cm³; precīzu masu nosaka faktiskie materiāli.',
+        '- Saplākšņa masas aplēse pārrēķināta proporcionāli jaunās 200 × 100 × 5 cm virsmas tilpumam, saglabājot iepriekšējo blīvuma diapazonu.',
         '- Trīs 600 cm cauruļu sagataves: pa vienai no katra profila; plāksnes un ribas atsevišķi.',
         '', '## Stiprinājumi un stingrība', '',
-        '- Kājas un plaukts sametināti vienā pamatnē. S02 79 cm gali tieši saskaras ar kājām; nav skrūvju brīvkustības plaukta savienojumos.',
+        f'- Kājas un plaukts sametināti vienā pamatnē. S02 {fmt(LEG_SPAN_Y-6)} cm gali tieši saskaras ar kājām; nav skrūvju brīvkustības plaukta savienojumos.',
         '- Pa divām 6 × 6 ribām katras kājas augšā, X un Y virzienā. Virsmas vertikālo slodzi nes četras 20 × 20 plāksnes; kokskrūves notur virsmu pie pamatnes.',
         '- Kokskrūve 4 − P01 0,8 − paplāksne 0,2 = 3 cm kokā; nomināli 2 cm līdz augšpusei. Priekšurbumam dziļuma ierobežotājs 3,2. Pārbaudīt īstās skrūves un priekšurbuma diametru atgriezumā.',
         '- Pirms virsmas uzlikšanas pārbaudīt tukšās pamatnes šūpošanos. Pēc uzlikšanas pārbaudīt vēlreiz, stingri spiežot abos virzienos un stūros. Visas pēdas uz grīdas, kontruzgriežņi pievilkti; šuves un galvu savienojumi nekustas.',
         '- Absolūta nulles kustība nav garantēta: iespējama elastīga izliece un slīdēšana uz konkrētas grīdas. Ja galds slīd, risināt pēdu saķeri vai grīdas fiksāciju, nevis slēpt vaļīgu mezglu ar papildu māla svaru.',
         '', '## Plaukta siju orientējošs aprēķins', '',
-        'Divas RHS 8 × 4 × 0,3 ar 8 vertikāli. Katras sijas vidū pielikta puse no 260 kg (200 kg maisi un rezerve paša plaukta masai); laidums 210. Šī vienkāršotā shēma saglabāta no iepriekšējās versijas.',
+        f'Divas RHS 8 × 4 × 0,3 ar 8 vertikāli. Katras sijas vidū pielikta puse no 260 kg (200 kg maisi un rezerve paša plaukta masai); laidums {fmt(L)} cm starp kāju centriem. Vienkāršotā shēma pārrēķināta jaunajam galda izmēram.',
         f'- I={fmt(I)} cm⁴; E=21000000 N/cm²; spriegums FL/(4×I/4) ap {fmt(stress)} MPa; elastīgā izliece FL³/(48EI) ap {fmt(deflection)} cm.',
         '- Tas nav metinājumu, kājas sienas, kokskrūvju vai visas konstrukcijas nestspējas aprēķins. Vienai līstei 200 kg punktveida slodze nav paredzēta.',
         '', '## Ko jāpārbauda darbnīcā', '',
         '- 200 kg vienmērīgi uz plaukta un 200 kg vienmērīgi uz virsmas saglabāti kā projektēšanas mērķi, nevis sertificēta nestspēja. Četros punktos balstītās saplākšņa plātnes izliece un visu savienojumu izturība nav pilnībā aprēķināta.',
         '- Šuves apskatīt pirms slogošanas; nepārliecinošas šuves parādīt pieredzējušam metinātājam. Slodzi likt pakāpeniski, pēc katra posma pārbaudot šuves, kājas un virsmas/plaukta lieci. Pie plaisām, kustības vai paliekošas deformācijas pārtraukt.',
-        '- Smago galdu celt aiz tērauda pamatnes vai noņemt virsmu. Pamatne nav izjaucama: 230 × 105 × 73 cm ar nominālajām pēdām.',
+        f'- Smago galdu celt aiz tērauda pamatnes vai noņemt virsmu. Pamatne nav izjaucama: {PARAMS["base_length"]} × {PARAMS["base_width"]} × 73 cm ar nominālajām pēdām.',
         '- Modelī nav šuvju vaļņu vai reālas koka vītnes. OpenSCAD teksts ģenerēts, bet tā kompilācija nav veikta.',
         '', '## Materiāla atsauce', '',
         'Ražotāja bērza saplākšņa un stiprināšanas informācija: https://www.finieris.com/products/riga-ply/ un https://www.finieris.com/wp-content/uploads/2026/05/RigaWood_PlywoodHandbook.pdf . Ražotāja loksnes dati paši par sevi nav šī galda nestspējas apstiprinājums.']
@@ -172,11 +176,11 @@ def guide_pdf():
     story.append(table(['Pārbaude','Rezultāts / pārbaudītājs / datums'],[['Virsmas biezums / galīgais augstums',''],['Kāju diagonāles / līdzenums',''],['Skrūves, šuves un regulējamie balsti',''],['Stingri piespiest sānos un stūros / šūpošanās',''],['Plaukts 50 / 100 / 150 / 200 kg; izliece',''],['Virsmas un kopējā slodze; paliekoša deformācija','']],[85,89],[1.2*cm]+[3*cm]*6))
     def page(c,doc):
         c.setStrokeColor(colors.HexColor('#deddd5'));c.line(1.8*cm,28.2*cm,19.2*cm,28.2*cm)
-        c.setFont('BodyBold',8);c.setFillColor(colors.HexColor('#b83b31'));c.drawString(1.8*cm,28.5*cm,'PT-250 / IZGATAVOŠANAS DOKUMENTĀCIJA')
+        c.setFont('BodyBold',8);c.setFillColor(colors.HexColor('#b83b31'));c.drawString(1.8*cm,28.5*cm,MODEL_NAME+' / IZGATAVOŠANAS DOKUMENTĀCIJA')
         c.setFont('Body',7.5);c.setFillColor(colors.HexColor('#62747d'));c.drawString(1.8*cm,1.3*cm,f'Redakcija {REV} · {DATE} · visi izmēri cm');c.drawRightString(19.2*cm,1.3*cm,str(doc.page))
     path=ROOT/'construction-guide.pdf'
     doc=SimpleDocTemplate(str(path),pagesize=A4,rightMargin=1.8*cm,leftMargin=1.8*cm,topMargin=2.3*cm,bottomMargin=2.3*cm,
-                          title='PT-250 keramikas galds — izgatavošanas apraksts',author='Izgatavošanas dokumentācija')
+                          title=MODEL_NAME+' keramikas galds — izgatavošanas apraksts',author='Izgatavošanas dokumentācija')
     doc.build(story,onFirstPage=page,onLaterPages=page)
     return path
 
@@ -190,11 +194,11 @@ def assemble_pdfs(svg_paths):
     for path in svg_paths:
         b=renderPDF.drawToString(svg2rlg(str(path)))
         drawings.append(PdfReader(io.BytesIO(b)))
-    drawings.add_metadata({'/Title':'PT-250 keramikas galds — A3 rasējumi','/Author':'Izgatavošanas dokumentācija','/Subject':'Redakcija E / visi izmēri cm'})
+    drawings.add_metadata({'/Title':MODEL_NAME+' keramikas galds — A3 rasējumi','/Author':'Izgatavošanas dokumentācija','/Subject':f'Redakcija {REV} / visi izmēri cm'})
     drawings.write(str(ROOT/'drawings.pdf'))
     guide=guide_pdf()
     combined=PdfWriter();combined.append(str(guide));combined.append(str(ROOT/'drawings.pdf'))
-    combined.add_metadata({'/Title':'PT-250 keramikas galds — pilnā dokumentācija','/Author':'Izgatavošanas dokumentācija'})
+    combined.add_metadata({'/Title':MODEL_NAME+' keramikas galds — pilnā dokumentācija','/Author':'Izgatavošanas dokumentācija'})
     combined.write(str(ROOT/'workshop-package.pdf'))
 
 def build():
@@ -204,7 +208,11 @@ def build():
         (ROOT/'reference').mkdir(exist_ok=True)
         shutil.copy2(reference,ROOT/'reference'/'Table.jpeg')
     template=(ROOT/'source'/'viewer.html').read_text(encoding='utf-8')
-    (ROOT/'index.html').write_text(template.replace('__MODEL__',json.dumps(PARTS,separators=(',',':'))),encoding='utf-8')
+    values=dict(MODEL=json.dumps(PARTS,separators=(',',':')),PARAMETERS=json.dumps(PARAMS,separators=(',',':')),
+                CORNERS=json.dumps(CORNERS),LENGTH=str(PARAMS['length']),WIDTH=str(PARAMS['width']),REV=REV,DATE=DATE)
+    for name,value in values.items():template=template.replace('__'+name+'__',value)
+    assert not re.search(r'__[A-Z_]+__',template),'Skatītājā palicis neaizpildīts lauks'
+    (ROOT/'index.html').write_text(template,encoding='utf-8')
     svgs=build_drawings();assemble_pdfs(svgs)
     from website import build_website
     document_count,preview_count=build_website()

@@ -5,7 +5,7 @@
 <text x="14" y="34" font-family="DejaVu Sans" font-size="2.7" fill="#77858e" text-anchor="start">Plāns un sānskats mērogā 1:10 uz A3 · Plaukts piemetināts tieši kājām; viena tērauda pamatne</text>
 <line x1="14" y1="39" x2="406" y2="39" stroke="#243441" stroke-width="0.45"/>
 <line x1="14" y1="278" x2="406" y2="278" stroke="#243441" stroke-width="0.4"/>
-<text x="14" y="284" font-family="DejaVu Sans" font-size="2.6" fill="#243441" text-anchor="start" font-weight="bold">PT-250  /  S05  /  RED. E  /  2026-09-30</text>
+<text x="14" y="284" font-family="DejaVu Sans" font-size="2.6" fill="#243441" text-anchor="start" font-weight="bold">PT-200  /  S05  /  RED. F  /  2026-10-01</text>
 <text x="14" y="290" font-family="DejaVu Sans" font-size="2.5" fill="#77858e" text-anchor="start">Visi izmēri cm · Nomināla ģeometrija pirms krāsošanas · Izmantot norādītos izmērus</text>
 <text x="406" y="284" font-family="DejaVu Sans" font-size="2.6" fill="#243441" text-anchor="end">A3 · 42 × 29,7 cm</text>
 <line x1="356" y1="287" x2="406" y2="287" stroke="#243441" stroke-width="0.5"/>
@@ -16,106 +16,106 @@
 <line x1="396" y1="286" x2="396" y2="288" stroke="#243441" stroke-width="0.3"/>
 <line x1="406" y1="286" x2="406" y2="288" stroke="#243441" stroke-width="0.3"/>
 <text x="381" y="291" font-family="DejaVu Sans" font-size="2.1" fill="#77858e" text-anchor="middle">Izdrukas pārbaude: 5 cm</text>
-<rect x="57" y="97" width="206" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.23" rx="0"/>
-<rect x="57" y="128" width="206" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.23" rx="0"/>
-<rect x="53" y="75" width="4" height="79" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.23" rx="0"/>
-<rect x="263" y="75" width="4" height="79" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.23" rx="0"/>
-<rect x="85" y="101" width="6" height="27" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.23" rx="0"/>
-<rect x="97" y="101" width="6" height="27" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.23" rx="0"/>
-<rect x="109" y="101" width="6" height="27" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.23" rx="0"/>
-<rect x="121" y="101" width="6" height="27" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.23" rx="0"/>
-<rect x="133" y="101" width="6" height="27" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.23" rx="0"/>
-<rect x="145" y="101" width="6" height="27" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.23" rx="0"/>
-<rect x="157" y="101" width="6" height="27" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.23" rx="0"/>
-<rect x="169" y="101" width="6" height="27" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.23" rx="0"/>
-<rect x="181" y="101" width="6" height="27" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.23" rx="0"/>
-<rect x="193" y="101" width="6" height="27" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.23" rx="0"/>
-<rect x="205" y="101" width="6" height="27" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.23" rx="0"/>
-<rect x="217" y="101" width="6" height="27" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.23" rx="0"/>
-<rect x="229" y="101" width="6" height="27" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.23" rx="0"/>
+<rect x="57" y="84.5" width="156" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.23" rx="0"/>
+<rect x="57" y="115.5" width="156" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.23" rx="0"/>
+<rect x="53" y="75" width="4" height="54" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.23" rx="0"/>
+<rect x="213" y="75" width="4" height="54" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.23" rx="0"/>
+<rect x="60" y="88.5" width="6" height="27" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.23" rx="0"/>
+<rect x="72" y="88.5" width="6" height="27" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.23" rx="0"/>
+<rect x="84" y="88.5" width="6" height="27" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.23" rx="0"/>
+<rect x="96" y="88.5" width="6" height="27" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.23" rx="0"/>
+<rect x="108" y="88.5" width="6" height="27" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.23" rx="0"/>
+<rect x="120" y="88.5" width="6" height="27" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.23" rx="0"/>
+<rect x="132" y="88.5" width="6" height="27" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.23" rx="0"/>
+<rect x="144" y="88.5" width="6" height="27" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.23" rx="0"/>
+<rect x="156" y="88.5" width="6" height="27" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.23" rx="0"/>
+<rect x="168" y="88.5" width="6" height="27" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.23" rx="0"/>
+<rect x="180" y="88.5" width="6" height="27" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.23" rx="0"/>
+<rect x="192" y="88.5" width="6" height="27" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.23" rx="0"/>
+<rect x="204" y="88.5" width="6" height="27" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.23" rx="0"/>
 <rect x="52" y="69" width="6" height="6" fill="none" stroke="#243441" stroke-width="0.2" rx="0" stroke-dasharray="1 .6"/>
-<rect x="262" y="69" width="6" height="6" fill="none" stroke="#243441" stroke-width="0.2" rx="0" stroke-dasharray="1 .6"/>
-<rect x="52" y="154" width="6" height="6" fill="none" stroke="#243441" stroke-width="0.2" rx="0" stroke-dasharray="1 .6"/>
-<rect x="262" y="154" width="6" height="6" fill="none" stroke="#243441" stroke-width="0.2" rx="0" stroke-dasharray="1 .6"/>
-<rect x="85" y="97" width="150" height="35" fill="none" stroke="#aa854c" stroke-width="0.6" rx="0" stroke-dasharray="2 1"/>
-<text x="88" y="116" font-family="DejaVu Sans" font-size="2.35" fill="#243441" text-anchor="middle" transform="rotate(-90 88 116)">53</text>
-<text x="100" y="116" font-family="DejaVu Sans" font-size="2.35" fill="#243441" text-anchor="middle" transform="rotate(-90 100 116)">65</text>
-<text x="112" y="116" font-family="DejaVu Sans" font-size="2.35" fill="#243441" text-anchor="middle" transform="rotate(-90 112 116)">77</text>
-<text x="124" y="116" font-family="DejaVu Sans" font-size="2.35" fill="#243441" text-anchor="middle" transform="rotate(-90 124 116)">89</text>
-<text x="136" y="116" font-family="DejaVu Sans" font-size="2.35" fill="#243441" text-anchor="middle" transform="rotate(-90 136 116)">101</text>
-<text x="148" y="116" font-family="DejaVu Sans" font-size="2.35" fill="#243441" text-anchor="middle" transform="rotate(-90 148 116)">113</text>
-<text x="160" y="116" font-family="DejaVu Sans" font-size="2.35" fill="#243441" text-anchor="middle" transform="rotate(-90 160 116)">125</text>
-<text x="172" y="116" font-family="DejaVu Sans" font-size="2.35" fill="#243441" text-anchor="middle" transform="rotate(-90 172 116)">137</text>
-<text x="184" y="116" font-family="DejaVu Sans" font-size="2.35" fill="#243441" text-anchor="middle" transform="rotate(-90 184 116)">149</text>
-<text x="196" y="116" font-family="DejaVu Sans" font-size="2.35" fill="#243441" text-anchor="middle" transform="rotate(-90 196 116)">161</text>
-<text x="208" y="116" font-family="DejaVu Sans" font-size="2.35" fill="#243441" text-anchor="middle" transform="rotate(-90 208 116)">173</text>
-<text x="220" y="116" font-family="DejaVu Sans" font-size="2.35" fill="#243441" text-anchor="middle" transform="rotate(-90 220 116)">185</text>
-<text x="232" y="116" font-family="DejaVu Sans" font-size="2.35" fill="#243441" text-anchor="middle" transform="rotate(-90 232 116)">197</text>
+<rect x="212" y="69" width="6" height="6" fill="none" stroke="#243441" stroke-width="0.2" rx="0" stroke-dasharray="1 .6"/>
+<rect x="52" y="129" width="6" height="6" fill="none" stroke="#243441" stroke-width="0.2" rx="0" stroke-dasharray="1 .6"/>
+<rect x="212" y="129" width="6" height="6" fill="none" stroke="#243441" stroke-width="0.2" rx="0" stroke-dasharray="1 .6"/>
+<rect x="60" y="84.5" width="150" height="35" fill="none" stroke="#aa854c" stroke-width="0.6" rx="0" stroke-dasharray="2 1"/>
+<text x="63" y="103.5" font-family="DejaVu Sans" font-size="2.35" fill="#243441" text-anchor="middle" transform="rotate(-90 63 103.5)">28</text>
+<text x="75" y="103.5" font-family="DejaVu Sans" font-size="2.35" fill="#243441" text-anchor="middle" transform="rotate(-90 75 103.5)">40</text>
+<text x="87" y="103.5" font-family="DejaVu Sans" font-size="2.35" fill="#243441" text-anchor="middle" transform="rotate(-90 87 103.5)">52</text>
+<text x="99" y="103.5" font-family="DejaVu Sans" font-size="2.35" fill="#243441" text-anchor="middle" transform="rotate(-90 99 103.5)">64</text>
+<text x="111" y="103.5" font-family="DejaVu Sans" font-size="2.35" fill="#243441" text-anchor="middle" transform="rotate(-90 111 103.5)">76</text>
+<text x="123" y="103.5" font-family="DejaVu Sans" font-size="2.35" fill="#243441" text-anchor="middle" transform="rotate(-90 123 103.5)">88</text>
+<text x="135" y="103.5" font-family="DejaVu Sans" font-size="2.35" fill="#243441" text-anchor="middle" transform="rotate(-90 135 103.5)">100</text>
+<text x="147" y="103.5" font-family="DejaVu Sans" font-size="2.35" fill="#243441" text-anchor="middle" transform="rotate(-90 147 103.5)">112</text>
+<text x="159" y="103.5" font-family="DejaVu Sans" font-size="2.35" fill="#243441" text-anchor="middle" transform="rotate(-90 159 103.5)">124</text>
+<text x="171" y="103.5" font-family="DejaVu Sans" font-size="2.35" fill="#243441" text-anchor="middle" transform="rotate(-90 171 103.5)">136</text>
+<text x="183" y="103.5" font-family="DejaVu Sans" font-size="2.35" fill="#243441" text-anchor="middle" transform="rotate(-90 183 103.5)">148</text>
+<text x="195" y="103.5" font-family="DejaVu Sans" font-size="2.35" fill="#243441" text-anchor="middle" transform="rotate(-90 195 103.5)">160</text>
+<text x="207" y="103.5" font-family="DejaVu Sans" font-size="2.35" fill="#243441" text-anchor="middle" transform="rotate(-90 207 103.5)">172</text>
 <line x1="53" y1="75" x2="53" y2="66" stroke="#77858e" stroke-width="0.18"/>
-<line x1="267" y1="75" x2="267" y2="66" stroke="#77858e" stroke-width="0.18"/>
-<line x1="53" y1="64" x2="267" y2="64" stroke="#77858e" stroke-width="0.18"/>
+<line x1="217" y1="75" x2="217" y2="66" stroke="#77858e" stroke-width="0.18"/>
+<line x1="53" y1="64" x2="217" y2="64" stroke="#77858e" stroke-width="0.18"/>
 <polygon points="53,64 54.6,63.45 54.6,64.55" fill="#77858e" stroke="#77858e" stroke-width="0.1"/>
-<polygon points="267,64 265.4,63.45 265.4,64.55" fill="#77858e" stroke="#77858e" stroke-width="0.1"/>
-<text x="160" y="62.5" font-family="DejaVu Sans" font-size="3" fill="#243441" text-anchor="middle">214 — plaukta cauruļu ārmalas</text>
-<line x1="85" y1="132" x2="85" y2="145" stroke="#77858e" stroke-width="0.18"/>
-<line x1="235" y1="132" x2="235" y2="145" stroke="#77858e" stroke-width="0.18"/>
-<line x1="85" y1="143" x2="235" y2="143" stroke="#77858e" stroke-width="0.18"/>
-<polygon points="85,143 86.6,142.45 86.6,143.55" fill="#77858e" stroke="#77858e" stroke-width="0.1"/>
-<polygon points="235,143 233.4,142.45 233.4,143.55" fill="#77858e" stroke="#77858e" stroke-width="0.1"/>
-<text x="160" y="141.5" font-family="DejaVu Sans" font-size="3" fill="#243441" text-anchor="middle">150 — režģis</text>
-<line x1="57" y1="152.4" x2="57" y2="167" stroke="#77858e" stroke-width="0.18"/>
-<line x1="263" y1="152.4" x2="263" y2="167" stroke="#77858e" stroke-width="0.18"/>
-<line x1="57" y1="165" x2="263" y2="165" stroke="#77858e" stroke-width="0.18"/>
+<polygon points="217,64 215.4,63.45 215.4,64.55" fill="#77858e" stroke="#77858e" stroke-width="0.1"/>
+<text x="135" y="62.5" font-family="DejaVu Sans" font-size="3" fill="#243441" text-anchor="middle">164 — plaukta cauruļu ārmalas</text>
+<line x1="60" y1="119.5" x2="60" y2="145" stroke="#77858e" stroke-width="0.18"/>
+<line x1="210" y1="119.5" x2="210" y2="145" stroke="#77858e" stroke-width="0.18"/>
+<line x1="60" y1="143" x2="210" y2="143" stroke="#77858e" stroke-width="0.18"/>
+<polygon points="60,143 61.6,142.45 61.6,143.55" fill="#77858e" stroke="#77858e" stroke-width="0.1"/>
+<polygon points="210,143 208.4,142.45 208.4,143.55" fill="#77858e" stroke="#77858e" stroke-width="0.1"/>
+<text x="135" y="141.5" font-family="DejaVu Sans" font-size="3" fill="#243441" text-anchor="middle">150 — režģis</text>
+<line x1="57" y1="129" x2="57" y2="167" stroke="#77858e" stroke-width="0.18"/>
+<line x1="213" y1="129" x2="213" y2="167" stroke="#77858e" stroke-width="0.18"/>
+<line x1="57" y1="165" x2="213" y2="165" stroke="#77858e" stroke-width="0.18"/>
 <polygon points="57,165 58.6,164.45 58.6,165.55" fill="#77858e" stroke="#77858e" stroke-width="0.1"/>
-<polygon points="263,165 261.4,164.45 261.4,165.55" fill="#77858e" stroke="#77858e" stroke-width="0.1"/>
-<text x="160" y="163.5" font-family="DejaVu Sans" font-size="3" fill="#243441" text-anchor="middle">206 — S01 gatavais garums</text>
-<line x1="267" y1="97" x2="291" y2="97" stroke="#77858e" stroke-width="0.18"/>
-<line x1="267" y1="132" x2="291" y2="132" stroke="#77858e" stroke-width="0.18"/>
-<line x1="289" y1="97" x2="289" y2="132" stroke="#77858e" stroke-width="0.18"/>
-<polygon points="289,97 288.45,98.6 289.55,98.6" fill="#77858e" stroke="#77858e" stroke-width="0.1"/>
-<polygon points="289,132 288.45,130.4 289.55,130.4" fill="#77858e" stroke="#77858e" stroke-width="0.1"/>
-<text x="287.5" y="114.5" font-family="DejaVu Sans" font-size="3" fill="#243441" text-anchor="middle" transform="rotate(-90 287.5 114.5)">35</text>
-<line x1="267" y1="75" x2="308" y2="75" stroke="#77858e" stroke-width="0.18"/>
-<line x1="267" y1="154" x2="308" y2="154" stroke="#77858e" stroke-width="0.18"/>
-<line x1="306" y1="75" x2="306" y2="154" stroke="#77858e" stroke-width="0.18"/>
+<polygon points="213,165 211.4,164.45 211.4,165.55" fill="#77858e" stroke="#77858e" stroke-width="0.1"/>
+<text x="135" y="163.5" font-family="DejaVu Sans" font-size="3" fill="#243441" text-anchor="middle">156 — S01 gatavais garums</text>
+<line x1="217" y1="84.5" x2="291" y2="84.5" stroke="#77858e" stroke-width="0.18"/>
+<line x1="217" y1="119.5" x2="291" y2="119.5" stroke="#77858e" stroke-width="0.18"/>
+<line x1="289" y1="84.5" x2="289" y2="119.5" stroke="#77858e" stroke-width="0.18"/>
+<polygon points="289,84.5 288.45,86.1 289.55,86.1" fill="#77858e" stroke="#77858e" stroke-width="0.1"/>
+<polygon points="289,119.5 288.45,117.9 289.55,117.9" fill="#77858e" stroke="#77858e" stroke-width="0.1"/>
+<text x="287.5" y="102" font-family="DejaVu Sans" font-size="3" fill="#243441" text-anchor="middle" transform="rotate(-90 287.5 102)">35</text>
+<line x1="217" y1="75" x2="308" y2="75" stroke="#77858e" stroke-width="0.18"/>
+<line x1="217" y1="129" x2="308" y2="129" stroke="#77858e" stroke-width="0.18"/>
+<line x1="306" y1="75" x2="306" y2="129" stroke="#77858e" stroke-width="0.18"/>
 <polygon points="306,75 305.45,76.6 306.55,76.6" fill="#77858e" stroke="#77858e" stroke-width="0.1"/>
-<polygon points="306,154 305.45,152.4 306.55,152.4" fill="#77858e" stroke="#77858e" stroke-width="0.1"/>
-<text x="304.5" y="114.5" font-family="DejaVu Sans" font-size="3" fill="#243441" text-anchor="middle" transform="rotate(-90 304.5 114.5)">79 — S02</text>
+<polygon points="306,129 305.45,127.4 306.55,127.4" fill="#77858e" stroke="#77858e" stroke-width="0.1"/>
+<text x="304.5" y="102" font-family="DejaVu Sans" font-size="3" fill="#243441" text-anchor="middle" transform="rotate(-90 304.5 102)">54 — S02</text>
 <text x="326" y="58" font-family="DejaVu Sans" font-size="2.55" fill="#243441" text-anchor="start">KOORDINĀTAS</text>
-<text x="326" y="63.3" font-family="DejaVu Sans" font-size="2.55" fill="#243441" text-anchor="start">Režģis X: 50–200</text>
-<text x="326" y="68.6" font-family="DejaVu Sans" font-size="2.55" fill="#243441" text-anchor="start">Režģis Y: 45–80</text>
+<text x="326" y="63.3" font-family="DejaVu Sans" font-size="2.55" fill="#243441" text-anchor="start">Režģis X: 25–175</text>
+<text x="326" y="68.6" font-family="DejaVu Sans" font-size="2.55" fill="#243441" text-anchor="start">Režģis Y: 32,5–67,5</text>
 <text x="326" y="73.9" font-family="DejaVu Sans" font-size="2.55" fill="#243441" text-anchor="start"></text>
-<text x="326" y="79.2" font-family="DejaVu Sans" font-size="2.55" fill="#243441" text-anchor="start">S01 Y: 45–49</text>
-<text x="326" y="84.5" font-family="DejaVu Sans" font-size="2.55" fill="#243441" text-anchor="start">un 76–80</text>
-<text x="326" y="89.8" font-family="DejaVu Sans" font-size="2.55" fill="#243441" text-anchor="start">S01 X: 22–228</text>
+<text x="326" y="79.2" font-family="DejaVu Sans" font-size="2.55" fill="#243441" text-anchor="start">S01 Y: 32,5–36,5</text>
+<text x="326" y="84.5" font-family="DejaVu Sans" font-size="2.55" fill="#243441" text-anchor="start">un 63,5–67,5</text>
+<text x="326" y="89.8" font-family="DejaVu Sans" font-size="2.55" fill="#243441" text-anchor="start">S01 X: 22–178</text>
 <text x="326" y="95.1" font-family="DejaVu Sans" font-size="2.55" fill="#243441" text-anchor="start"></text>
 <text x="326" y="100.4" font-family="DejaVu Sans" font-size="2.55" fill="#243441" text-anchor="start">S02 X: 18–22</text>
-<text x="326" y="105.7" font-family="DejaVu Sans" font-size="2.55" fill="#243441" text-anchor="start">un 228–232</text>
-<text x="326" y="111" font-family="DejaVu Sans" font-size="2.55" fill="#243441" text-anchor="start">S02 Y: 23–102</text>
+<text x="326" y="105.7" font-family="DejaVu Sans" font-size="2.55" fill="#243441" text-anchor="start">un 178–182</text>
+<text x="326" y="111" font-family="DejaVu Sans" font-size="2.55" fill="#243441" text-anchor="start">S02 Y: 23–77</text>
 <text x="326" y="116.3" font-family="DejaVu Sans" font-size="2.55" fill="#243441" text-anchor="start"></text>
 <text x="326" y="121.6" font-family="DejaVu Sans" font-size="2.55" fill="#243441" text-anchor="start">S03: 13 gab., garums 27.</text>
-<text x="326" y="126.9" font-family="DejaVu Sans" font-size="2.55" fill="#243441" text-anchor="start">Centri X=53,65,…,197.</text>
+<text x="326" y="126.9" font-family="DejaVu Sans" font-size="2.55" fill="#243441" text-anchor="start">Centri X=28,40,…,172.</text>
 <text x="326" y="132.2" font-family="DejaVu Sans" font-size="2.55" fill="#243441" text-anchor="start">Solis 12; sprauga 6.</text>
-<rect x="57" y="197" width="206" height="8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
-<rect x="57" y="197" width="206" height="8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
+<rect x="57" y="197" width="156" height="8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
+<rect x="57" y="197" width="156" height="8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
 <rect x="53" y="197" width="4" height="8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
-<rect x="263" y="197" width="4" height="8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
-<rect x="85" y="197" width="6" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
-<rect x="97" y="197" width="6" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
-<rect x="109" y="197" width="6" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
-<rect x="121" y="197" width="6" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
-<rect x="133" y="197" width="6" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
-<rect x="145" y="197" width="6" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
-<rect x="157" y="197" width="6" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
-<rect x="169" y="197" width="6" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
-<rect x="181" y="197" width="6" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
-<rect x="193" y="197" width="6" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
-<rect x="205" y="197" width="6" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
-<rect x="217" y="197" width="6" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
-<rect x="229" y="197" width="6" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
-<line x1="45" y1="220" x2="275" y2="220" stroke="#77858e" stroke-width="0.2"/>
-<line x1="267" y1="197" x2="289" y2="197" stroke="#77858e" stroke-width="0.18"/>
-<line x1="267" y1="220" x2="289" y2="220" stroke="#77858e" stroke-width="0.18"/>
+<rect x="213" y="197" width="4" height="8" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
+<rect x="60" y="197" width="6" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
+<rect x="72" y="197" width="6" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
+<rect x="84" y="197" width="6" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
+<rect x="96" y="197" width="6" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
+<rect x="108" y="197" width="6" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
+<rect x="120" y="197" width="6" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
+<rect x="132" y="197" width="6" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
+<rect x="144" y="197" width="6" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
+<rect x="156" y="197" width="6" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
+<rect x="168" y="197" width="6" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
+<rect x="180" y="197" width="6" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
+<rect x="192" y="197" width="6" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
+<rect x="204" y="197" width="6" height="4" fill="#f7e6e1" stroke="#b83b31" stroke-width="0.2" rx="0"/>
+<line x1="45" y1="220" x2="225" y2="220" stroke="#77858e" stroke-width="0.2"/>
+<line x1="217" y1="197" x2="289" y2="197" stroke="#77858e" stroke-width="0.18"/>
+<line x1="217" y1="220" x2="289" y2="220" stroke="#77858e" stroke-width="0.18"/>
 <line x1="287" y1="197" x2="287" y2="220" stroke="#77858e" stroke-width="0.18"/>
 <polygon points="287,197 286.45,198.6 287.55,198.6" fill="#77858e" stroke="#77858e" stroke-width="0.1"/>
 <polygon points="287,220 286.45,218.4 287.55,218.4" fill="#77858e" stroke="#77858e" stroke-width="0.1"/>
@@ -123,6 +123,6 @@
 <text x="65" y="230" font-family="DejaVu Sans" font-size="2.8" fill="#243441" text-anchor="start">Sānskats ar aizsegtajām detaļām; maisus balsta metāls.</text>
 <text x="18" y="246" font-family="DejaVu Sans" font-size="2.75" fill="#243441" text-anchor="start">S01 un S02: profils 8 × 4 × 0,3 ar 8 vertikāli. S03: profils 6 × 4 × 0,3 ar 4 vertikāli.</text>
 <text x="18" y="252" font-family="DejaVu Sans" font-size="2.75" fill="#243441" text-anchor="start">Siju augša Z=23; S01/S02 apakša Z=15; S03 apakša Z=19. Saplākšņa klāja nav.</text>
-<text x="18" y="258" font-family="DejaVu Sans" font-size="2.75" fill="#243441" text-anchor="start">S02 garums 79; galus metina tieši pie kāju iekšējām sienām. Darbu secība: S07.</text>
+<text x="18" y="258" font-family="DejaVu Sans" font-size="2.75" fill="#243441" text-anchor="start">S02 garums 54; galus metina tieši pie kāju iekšējām sienām. Darbu secība: S07.</text>
 <text x="18" y="264" font-family="DejaVu Sans" font-size="2.75" fill="#243441" text-anchor="start">Līdz 200 kg vienmērīgi izvietotu maisu; neuzskatīt par sertificētu nestspēju.</text>
 </svg>

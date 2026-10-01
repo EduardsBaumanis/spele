@@ -1,8 +1,8 @@
-# Keramikas galds — vienkāršā redakcija E
+# Keramikas galds — vienkāršā redakcija F
 
-Virsma 250 × 125 × 5 cm, augstums 78 cm. Viena sametināta tērauda pamatne ar plauktu, četras balsta plāksnes, astoņas nelielas ribas un parastas kokskrūves no apakšas. Augšējā rāmja, frēzētu ielaidumu un skrūvētu plaukta savienojumu nav. Kopā 37 tērauda detaļas.
+Virsma 200 × 100 × 5 cm, augstums 78 cm. Viena sametināta tērauda pamatne ar plauktu, četras balsta plāksnes, astoņas nelielas ribas un parastas kokskrūves no apakšas. Augšējā rāmja, frēzētu ielaidumu un skrūvētu plaukta savienojumu nav. Kopā 37 tērauda detaļas.
 
-Atveriet [dokumentu vietni](../index.html) vai [3D modeli](index.html). Virsmu var noņemt; kājas un plaukts neizjaucas. Pirms izgatavošanas pārbaudiet viengabala pamatnes 230 × 105 × 73 cm pārvietošanas ceļu.
+Atveriet [dokumentu vietni](../index.html) vai [3D modeli](index.html). Virsmu var noņemt; kājas un plaukts neizjaucas. Pirms izgatavošanas pārbaudiet viengabala pamatnes 180 × 80 × 73 cm pārvietošanas ceļu.
 
 - [Pilnais PDF](workshop-package.pdf) un [septiņi A3 rasējumi](drawings.pdf).
 - [Vienkāršā būvēšanas secība](construction-guide.md) un [izmēru pārbaude](verification.md).
@@ -10,7 +10,7 @@ Atveriet [dokumentu vietni](../index.html) vai [3D modeli](index.html). Virsmu v
 - [Nesūtīts cenu pieprasījuma melnraksts](supplier-quote-lv.txt).
 - [OpenSCAD modelis](model/table.scad) un [modeļa dati](model/design.json).
 
-Visi izgatavošanas izmēri cm. CSV semikols un decimālais komats; JSON/CAD decimālais punkts. Rasējumi: S01 kopskats, S02 balsti, S03 augstumi, S04 kāju galvas, S05 plaukts, S06 kokskrūves, S07 metināšanas secība. Izmantojiet tikai redakciju E.
+Visi izgatavošanas izmēri cm. CSV semikols un decimālais komats; JSON/CAD decimālais punkts. Rasējumi: S01 kopskats, S02 balsti, S03 augstumi, S04 kāju galvas, S05 plaukts, S06 kokskrūves, S07 metināšanas secība. Izmantojiet tikai redakciju F.
 
 200 kg plauktam un 200 kg vienmērīgi uz virsmas ir projektēšanas mērķi, nevis sertificēta nestspēja. Pārbaudiet šuves, pēdu saskari un tukša galda šūpošanos; slodzi palieliniet pakāpeniski. Šaubīgas šuves parādiet pieredzējušam metinātājam. Masa un pārbaudes robežas dotas verification.md.
 
